@@ -10,7 +10,7 @@
                 <h2>Testimonial</h2>
                 <ul class="thm-breadcrumb">
                     <li><a href="https://logistiq.unicktheme.com">Home</a></li>
-                    <li><span class="icon-right-arrow21"></span></li>
+                    <li><span class="fas fa-arrow-right"></span></li>
                     <li>Testimonial</li>
                 </ul>
             </div>
@@ -21,7 +21,8 @@
         <div class="container clearfix">
             <div class="row">
                 <!--Start Testimonial Two Single-->
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay=".1s"
+                    style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <div class="testimonial-two__single">
                         <div class="testimonial-two__single-inner">
                             <div class="testimonial-two__single-top">
@@ -55,7 +56,8 @@
                 <!--End Testimonial Two Single-->
 
                 <!--Start Testimonial Two Single-->
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay=".3s"
+                    style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <div class="testimonial-two__single">
                         <div class="testimonial-two__single-inner">
                             <div class="testimonial-two__single-top">
@@ -88,7 +90,8 @@
                 <!--End Testimonial Two Single-->
 
                 <!--Start Testimonial Two Single-->
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay=".5s"
+                    style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                     <div class="testimonial-two__single">
                         <div class="testimonial-two__single-inner">
                             <div class="testimonial-two__single-top">
@@ -122,7 +125,8 @@
                 <!--End Testimonial Two Single-->
 
                 <!--Start Testimonial Two Single-->
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay=".1s"
+                    style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <div class="testimonial-two__single">
                         <div class="testimonial-two__single-inner">
                             <div class="testimonial-two__single-top">
@@ -155,7 +159,8 @@
                 <!--End Testimonial Two Single-->
 
                 <!--Start Testimonial Two Single-->
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay=".3s"
+                    style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <div class="testimonial-two__single">
                         <div class="testimonial-two__single-inner">
                             <div class="testimonial-two__single-top">
@@ -189,7 +194,8 @@
                 <!--End Testimonial Two Single-->
 
                 <!--Start Testimonial Two Single-->
-                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp animated" data-wow-delay=".5s"
+                    style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                     <div class="testimonial-two__single">
                         <div class="testimonial-two__single-inner">
                             <div class="testimonial-two__single-top">

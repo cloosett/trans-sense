@@ -17,3 +17,7 @@ Route::get('/contact', function () {
 Route::get('/reviews', function () {
     return view('reviews');
 })->name('reviews');
+
+Route::get('/faq', function () {
+    return view('faq');
+})->name('faq');
