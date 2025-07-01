@@ -292,11 +292,6 @@
                                         <a href="#"><span class="icon-instagram"></span></a>
                                         <a href="#"><span class="icon-linkedin"></span></a>
                                     </div>
-
-                                    <div class="header-search-box">
-                                        <a href="#" class="main-menu__search search-toggler">Search
-                                            <i class="icon-search"></i></a>
-                                    </div>
                                 </div>
                             </div>
                         </div>

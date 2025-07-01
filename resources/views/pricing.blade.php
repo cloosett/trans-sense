@@ -8,11 +8,12 @@
         <div class="container">
             <div class="page-header__inner">
                 <h2>Pricing Plan</h2>
-                <ul class="thm-breadcrumb">
-                    <li><a href="https://logistiq.unicktheme.com">Home</a></li>
-                    <li><span class="fas fa-arrow-right"></span></li>
-                    <li>Pricing</li>
-                </ul>
+                <div class="page-header__breadcrumb">
+                    <ul class="thm-breadcrumb list-unstyled">
+                        <li><a href="{{ route('welcome') }}">Home</a></li>
+                        <li>Pricing</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -318,7 +319,7 @@
                         </div>
                         <div class="owl-item cloned" style="width: 220px;">
                             <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
+                            т    <div class="brand-one__single-inner">
                                     <a href="#"><img src="{{ asset('images/brand-v1-img5.png') }}"
                                             alt=""></a>
                                 </div>

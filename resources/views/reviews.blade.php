@@ -8,11 +8,12 @@
         <div class="container">
             <div class="page-header__inner">
                 <h2>Testimonial</h2>
-                <ul class="thm-breadcrumb">
-                    <li><a href="https://logistiq.unicktheme.com">Home</a></li>
-                    <li><span class="fas fa-arrow-right"></span></li>
-                    <li>Testimonial</li>
-                </ul>
+                <div class="page-header__breadcrumb">
+                    <ul class="thm-breadcrumb list-unstyled">
+                        <li><a href="{{ route('welcome') }}">Home</a></li>
+                        <li>Reviews</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>

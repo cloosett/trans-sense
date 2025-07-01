@@ -15,12 +15,11 @@
 
             <!--End Slider One Single-->
             <div class="owl-stage-outer">
-                <div class="owl-stage"
-                     style="transform: translate3d(-3762px, 0px, 0px); transition: all; width: 8778px;">
+                <div class="owl-stage" style="transform: translate3d(-3762px, 0px, 0px); transition: all; width: 8778px;">
                     <div class="owl-item cloned" style="width: 1254px;">
                         <div class="slider-one__single">
                             <div class="slider-one__single-bg"
-                                 style="background-image: url({{ asset('images/slider-v1-img1.jpg') }});"></div>
+                                style="background-image: url({{ asset('images/slider-v1-img1.jpg') }});"></div>
                             <div class="shape1"></div>
                             <div class="shape2"></div>
                             <div class="shape3"></div>
@@ -50,7 +49,7 @@
                     <div class="owl-item cloned" style="width: 1254px;">
                         <div class="slider-one__single">
                             <div class="slider-one__single-bg"
-                                 style="background-image: url({{ asset('images/slider-v1-img3.jpg') }});"></div>
+                                style="background-image: url({{ asset('images/slider-v1-img3.jpg') }});"></div>
                             <div class="shape1"></div>
                             <div class="shape2"></div>
                             <div class="shape3"></div>
@@ -80,7 +79,7 @@
                     <div class="owl-item" style="width: 1254px;">
                         <div class="slider-one__single">
                             <div class="slider-one__single-bg"
-                                 style="background-image: url({{ asset('images/slider-v1-img1.jpg') }});"></div>
+                                style="background-image: url({{ asset('images/slider-v1-img1.jpg') }});"></div>
                             <div class="shape1"></div>
                             <div class="shape2"></div>
                             <div class="shape3"></div>
@@ -110,7 +109,7 @@
                     <div class="owl-item active" style="width: 1254px;">
                         <div class="slider-one__single">
                             <div class="slider-one__single-bg"
-                                 style="background-image: url({{ asset('images/slider-v1-img3.jpg') }});"></div>
+                                style="background-image: url({{ asset('images/slider-v1-img3.jpg') }});"></div>
                             <div class="shape1"></div>
                             <div class="shape2"></div>
                             <div class="shape3"></div>
@@ -142,7 +141,7 @@
                     <div class="owl-item" style="width: 1254px;">
                         <div class="slider-one__single">
                             <div class="slider-one__single-bg"
-                                 style="background-image: url({{ asset('images/slider-v1-img1.jpg') }});"></div>
+                                style="background-image: url({{ asset('images/slider-v1-img1.jpg') }});"></div>
                             <div class="shape1"></div>
                             <div class="shape2"></div>
                             <div class="shape3"></div>
@@ -166,8 +165,8 @@
                                         </div>
 
                                         <div class="btn-box">
-                                            <a class="thm-btn" href="https://logistiq.unicktheme.com/about">Explore More
-                                                <i class="icon-right-arrow21"></i>
+                                            <a class="thm-btn" href="{{ route('contact') }}">Explore More
+                                                <i class="fas fa-arrow-right"></i>
                                                 <span class="hover-btn hover-bx"></span>
                                                 <span class="hover-btn hover-bx2"></span>
                                                 <span class="hover-btn hover-bx3"></span>
@@ -182,7 +181,7 @@
                     <div class="owl-item cloned" style="width: 1254px;">
                         <div class="slider-one__single">
                             <div class="slider-one__single-bg"
-                                 style="background-image: url({{ asset('images/slider-v1-img3.jpg') }});"></div>
+                                style="background-image: url({{ asset('images/slider-v1-img3.jpg') }});"></div>
                             <div class="shape1"></div>
                             <div class="shape2"></div>
                             <div class="shape3"></div>
@@ -206,8 +205,8 @@
                                         </div>
 
                                         <div class="btn-box">
-                                            <a class="thm-btn" href="https://logistiq.unicktheme.com/about">Explore More
-                                                <i class="icon-right-arrow21"></i>
+                                            <a class="thm-btn" href="{{ route("contact") }}">Explore More
+                                                <i class="fas fa-arrow-right"></i>
                                                 <span class="hover-btn hover-bx"></span>
                                                 <span class="hover-btn hover-bx2"></span>
                                                 <span class="hover-btn hover-bx3"></span>
@@ -222,7 +221,7 @@
                     <div class="owl-item cloned" style="width: 1254px;">
                         <div class="slider-one__single">
                             <div class="slider-one__single-bg"
-                                 style="background-image: url({{ asset('images/slider-v1-img1.jpg') }});"></div>
+                                style="background-image: url({{ asset('images/slider-v1-img1.jpg') }});"></div>
                             <div class="shape1"></div>
                             <div class="shape2"></div>
                             <div class="shape3"></div>
@@ -246,8 +245,8 @@
                                         </div>
 
                                         <div class="btn-box">
-                                            <a class="thm-btn" href="https://logistiq.unicktheme.com/about">Explore More
-                                                <i class="icon-right-arrow21"></i>
+                                            <a class="thm-btn" href="{{ route("contact") }}">Explore More
+                                                <i class="fas fa-arrow-right"></i>
                                                 <span class="hover-btn hover-bx"></span>
                                                 <span class="hover-btn hover-bx2"></span>
                                                 <span class="hover-btn hover-bx3"></span>
@@ -266,18 +265,20 @@
 
         <div class="slider-one__form-box">
             <form class="contact-form-validated slider-one__form" action="assets/inc/sendemail.php" method="post"
-                  novalidate="novalidate">
+                novalidate="novalidate">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="input-box">
-                            <input type="text" name="name" placeholder="Name" required="" aria-required="true">
+                            <input type="text" name="name" placeholder="Name" required=""
+                                aria-required="true">
                             <div class="icon"><span class="icon-user"></span></div>
                         </div>
                     </div>
 
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="input-box">
-                            <input type="text" name="Phone" placeholder="Phone" required="" aria-required="true">
+                            <input type="text" name="Phone" placeholder="Phone" required=""
+                                aria-required="true">
                             <div class="icon"><span class="icon-phone2"></span></div>
                         </div>
                     </div>
@@ -293,8 +294,8 @@
                                     <option>Freight Type 04</option>
                                     <option>Freight Type 05</option>
                                 </select>
-                                <div class="nice-select selectmenu wide" tabindex="0"><span
-                                            class="current">Freight Type</span>
+                                <div class="nice-select selectmenu wide" tabindex="0"><span class="current">Freight
+                                        Type</span>
                                     <ul class="list">
                                         <li data-value="Freight Type" class="option selected">Freight Type</li>
                                         <li data-value="Freight Type 01" class="option">Freight Type 01</li>
@@ -339,7 +340,7 @@
                         <div class="slider-one__form-btn">
                             <button type="submit" class="thm-btn">
                                 Submit Request
-                                <i class="icon-right-arrow21"></i>
+                                <i class="fas fa-arrow-right"></i>
                                 <span class="hover-btn hover-bx"></span>
                                 <span class="hover-btn hover-bx2"></span>
                                 <span class="hover-btn hover-bx3"></span>
@@ -366,39 +367,49 @@
                                 <div class="line"></div>
                                 <div class="text tg-element-title" style="perspective: 400px;">
                                     <div style="display: block; text-align: start; position: relative;"
-                                         class="split-line">
+                                        class="split-line">
                                         <h4>
                                             <div style="position:relative;display:inline-block;">
-                                                <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                <div
+                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                                     O
                                                 </div>
-                                                <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                <div
+                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                                     u
                                                 </div>
-                                                <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                <div
+                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                                     r
                                                 </div>
                                             </div>
                                             <div style="position:relative;display:inline-block;">
-                                                <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                <div
+                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                                     C
                                                 </div>
-                                                <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                <div
+                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                                     o
                                                 </div>
-                                                <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                <div
+                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                                     m
                                                 </div>
-                                                <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                <div
+                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                                     p
                                                 </div>
-                                                <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                <div
+                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                                     a
                                                 </div>
-                                                <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                <div
+                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                                     n
                                                 </div>
-                                                <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                <div
+                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                                     y
                                                 </div>
                                             </div>
@@ -412,95 +423,155 @@
                             <h2 class="sec-title__title tg-element-title" style="perspective: 400px;">
                                 <div style="display: block; text-align: start; position: relative;" class="split-line">
                                     <div style="position:relative;display:inline-block;">
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             O
                                         </div>
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             u
                                         </div>
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             r
                                         </div>
                                     </div>
                                     <div style="position:relative;display:inline-block;">
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             E
                                         </div>
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             x
                                         </div>
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             p
                                         </div>
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             e
                                         </div>
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             r
                                         </div>
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             t
                                         </div>
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             i
                                         </div>
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             s
                                         </div>
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             e
                                         </div>
                                     </div>
                                     <div style="position:relative;display:inline-block;">
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             S
                                         </div>
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             t
                                         </div>
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             a
                                         </div>
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             n
                                         </div>
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             d
                                         </div>
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             s
                                         </div>
                                     </div>
                                     <div style="position:relative;display:inline-block;">
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             i
                                         </div>
-                                        <div style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
                                             n
                                         </div>
                                     </div>
                                 </div>
                                 <div style="display: block; text-align: start; position: relative;" class="split-line">
-                                    <span><div style="position:relative;display:inline-block;"><div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">L</div><div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">o</div><div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">g</div><div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">i</div><div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">s</div><div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">t</div><div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">i</div><div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">c</div><div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">s</div></div> <div
-                                                style="position:relative;display:inline-block;"><div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">S</div><div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">o</div><div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">l</div><div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">u</div><div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">t</div><div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">i</div><div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">o</div><div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">n</div><div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">s</div></div></span>
+                                    <span>
+                                        <div style="position:relative;display:inline-block;">
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                L</div>
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                o</div>
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                g</div>
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                i</div>
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                s</div>
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                t</div>
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                i</div>
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                c</div>
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                s</div>
+                                        </div>
+                                        <div style="position:relative;display:inline-block;">
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                S</div>
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                o</div>
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                l</div>
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                u</div>
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                t</div>
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                i</div>
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                o</div>
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                n</div>
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                s</div>
+                                        </div>
+                                    </span>
                                 </div>
                             </h2>
                         </div>
@@ -549,7 +620,7 @@
 
                         <div class="about-one__content-bottom">
                             <div class="btn-box">
-                                <a class="thm-btn" href="https://logistiq.unicktheme.com/about">More About Us
+                                <a class="thm-btn" href="{{ route("contact") }}">More About Us
                                     <i class="fa-solid fa-arrow-right"></i>
                                     <span class="hover-btn hover-bx"></span>
                                     <span class="hover-btn hover-bx2"></span>
@@ -576,97 +647,100 @@
                 <!--Start About One Img-->
                 <div class="col-xl-5">
                     <div class="about-one__img">
-                        <div class="shape1 float-bob-y"><img src="{{ asset('images/about-v1-shape1.png') }}" alt="">
+                        <div class="shape1 float-bob-y"><img src="{{ asset('images/about-v1-shape1.png') }}"
+                                alt="">
                         </div>
-                        <div class="shape2 float-bob-y"><img src="{{ asset('images/about-v1-shape2.png') }}" alt="">
+                        <div class="shape2 float-bob-y"><img src="{{ asset('images/about-v1-shape2.png') }}"
+                                alt="">
                         </div>
                         <div class="about-one__img1 reveal"
-                             style="transform: translate(0px); opacity: 1; visibility: inherit;">
+                            style="transform: translate(0px); opacity: 1; visibility: inherit;">
                             <img src="{{ asset('images/about-v1-img1.jpg') }}" alt=""
-                                 style="transform: translate(0px);">
+                                style="transform: translate(0px);">
                         </div>
 
                         <div class="about-one__img2">
                             <div class="about-one__img2-inner reveal"
-                                 style="transform: translate(0px); opacity: 1; visibility: inherit;">
+                                style="transform: translate(0px); opacity: 1; visibility: inherit;">
                                 <img src="{{ asset('images/about-v1-img2.jpg') }}" alt=""
-                                     style="transform: translate(0px);">
+                                    style="transform: translate(0px);">
                             </div>
 
                             <div class="about-one__circle-text">
                                 <div class="about-one__round-text-box">
                                     <div class="inner">
                                         <div class="about-one__curved-circle rotate-me"
-                                             style="position: absolute; height: 138.417px;"><span class="char1"
-                                                                                                  style="position: absolute; left: 50%; margin-left: -0.5em; transform: rotate(-147.506deg); transform-origin: center 6.25em 0px;">W</span><span
-                                                    class="char2"
-                                                    style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(-135.925deg); transform-origin: center 6.25em 0px;">E</span><span
-                                                    class="char3"
-                                                    style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(-128.001deg); transform-origin: center 6.25em 0px;">L</span><span
-                                                    class="char4"
-                                                    style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-118.858deg); transform-origin: center 6.25em 0px;">C</span><span
-                                                    class="char5"
-                                                    style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-107.887deg); transform-origin: center 6.25em 0px;">O</span><span
-                                                    class="char6"
-                                                    style="position: absolute; left: 50%; margin-left: -0.458333em; transform: rotate(-95.6961deg); transform-origin: center 6.25em 0px;">M</span><span
-                                                    class="char7"
-                                                    style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(-84.7246deg); transform-origin: center 6.25em 0px;">E</span><span
-                                                    class="char8"
-                                                    style="position: absolute; left: 50%; margin-left: -0.208333em; transform: rotate(-77.4103deg); transform-origin: center 6.25em 0px;">&nbsp;</span><span
-                                                    class="char9"
-                                                    style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(-70.0959deg); transform-origin: center 6.25em 0px;">T</span><span
-                                                    class="char10"
-                                                    style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-60.3434deg); transform-origin: center 6.25em 0px;">O</span><span
-                                                    class="char11"
-                                                    style="position: absolute; left: 50%; margin-left: -0.208333em; transform: rotate(-51.81deg); transform-origin: center 6.25em 0px;">&nbsp;</span><span
-                                                    class="char12"
-                                                    style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-43.2766deg); transform-origin: center 6.25em 0px;">O</span><span
-                                                    class="char13"
-                                                    style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(-32.9146deg); transform-origin: center 6.25em 0px;">U</span><span
-                                                    class="char14"
-                                                    style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(-23.1621deg); transform-origin: center 6.25em 0px;">R</span><span
-                                                    class="char15"
-                                                    style="position: absolute; left: 50%; margin-left: -0.208333em; transform: rotate(-15.2382deg); transform-origin: center 6.25em 0px;">&nbsp;</span><span
-                                                    class="char16"
-                                                    style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-6.70483deg); transform-origin: center 6.25em 0px;">C</span><span
-                                                    class="char17"
-                                                    style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(4.26671deg); transform-origin: center 6.25em 0px;">O</span><span
-                                                    class="char18"
-                                                    style="position: absolute; left: 50%; margin-left: -0.458333em; transform: rotate(16.4573deg); transform-origin: center 6.25em 0px;">M</span><span
-                                                    class="char19"
-                                                    style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(27.4288deg); transform-origin: center 6.25em 0px;">P</span><span
-                                                    class="char20"
-                                                    style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(37.1813deg); transform-origin: center 6.25em 0px;">A</span><span
-                                                    class="char21"
-                                                    style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(48.1528deg); transform-origin: center 6.25em 0px;">N</span><span
-                                                    class="char22"
-                                                    style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(58.5148deg); transform-origin: center 6.25em 0px;">Y</span><span
-                                                    class="char23"
-                                                    style="position: absolute; left: 50%; margin-left: -0.208333em; transform: rotate(66.4387deg); transform-origin: center 6.25em 0px;">&nbsp;</span><span
-                                                    class="char24"
-                                                    style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(73.7531deg); transform-origin: center 6.25em 0px;">S</span><span
-                                                    class="char25"
-                                                    style="position: absolute; left: 50%; margin-left: -0.125em; transform: rotate(79.8484deg); transform-origin: center 6.25em 0px;">I</span><span
-                                                    class="char26"
-                                                    style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(87.1627deg); transform-origin: center 6.25em 0px;">N</span><span
-                                                    class="char27"
-                                                    style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(98.1343deg); transform-origin: center 6.25em 0px;">C</span><span
-                                                    class="char28"
-                                                    style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(107.887deg); transform-origin: center 6.25em 0px;">E</span><span
-                                                    class="char29"
-                                                    style="position: absolute; left: 50%; margin-left: -0.208333em; transform: rotate(115.201deg); transform-origin: center 6.25em 0px;">&nbsp;</span><span
-                                                    class="char30"
-                                                    style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(122.515deg); transform-origin: center 6.25em 0px;">2</span><span
-                                                    class="char31"
-                                                    style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(131.658deg); transform-origin: center 6.25em 0px;">0</span><span
-                                                    class="char32"
-                                                    style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(141.411deg); transform-origin: center 6.25em 0px;">0</span><span
-                                                    class="char33"
-                                                    style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(150.554deg); transform-origin: center 6.25em 0px;">2</span>
+                                            style="position: absolute; height: 138.417px;"><span class="char1"
+                                                style="position: absolute; left: 50%; margin-left: -0.5em; transform: rotate(-147.506deg); transform-origin: center 6.25em 0px;">W</span><span
+                                                class="char2"
+                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(-135.925deg); transform-origin: center 6.25em 0px;">E</span><span
+                                                class="char3"
+                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(-128.001deg); transform-origin: center 6.25em 0px;">L</span><span
+                                                class="char4"
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-118.858deg); transform-origin: center 6.25em 0px;">C</span><span
+                                                class="char5"
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-107.887deg); transform-origin: center 6.25em 0px;">O</span><span
+                                                class="char6"
+                                                style="position: absolute; left: 50%; margin-left: -0.458333em; transform: rotate(-95.6961deg); transform-origin: center 6.25em 0px;">M</span><span
+                                                class="char7"
+                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(-84.7246deg); transform-origin: center 6.25em 0px;">E</span><span
+                                                class="char8"
+                                                style="position: absolute; left: 50%; margin-left: -0.208333em; transform: rotate(-77.4103deg); transform-origin: center 6.25em 0px;">&nbsp;</span><span
+                                                class="char9"
+                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(-70.0959deg); transform-origin: center 6.25em 0px;">T</span><span
+                                                class="char10"
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-60.3434deg); transform-origin: center 6.25em 0px;">O</span><span
+                                                class="char11"
+                                                style="position: absolute; left: 50%; margin-left: -0.208333em; transform: rotate(-51.81deg); transform-origin: center 6.25em 0px;">&nbsp;</span><span
+                                                class="char12"
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-43.2766deg); transform-origin: center 6.25em 0px;">O</span><span
+                                                class="char13"
+                                                style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(-32.9146deg); transform-origin: center 6.25em 0px;">U</span><span
+                                                class="char14"
+                                                style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(-23.1621deg); transform-origin: center 6.25em 0px;">R</span><span
+                                                class="char15"
+                                                style="position: absolute; left: 50%; margin-left: -0.208333em; transform: rotate(-15.2382deg); transform-origin: center 6.25em 0px;">&nbsp;</span><span
+                                                class="char16"
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-6.70483deg); transform-origin: center 6.25em 0px;">C</span><span
+                                                class="char17"
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(4.26671deg); transform-origin: center 6.25em 0px;">O</span><span
+                                                class="char18"
+                                                style="position: absolute; left: 50%; margin-left: -0.458333em; transform: rotate(16.4573deg); transform-origin: center 6.25em 0px;">M</span><span
+                                                class="char19"
+                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(27.4288deg); transform-origin: center 6.25em 0px;">P</span><span
+                                                class="char20"
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(37.1813deg); transform-origin: center 6.25em 0px;">A</span><span
+                                                class="char21"
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(48.1528deg); transform-origin: center 6.25em 0px;">N</span><span
+                                                class="char22"
+                                                style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(58.5148deg); transform-origin: center 6.25em 0px;">Y</span><span
+                                                class="char23"
+                                                style="position: absolute; left: 50%; margin-left: -0.208333em; transform: rotate(66.4387deg); transform-origin: center 6.25em 0px;">&nbsp;</span><span
+                                                class="char24"
+                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(73.7531deg); transform-origin: center 6.25em 0px;">S</span><span
+                                                class="char25"
+                                                style="position: absolute; left: 50%; margin-left: -0.125em; transform: rotate(79.8484deg); transform-origin: center 6.25em 0px;">I</span><span
+                                                class="char26"
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(87.1627deg); transform-origin: center 6.25em 0px;">N</span><span
+                                                class="char27"
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(98.1343deg); transform-origin: center 6.25em 0px;">C</span><span
+                                                class="char28"
+                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(107.887deg); transform-origin: center 6.25em 0px;">E</span><span
+                                                class="char29"
+                                                style="position: absolute; left: 50%; margin-left: -0.208333em; transform: rotate(115.201deg); transform-origin: center 6.25em 0px;">&nbsp;</span><span
+                                                class="char30"
+                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(122.515deg); transform-origin: center 6.25em 0px;">2</span><span
+                                                class="char31"
+                                                style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(131.658deg); transform-origin: center 6.25em 0px;">0</span><span
+                                                class="char32"
+                                                style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(141.411deg); transform-origin: center 6.25em 0px;">0</span><span
+                                                class="char33"
+                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(150.554deg); transform-origin: center 6.25em 0px;">2</span>
                                         </div>
                                     </div>
                                     <div class="overlay-icon-box">
-                                        <a href="#"><i class="fa-solid fa-location-dot" style="color: #fd5523;"></i></i>
+                                        <a href="#"><i class="fa-solid fa-location-dot"
+                                                style="color: #fd5523;"></i></i>
                                         </a>
                                     </div>
                                 </div>
@@ -699,7 +773,7 @@
                             <ul>
                                 <li>
                                     <p><i class="fa-solid fa-truck-fast"
-                                          style="color: #FD5523; padding-left: 5px;"></i></span> Make long term business
+                                            style="color: #FD5523; padding-left: 5px;"></i></span> Make long term business
                                         decisions</p>
                                 </li>
                                 <li>
@@ -719,7 +793,7 @@
                         </div>
 
                         <div class="btn-box">
-                            <a class="thm-btn" href="https://logistiq.unicktheme.com/contact">Contact Us
+                            <a class="thm-btn" href="{{ route("contact") }}">Contact Us
                                 <i class="fa-solid fa-arrow-right"></i>
                                 <span class="hover-btn hover-bx"></span>
                                 <span class="hover-btn hover-bx2"></span>
@@ -733,27 +807,26 @@
 
                 <!--Start Why Choose One Form-->
                 <div class="col-xl-6">
-                    <div class="why-choose-one__form-box wow fadeInRight" data-wow-delay="0ms"
-                         data-wow-duration="1500ms"
-                         style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
+                    <div class="why-choose-one__form-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"
+                        style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
                         <div class="title-box">
                             <h2>Request a Quote</h2>
                         </div>
 
                         <form class="contact-form-validated why-choose-one__form" action="assets/inc/sendemail.php"
-                              method="post" novalidate="novalidate">
+                            method="post" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="input-box">
                                         <input type="text" name="name" placeholder="Name" required=""
-                                               aria-required="true">
+                                            aria-required="true">
                                         <div class="icon"><i class="fa-regular fa-user"></i></div>
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="input-box">
                                         <input type="email" name="email" placeholder="Email" required=""
-                                               aria-required="true">
+                                            aria-required="true">
                                         <div class="icon"><i class="fa-regular fa-envelope"></i></div>
                                     </div>
                                 </div>
@@ -761,14 +834,14 @@
                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="input-box">
                                         <input type="text" name="Phone" placeholder="Phone" required=""
-                                               aria-required="true">
+                                            aria-required="true">
                                         <div class="icon"><i class="fa-solid fa-phone"></i></div>
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="input-box">
                                         <input type="text" name="date" placeholder="Date" id="datepicker"
-                                               class="hasDatepicker">
+                                            class="hasDatepicker">
                                         <div class="icon"><i class="fa-regular fa-calendar"></i></div>
                                     </div>
                                 </div>
@@ -782,17 +855,20 @@
                                         <div class="why-choose-one__form-distance-inner">
                                             <div class="price-ranger">
                                                 <div id="slider-range"
-                                                     class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+                                                    class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
                                                     <div class="ui-slider-range ui-widget-header ui-corner-all"
-                                                         style="left: 0%; width: 60%;"></div>
+                                                        style="left: 0%; width: 60%;"></div>
                                                     <span class="ui-slider-handle ui-state-default ui-corner-all"
-                                                          tabindex="0" style="left: 0%;"></span><span
-                                                            class="ui-slider-handle ui-state-default ui-corner-all"
-                                                            tabindex="0" style="left: 60%;"></span></div>
+                                                        tabindex="0" style="left: 0%;"></span><span
+                                                        class="ui-slider-handle ui-state-default ui-corner-all"
+                                                        tabindex="0" style="left: 60%;"></span>
+                                                </div>
                                                 <div class="ranger-min-max-block">
-                                                    <input type="text" readonly="readonly" class="min" value="0">
+                                                    <input type="text" readonly="readonly" class="min"
+                                                        value="0">
                                                     <span>-</span>
-                                                    <input type="text" readonly="readonly" class="max" value="3000">
+                                                    <input type="text" readonly="readonly" class="max"
+                                                        value="3000">
                                                 </div>
                                             </div>
                                         </div>
@@ -810,7 +886,8 @@
                                                 <option>Freight Type 04</option>
                                                 <option>Freight Type 05</option>
                                             </select>
-                                            <div class="nice-select selectmenu wide" tabindex="0"><span class="current">Freight Type</span>
+                                            <div class="nice-select selectmenu wide" tabindex="0"><span
+                                                    class="current">Freight Type</span>
                                                 <ul class="list">
                                                     <li data-value="Freight Type" class="option selected">Freight Type
                                                     </li>
@@ -835,7 +912,8 @@
                                                 <option>Freight Type 04</option>
                                                 <option>Freight Type 05</option>
                                             </select>
-                                            <div class="nice-select selectmenu wide" tabindex="0"><span class="current">Load</span>
+                                            <div class="nice-select selectmenu wide" tabindex="0"><span
+                                                    class="current">Load</span>
                                                 <ul class="list">
                                                     <li data-value="Load" class="option selected">Load</li>
                                                     <li data-value="Freight Type 01" class="option">Freight Type 01</li>
@@ -879,16 +957,18 @@
                 <!--Start Skill One Img-->
                 <div class="col-xl-5">
                     <div class="skill-one__img">
-                        <div class="shape1 float-bob-y"><img src="{{ asset('images/skill-v1-shape1.png') }}" alt="">
+                        <div class="shape1 float-bob-y"><img src="{{ asset('images/skill-v1-shape1.png') }}"
+                                alt="">
                         </div>
-                        <div class="shape2 float-bob-y"><img src="{{ asset('images/skill-v1-shape2.png') }}" alt="">
+                        <div class="shape2 float-bob-y"><img src="{{ asset('images/skill-v1-shape2.png') }}"
+                                alt="">
                         </div>
                         <div class="skill-one__img1 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"
-                             style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
+                            style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
                             <img src="{{ asset('images/skill-v1-img1.jpg') }}" alt="">
                         </div>
                         <div class="skill-one__img2 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"
-                             style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
+                            style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
                             <div class="inner">
                                 <img src="{{ asset('images/skill-v1-img2.jpg') }}" alt="">
                             </div>
@@ -951,7 +1031,7 @@
                         </ul>
 
                         <div class="skill-one__content-btn">
-                            <a class="thm-btn" href="https://logistiq.unicktheme.com/about">Book Your Parcel
+                            <a class="thm-btn" href="{{ route("contact") }}">Book Your Parcel
                                 <i class="fa-solid fa-arrow-right"></i>
                                 <span class="hover-btn hover-bx"></span>
                                 <span class="hover-btn hover-bx2"></span>
@@ -978,11 +1058,11 @@
                     <div class="faq-one__content">
                         <div class="faq-one__content-faq">
                             <div class="accrodion-grp faq-one-accrodion faq-one-accrodion-1"
-                                 data-grp-name="faq-one-accrodion-1">
+                                data-grp-name="faq-one-accrodion-1">
                                 <div class="accrodion">
                                     <div class="accrodion-title">
                                         <h4>How do you handle returns or exchanges? <i class="fa-solid fa-chevron-right"
-                                                                                       style="padding-left: 5px"></i>
+                                                style="padding-left: 5px"></i>
                                         </h4>
                                     </div>
 
@@ -998,7 +1078,7 @@
                                 <div class="accrodion active">
                                     <div class="accrodion-title">
                                         <h4>What does business consulting do? <i class="fa-solid fa-chevron-right"
-                                                                                 style="padding-left: 5px"></i></h4>
+                                                style="padding-left: 5px"></i></h4>
                                     </div>
 
                                     <div class="accrodion-content" style="">
@@ -1013,7 +1093,7 @@
                                 <div class="accrodion">
                                     <div class="accrodion-title">
                                         <h4>Can I cancel a shipment after it's been booked?<i
-                                                    class="fa-solid fa-chevron-right" style="padding-left: 5px"></i>
+                                                class="fa-solid fa-chevron-right" style="padding-left: 5px"></i>
                                         </h4>
                                     </div>
 
@@ -1029,7 +1109,7 @@
                                 <div class="accrodion">
                                     <div class="accrodion-title">
                                         <h4>Can you assist with customs clearance procedures?<i
-                                                    class="fa-solid fa-chevron-right" style="padding-left: 5px"></i>
+                                                class="fa-solid fa-chevron-right" style="padding-left: 5px"></i>
                                         </h4>
                                     </div>
 
@@ -1064,59 +1144,69 @@
             <div class="sliding-text-one__wrap">
                 <ul class="sliding-text__list list-unstyled marquee_mode">
                     <div style="width: 100000px; transform: translateX(0px); animation: 60.4829s linear infinite marqueeAnimation-3589363;"
-                         class="js-marquee-wrapper">
+                        class="js-marquee-wrapper">
                         <div class="js-marquee" style="margin-right: 0px; float: left;">
                             <li>
                                 <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
                                     TRANSPORT
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt=""></h2>
+                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
+                                </h2>
                             </li>
                             <li>
                                 <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
                                     TRANSPORT
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt=""></h2>
+                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
+                                </h2>
                             </li>
                             <li>
                                 <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
                                     TRANSPORT
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt=""></h2>
+                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
+                                </h2>
                             </li>
                             <li>
                                 <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
                                     TRANSPORT
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt=""></h2>
+                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
+                                </h2>
                             </li>
                             <li>
                                 <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
                                     TRANSPORT
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt=""></h2>
+                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
+                                </h2>
                             </li>
                         </div>
                         <div class="js-marquee" style="margin-right: 0px; float: left;">
                             <li>
                                 <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
                                     TRANSPORT
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt=""></h2>
+                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
+                                </h2>
                             </li>
                             <li>
                                 <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
                                     TRANSPORT
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt=""></h2>
+                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
+                                </h2>
                             </li>
                             <li>
                                 <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
                                     TRANSPORT
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt=""></h2>
+                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
+                                </h2>
                             </li>
                             <li>
                                 <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
                                     TRANSPORT
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt=""></h2>
+                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
+                                </h2>
                             </li>
                             <li>
                                 <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
                                     TRANSPORT
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt=""></h2>
+                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
+                                </h2>
                             </li>
                         </div>
                     </div>
@@ -1132,8 +1222,9 @@
         <div class="container">
             <div class="cta-one__inner">
                 <div class="cta-one__img wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"
-                     style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
-                    <img src="{{ asset('images/cta-v1-img1.png') }}" alt=""></div>
+                    style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
+                    <img src="{{ asset('images/cta-v1-img1.png') }}" alt="">
+                </div>
                 <div class="cta-one__pattern"><img src="{{ asset('images/cta-v1-pattern.png') }}" alt=""></div>
                 <div class="shape1 float-bob-x"><img src="{{ asset('images/cta-v1-shape1.png') }}" alt=""></div>
                 <div class="shape2"><img src="{{ asset('images/cta-v1-shape2.png') }}" alt=""></div>
@@ -1163,7 +1254,7 @@
             <div class="row">
                 <!--Start Counter One Single-->
                 <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"
-                     style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
+                    style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
                     <div class="counter-one__single">
                         <div class="counter-one__single-inner">
                             <div class="content-box">
@@ -1183,7 +1274,7 @@
 
                 <!--Start Counter One Single-->
                 <div class="col-xl-4 col-lg-4 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"
-                     style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
+                    style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
                     <div class="counter-one__single">
                         <div class="counter-one__single-inner">
                             <div class="content-box">
@@ -1203,7 +1294,7 @@
 
                 <!--Start Counter One Single-->
                 <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"
-                     style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
+                    style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
                     <div class="counter-one__single">
                         <div class="counter-one__single-inner">
                             <div class="content-box">
@@ -1232,7 +1323,7 @@
             <div class="row">
                 <!--Start Blog One Single-->
                 <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-delay=".3s"
-                     style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+                    style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
                     <div class="blog-one__single">
                         <div class="blog-one__single-img">
                             <img src="{{ asset('images/blog-v1-img1.jpg') }}" alt="">
@@ -1266,14 +1357,14 @@
                                     </li>
                                 </ul>
 
-                                <h2><a href="https://logistiq.unicktheme.com/blog-details">How Will You Know Success
+                                <h2><a href="#">How Will You Know Success
                                         <br> When it Show Up?</a>
                                 </h2>
                                 <p>Logistic service provider company plays a pivotal role in the global supply chain
                                     ecosystem by efficiently... </p>
 
                                 <div class="btn-box">
-                                    <a class="thm-btn" href="https://logistiq.unicktheme.com/blog-details">Read More
+                                    <a class="thm-btn" href="#">Read More
                                         <i class="fa-solid fa-arrow-right"></i>
                                         <span class="hover-btn hover-bx"></span>
                                         <span class="hover-btn hover-bx2"></span>
@@ -1289,7 +1380,7 @@
 
                 <!--Start Blog One Single-->
                 <div class="col-xl-4 col-lg-6 wow fadeInDown" data-wow-delay=".3s"
-                     style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+                    style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
                     <div class="blog-one__single">
                         <div class="blog-one__single-img">
                             <img src="{{ asset('images/blog-v1-img2.jpg') }}" alt="">
@@ -1323,14 +1414,14 @@
                                     </li>
                                 </ul>
 
-                                <h2><a href="https://logistiq.unicktheme.com/blog-details">Mastering Last Mile Delivery
+                                <h2><a href="#">Mastering Last Mile Delivery
                                         <br> Strategies for
                                         Success</a></h2>
                                 <p>Logistic service provider company plays a pivotal role in the global supply chain
                                     ecosystem by efficiently... </p>
 
                                 <div class="btn-box">
-                                    <a class="thm-btn" href="https://logistiq.unicktheme.com/blog-details">Read More
+                                    <a class="thm-btn" href="#">Read More
                                         <i class="fa-solid fa-arrow-right"></i>
                                         <span class="hover-btn hover-bx"></span>
                                         <span class="hover-btn hover-bx2"></span>
@@ -1344,7 +1435,7 @@
                 </div>
 
                 <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-delay=".3s"
-                     style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+                    style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
                     <div class="blog-one__single">
                         <div class="blog-one__single-img">
                             <img src="{{ asset('images/blog-v1-img3.jpg') }}" alt="">
@@ -1378,14 +1469,14 @@
                                     </li>
                                 </ul>
 
-                                <h2><a href="https://logistiq.unicktheme.com/blog-details">Logistics Announces Launch
+                                <h2><a href="#">Logistics Announces Launch
                                         <br> of Greenhouse
                                         Gas</a></h2>
                                 <p>Logistic service provider company plays a pivotal role in the global supply chain
                                     ecosystem by efficiently... </p>
 
                                 <div class="btn-box">
-                                    <a class="thm-btn" href="https://logistiq.unicktheme.com/blog-details">Read More
+                                    <a class="thm-btn" href="#">Read More
                                         <i class="fa-solid fa-arrow-right"></i>
                                         <span class="hover-btn hover-bx"></span>
                                         <span class="hover-btn hover-bx2"></span>
@@ -1409,130 +1500,148 @@
             <div class="brand-one__carousel owl-carousel owl-theme owl-loaded owl-drag">
                 <div class="owl-stage-outer">
                     <div class="owl-stage"
-                         style="transform: translate3d(-1540px, 0px, 0px); transition: 0.5s; width: 3960px;">
+                        style="transform: translate3d(-1540px, 0px, 0px); transition: 0.5s; width: 3960px;">
                         <div class="owl-item cloned" style="width: 220px;">
                             <div class="brand-one__single">
                                 <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img1.png') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('images/brand-v1-img1.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 220px;">
                             <div class="brand-one__single">
                                 <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img2.png') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('images/brand-v1-img2.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 220px;">
                             <div class="brand-one__single">
                                 <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img3.png') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('images/brand-v1-img3.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 220px;">
                             <div class="brand-one__single">
                                 <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img4.png') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('images/brand-v1-img4.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 220px;">
                             <div class="brand-one__single">
                                 <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img5.png') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('images/brand-v1-img5.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 220px;">
                             <div class="brand-one__single">
                                 <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img6.png') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('images/brand-v1-img6.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item" style="width: 220px;">
                             <div class="brand-one__single">
                                 <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img1.png') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('images/brand-v1-img1.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item active" style="width: 220px;">
                             <div class="brand-one__single">
                                 <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img2.png') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('images/brand-v1-img2.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item active" style="width: 220px;">
                             <div class="brand-one__single">
                                 <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img3.png') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('images/brand-v1-img3.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item active" style="width: 220px;">
                             <div class="brand-one__single">
                                 <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img4.png') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('images/brand-v1-img4.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item active" style="width: 220px;">
                             <div class="brand-one__single">
                                 <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img5.png') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('images/brand-v1-img5.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item active" style="width: 220px;">
                             <div class="brand-one__single">
                                 <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img6.png') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('images/brand-v1-img6.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned active" style="width: 220px;">
                             <div class="brand-one__single">
                                 <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img1.png') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('images/brand-v1-img1.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 220px;">
                             <div class="brand-one__single">
                                 <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img2.png') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('images/brand-v1-img2.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 220px;">
                             <div class="brand-one__single">
                                 <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img3.png') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('images/brand-v1-img3.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 220px;">
                             <div class="brand-one__single">
                                 <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img4.png') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('images/brand-v1-img4.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 220px;">
                             <div class="brand-one__single">
                                 <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img5.png') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('images/brand-v1-img5.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="owl-item cloned" style="width: 220px;">
                             <div class="brand-one__single">
                                 <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img6.png') }}" alt=""></a>
+                                    <a href="#"><img src="{{ asset('images/brand-v1-img6.png') }}"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
