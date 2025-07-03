@@ -6,11 +6,11 @@
         <div class="page-header__pattern"><img src="{{ asset('images/page-header-bg.jpg') }}" alt=""></div>
         <div class="container">
             <div class="page-header__inner">
-                <h2>Contact Us</h2>
+                <h2>Зв'яжіться з нами</h2>
                 <div class="page-header__breadcrumb">
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="{{ route('welcome') }}">Home</a></li>
-                        <li>Contact</li>
+                        <li><a href="{{ route('welcome') }}">Головна</a></li>
+                        <li>Контакти</li>
                     </ul>
                 </div>
             </div>
@@ -30,20 +30,20 @@
                                 <div class="sec-title__tagline">
                                     <div class="line"></div>
                                     <div class="text tg-element-title">
-                                        <h4>Contact us</h4>
+                                        <h4>Зв'яжіться з нами</h4>
                                     </div>
                                     <div class="icon">
                                         <span class="fas fa-paper-plane float-bob-x3"></span>
                                     </div>
                                 </div>
                                 <h2 class="sec-title__title tg-element-title">
-                                    Get in Touch And We'll Help Your Business
+                                    Зв'яжіться з нами і ми допоможемо вашому бізнесу
                                 </h2>
                             </div>
 
                             <div class="contact-page__top-content-text1">
-                                <p>Our dedicated team of experts is here to guide you through every step of the insurance
-                                    journey, ensuring you make informed choices tailored to your unique needs.</p>
+                                <p>Наша відданая команда експертів готова провести вас через кожен етап страхового
+                                    процесу, забезпечуючи обґрунтовані рішення, адаптовані до ваших унікальних потреб.</p>
                             </div>
 
                             <div class="social-links">
@@ -69,21 +69,21 @@
                                             [
                                                 'type' => 'text',
                                                 'name' => 'name',
-                                                'placeholder' => 'Name',
+                                                'placeholder' => 'Ім\'я',
                                                 'icon' => 'user',
                                                 'col' => '6',
                                             ],
                                             [
                                                 'type' => 'email',
                                                 'name' => 'email',
-                                                'placeholder' => 'Email',
+                                                'placeholder' => 'Електронна пошта',
                                                 'icon' => 'envelope',
                                                 'col' => '6',
                                             ],
                                             [
                                                 'type' => 'text',
                                                 'name' => 'phone',
-                                                'placeholder' => 'Phone',
+                                                'placeholder' => 'Телефон',
                                                 'icon' => 'phone',
                                                 'col' => '6',
                                             ],
@@ -105,8 +105,8 @@
                                         <div class="input-box">
                                             <div class="select-box">
                                                 <select class="selectmenu wide">
-                                                    <option selected>Subject</option>
-                                                    @foreach (['General Inquiry', 'Pricing', 'Support', 'Partnership', 'Other'] as $option)
+                                                    <option selected>Тема</option>
+                                                    @foreach (['Загальний запит', 'Ціни', 'Підтримка', 'Партнерство', 'Інше'] as $option)
                                                         <option>{{ $option }}</option>
                                                     @endforeach
                                                 </select>
@@ -116,7 +116,7 @@
 
                                     <div class="col-xl-12">
                                         <div class="input-box">
-                                            <textarea name="message" placeholder="Message"></textarea>
+                                            <textarea name="message" placeholder="Повідомлення"></textarea>
                                             <div class="icon style2"><span class="fas fa-pen"></span></div>
                                         </div>
                                     </div>
@@ -124,7 +124,7 @@
                                     <div class="col-xl-12">
                                         <div class="why-choose-one__form-btn">
                                             <button type="submit" class="thm-btn">
-                                                Submit Now <i class="fas fa-arrow-right"></i>
+                                                Надіслати зараз <i class="fas fa-arrow-right"></i>
                                                 <span class="hover-btn hover-bx"></span>
                                                 <span class="hover-btn hover-bx2"></span>
                                                 <span class="hover-btn hover-bx3"></span>
@@ -152,23 +152,23 @@
                             $contactInfo = [
                                 [
                                     'icon' => 'map-marker-alt',
-                                    'title' => 'Location',
-                                    'text' => '280 Granite Run Drive<br>SuiteHobert, LA 90010, USA.',
+                                    'title' => 'Місцезнаходження',
+                                    'text' => '280 Granite Run Drive<br>SuiteHobert, LA 90010, США.',
                                 ],
                                 [
                                     'icon' => 'clock',
-                                    'title' => 'Working Hours',
-                                    'text' => 'Wednesday - Sunday<br>7:00 AM - 5:00 PM',
+                                    'title' => 'Робочі години',
+                                    'text' => 'Середа - Неділя<br>7:00 - 17:00',
                                 ],
                                 [
                                     'icon' => 'envelope',
-                                    'title' => 'Email',
+                                    'title' => 'Електронна пошта',
                                     'text' =>
                                         '<a href="mailto:support@logistra.com">support@logistra.com</a><br><a href="mailto:support@logistra.com">support@logistra.com</a>',
                                 ],
                                 [
                                     'icon' => 'phone',
-                                    'title' => 'Phones',
+                                    'title' => 'Телефони',
                                     'text' =>
                                         '<a href="tel:880123456789">+880 123 456 789</a><br><a href="tel:880123456789">+880 123 456 789</a>',
                                 ],

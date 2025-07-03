@@ -1374,26 +1374,6 @@ animation: spinner 1s infinite linear;
   padding-right: 3px;
 }
 
-.main-header-one__bottom-right-btn::before {
-  position: absolute;
-  top: -28px;
-  left: 0;
-  bottom: -27px;
-  background: rgba(var(--logistiq-white-rgb), .15);
-  width: 1px;
-  content: "";
-}
-
-.main-header-one__bottom-right-btn::after {
-  position: absolute;
-  top: -28px;
-  right: 0;
-  bottom: -27px;
-  background: rgba(var(--logistiq-white-rgb), .15);
-  width: 1px;
-  content: "";
-}
-
 .main-header-one__bottom-right-btn a {
   position: relative;
   display: inline-block;

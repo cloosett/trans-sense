@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home One || Logistiq || Logistiq Laravel Template</title>
+    <title>Головна || Logistiq || Шаблон Laravel Logistiq</title>
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/favicons/apple-touch-icon.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/favicons/favicon-32x32.png') }}">
@@ -18,43 +18,25 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="{{ asset('01-bootstrap.min.css') }}">
-    {{-- <link rel="stylesheet" href="{{ asset('02-animate.min.css') }}"> --}}
-    {{-- <link rel="stylesheet" href="{{ asset('03-custom-animate.css') }}"> --}}
-    {{-- <link rel="stylesheet" href="{{ asset('05-flaticon.css') }}"> --}}
-    {{-- <link rel="stylesheet" href="{{ asset('06-font-awesome-all.css') }}"> --}}
-    {{-- <link rel="stylesheet" href="{{ asset('07-jarallax.css') }}"> --}}
-    {{-- <link rel="stylesheet" href="{{ asset('08-jquery.magnific-popup.css') }}"> --}}
     <link rel="stylesheet" href="{{ asset('09-nice-select.css') }}">
     <link rel="stylesheet" href="{{ asset('11-owl.carousel.min.css') }}">
-    {{-- <link rel="stylesheet" href="{{ asset('12-owl.theme.default.min.css') }}"> --}}
     <link rel="stylesheet" href="{{ asset('13-jquery-ui.css') }}">
 
     <link rel="stylesheet" href="{{ asset('02-about.css') }}">
-    {{-- <link rel="stylesheet" href="{{ asset('03-services.css') }}"> --}}
     <link rel="stylesheet" href="{{ asset('04-testimonial.css') }}">
-    {{-- <link rel="stylesheet" href="{{ asset('05-team.css') }}"> --}}
     <link rel="stylesheet" href="{{ asset('06-blog.css') }}">
     <link rel="stylesheet" href="{{ asset('07-brand.css') }}">
     <link rel="stylesheet" href="{{ asset('08-contact.css') }}">
     <link rel="stylesheet" href="{{ asset('09-counter.css') }}">
-    {{-- <link rel="stylesheet" href="{{ asset('10-error.css') }}"> --}}
     <link rel="stylesheet" href="{{ asset('11-faq.css') }}">
     <link rel="stylesheet" href="{{ asset('12-footer.css') }}">
     <link rel="stylesheet" href="{{ asset('13-page-header.css') }}">
-    {{-- <link rel="stylesheet" href="{{ asset('14-shop.css') }}"> --}}
-    {{-- <link rel="stylesheet" href="{{ asset('15-video.css') }}"> --}}
-    {{-- <link rel="stylesheet" href="{{ asset('awards.css') }}"> --}}
     <link rel="stylesheet" href="{{ asset('banner.css') }}">
     <link rel="stylesheet" href="{{ asset('cta.css') }}">
-    {{-- <link rel="stylesheet" href="{{ asset('design-interior.css') }}"> --}}
-    {{-- <link rel="stylesheet" href="{{ asset('feature.css') }}"> --}}
     <link rel="stylesheet" href="{{ asset('pricing.css') }}">
-    {{-- <link rel="stylesheet" href="{{ asset('projects.css') }}"> --}}
-    {{-- <link rel="stylesheet" href="{{ asset('quote.css') }}"> --}}
     <link rel="stylesheet" href="{{ asset('skill.css') }}">
     <link rel="stylesheet" href="{{ asset('sliding-text.css') }}">
     <link rel="stylesheet" href="{{ asset('why-choose.css') }}">
-    {{-- <link rel="stylesheet" href="{{ asset('working-process.css') }}"> --}}
 
     <link rel="stylesheet" href="{{ asset('swiper.min.css') }}">
     <link rel="stylesheet" href="{{ asset('style.css') }}">
@@ -88,23 +70,23 @@
                                                             $menuItems = [
                                                                 [
                                                                     'route' => 'welcome',
-                                                                    'label' => 'Home',
+                                                                    'label' => 'Головна',
                                                                     'path' => '/',
                                                                 ],
                                                                 [
                                                                     'route' => 'pricing',
-                                                                    'label' => 'Pricing',
+                                                                    'label' => 'Ціни',
                                                                     'path' => 'pricing',
                                                                 ],
                                                                 [
                                                                     'route' => 'reviews',
-                                                                    'label' => 'Reviews',
+                                                                    'label' => 'Відгуки',
                                                                     'path' => 'reviews',
                                                                 ],
                                                                 ['route' => 'faq', 'label' => 'FAQ', 'path' => 'faq'],
                                                                 [
                                                                     'route' => 'contact',
-                                                                    'label' => 'Contact',
+                                                                    'label' => 'Контакти',
                                                                     'path' => 'contact',
                                                                 ],
                                                             ];
@@ -127,7 +109,7 @@
                                         <div class="main-header-one__bottom-right">
                                             <div class="main-header-one__bottom-right-btn">
                                                 <a href="{{ route('contact') }}" class="thm-btn">
-                                                    Get A Quote <i class="fas fa-arrow-right"></i>
+                                                    Отримати пропозицію <i class="fas fa-arrow-right"></i>
                                                     <span class="hover-btn hover-bx"></span>
                                                     <span class="hover-btn hover-bx2"></span>
                                                     <span class="hover-btn hover-bx3"></span>
@@ -162,7 +144,8 @@
                                                     </div>
 
                                                     <div class="text-box">
-                                                        <p><span>Talk to Us</span> <a href="tel:1234567890">[+123 456
+                                                        <p><span>Зателефонуйте нам</span> <a
+                                                                href="tel:1234567890">[+123 456
                                                                 789]</a></p>
                                                     </div>
                                                 </li>
@@ -173,7 +156,7 @@
                                                     </div>
 
                                                     <div class="text-box">
-                                                        <p><span>Mail Us</span> <a
+                                                        <p><span>Напишіть нам</span> <a
                                                                 href="mailto:yourmail@email.com">[support@logistra.com]</a>
                                                         </p>
                                                     </div>
@@ -191,7 +174,7 @@
                                         </div>
 
                                         <div class="header-search-box">
-                                            <a href="#" class="main-menu__search search-toggler">Search
+                                            <a href="#" class="main-menu__search search-toggler">Пошук
                                                 <i class="icon-search"></i></a>
                                         </div>
                                     </div>
@@ -217,23 +200,23 @@
                                                             $menuItems = [
                                                                 [
                                                                     'route' => 'welcome',
-                                                                    'label' => 'Home',
+                                                                    'label' => 'Головна',
                                                                     'path' => '/',
                                                                 ],
                                                                 [
                                                                     'route' => 'pricing',
-                                                                    'label' => 'Pricing',
+                                                                    'label' => 'Ціни',
                                                                     'path' => 'pricing',
                                                                 ],
                                                                 [
                                                                     'route' => 'reviews',
-                                                                    'label' => 'Reviews',
+                                                                    'label' => 'Відгуки',
                                                                     'path' => 'reviews',
                                                                 ],
                                                                 ['route' => 'faq', 'label' => 'FAQ', 'path' => 'faq'],
                                                                 [
                                                                     'route' => 'contact',
-                                                                    'label' => 'Contact',
+                                                                    'label' => 'Контакти',
                                                                     'path' => 'contact',
                                                                 ],
                                                             ];
@@ -255,7 +238,7 @@
 
                                         <div class="main-header-one__bottom-right">
                                             <div class="main-header-one__bottom-right-btn">
-                                                <a href="{{ route('contact') }}" class="thm-btn">Get A Quote
+                                                <a href="{{ route('contact') }}" class="thm-btn">Отримати пропозицію
                                                     <i class="fas fa-arrow-right"></i>
                                                     <span class="hover-btn hover-bx"></span>
                                                     <span class="hover-btn hover-bx2"></span>
@@ -290,8 +273,8 @@
                                         <a href="{{ route('welcome') }}"><img
                                                 src="{{ asset('images/footer-logo.png') }}" alt=""></a>
                                     </div>
-                                    <p class="footer-one__about-text">Logistic service provider company plays a
-                                        pivotal role in the global supply chain logistic service provider.</p>
+                                    <p class="footer-one__about-text">Логістична компанія-провайдер відіграє ключову
+                                        роль у глобальному ланцюгу постачання.</p>
 
                                     <div class="footer-one__about-contact-info">
                                         <div class="icon">
@@ -299,7 +282,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Make a Call</p>
+                                            <p>Зателефонуйте</p>
                                             <h4><a href="tel:+1234567890">+880 123 456 789</a></h4>
                                         </div>
                                     </div>
@@ -310,7 +293,7 @@
                                 style="visibility: hidden; animation-delay: 200ms; animation-name: none;">
                                 <div class="footer-widget__single footer-one__quick-links">
                                     <div class="title">
-                                        <h2>Quick Links <i class="fa-solid fa-paper-plane"
+                                        <h2>Швидкі посилання <i class="fa-solid fa-paper-plane"
                                                 style="color: #fd5523;padding-left: 8px; "></i></h2>
                                     </div>
 
@@ -328,7 +311,7 @@
                                 style="visibility: hidden; animation-delay: 300ms; animation-name: none;">
                                 <div class="footer-widget__single footer-one__contact">
                                     <div class="title">
-                                        <h2>Get In Touch <i class="fa-solid fa-paper-plane"
+                                        <h2>Зв’яжіться з нами <i class="fa-solid fa-paper-plane"
                                                 style="color: #fd5523;padding-left: 8px; "></i></h2>
                                     </div>
 
@@ -370,17 +353,17 @@
                                 style="visibility: hidden; animation-delay: 400ms; animation-name: none;">
                                 <div class="footer-widget__single footer-one__subscribe">
                                     <div class="title">
-                                        <h2>Subscribe Us <i class="fa-solid fa-paper-plane"
+                                        <h2>Підпишіться <i class="fa-solid fa-paper-plane"
                                                 style="color: #fd5523;padding-left: 8px; "></i></h2>
                                     </div>
 
-                                    <p class="footer-one__subscribe-text">Sign up for alerts, our latest blogs, <br>
-                                        thoughts, and insights</p>
+                                    <p class="footer-one__subscribe-text">Підпишіться на сповіщення, наші останні
+                                        блоги, думки та ідеї</p>
 
                                     <div class="footer-one__subscribe-form">
                                         <form class="subscribe-form" action="#">
-                                            <input type="email" name="email" placeholder="Your E-mail">
-                                            <button type="submit" class="thm-btn">Subcribe
+                                            <input type="email" name="email" placeholder="Ваш email">
+                                            <button type="submit" class="thm-btn">Підписатися
                                                 <i class="fas fa-arrow-right"></i>
                                                 <span class="hover-btn hover-bx"></span>
                                                 <span class="hover-btn hover-bx2"></span>
@@ -402,8 +385,7 @@
 
                     <div class="footer-one__bottom-inner">
                         <div class="footer-one__bottom-text">
-                            <p>© Copyright 2025 <a href="{{ route('welcome') }}">Logistiq.</a> All Rights
-                                Reserved
+                            <p>© Copyright 2025 <a href="{{ route('welcome') }}">Logistiq.</a> Усі права захищені
                             </p>
                         </div>
 
@@ -481,8 +463,8 @@
         <!-- /.search-popup__overlay -->
         <div class="search-popup__content">
             <form action="#">
-                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
-                <input type="text" id="search" placeholder="Search Here...">
+                <label for="search" class="sr-only">шукайте тут</label><!-- /.sr-only -->
+                <input type="text" id="search" placeholder="Шукайте тут...">
                 <button type="submit" aria-label="search submit" class="thm-btn">
                     <i class="fas fa-search"></i>
                     <span class="hover-btn hover-bx"></span>
@@ -498,7 +480,7 @@
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
         <span class="scroll-to-top__wrapper"><span class="scroll-to-top__inner"
                 style="width: 6.95242%;"></span></span>
-        <span class="scroll-to-top__text"> Go Back Top</span>
+        <span class="scroll-to-top__text"> До гори</span>
     </a>
 
 
@@ -506,13 +488,7 @@
     <script src="{{ asset('jquery-3.6.0.min.js') }}"></script>
     <script src="{{ asset('jquery.ajaxchimp.min.js') }}"></script>
     <script src="{{ asset('jquery.validate.min.js') }}"></script>
-    {{-- <script src="{{ asset('swiper.min.js') }}"></script> --}}
-    {{-- <script src="{{ asset('wNumb.min.js') }}"></script> --}}
 
-    <!-- Curved Text Plugins -->
-    {{-- <script src="{{ asset('jquery.circleType.js') }}"></script> --}}
-    {{-- <script src="{{ asset('jquery.fittext.js') }}"></script> --}}
-    {{-- <script src="{{ asset('jquery.lettering.min.js') }}"></script> --}}
 
     <!-- GSAP Animation -->
     <script src="{{ asset('gsap.js') }}"></script>
@@ -524,15 +500,10 @@
     <script src="{{ asset('02-countdown.min.js') }}"></script>
     <script src="{{ asset('03-jquery.appear.min.js') }}"></script>
     <script src="{{ asset('04-jquery.nice-select.min.js') }}"></script>
-    {{-- <script src="{{ asset('05-jquery-sidebar-content.js') }}"></script> --}}
-    {{-- <script src="{{ asset('06-marquee.min.js') }}"></script> --}}
     <script src="{{ asset('07-owl.carousel.min.js') }}"></script>
-    {{-- <script src="{{ asset('08-jarallax.min.js') }}"></script> --}}
-    {{-- <script src="{{ asset('09-odometer.min.js') }}"></script> --}}
     <script src="{{ asset('10-jquery-ui.js') }}"></script>
     <script src="{{ asset('11-jquery.magnific-popup.min.js') }}"></script>
     <script src="{{ asset('12-wow.js') }}"></script>
-    {{-- <script src="{{ asset('13-isotope.js') }}"></script> --}}
 
     <!-- Template Main JS -->
     <script src="{{ asset('script.js') }}"></script>

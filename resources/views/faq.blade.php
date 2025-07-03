@@ -7,11 +7,11 @@
         <div class="page-header__pattern"><img src="{{ asset('images/page-header-pattern.png') }}" alt=""></div>
         <div class="container">
             <div class="page-header__inner">
-                <h2>FAQ's</h2>
+                <h2>Часто задавані питання</h2>
                 <div class="page-header__breadcrumb">
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="{{ route('welcome') }}">Home</a></li>
-                        <li>FAQ</li>
+                        <li><a href="{{ route('welcome') }}">Головна</a></li>
+                        <li>ЧаПи</li>
                     </ul>
                 </div>
             </div>
@@ -29,14 +29,14 @@
                                 <div class="sec-title__tagline">
                                     <div class="line"></div>
                                     <div class="text tg-element-title">
-                                        <h4>Company's FAQ</h4>
+                                        <h4>ЧаПи компанії</h4>
                                     </div>
                                     <div class="icon">
                                         <span class="fas fa-truck"></span>
                                     </div>
                                 </div>
                                 <h2 class="sec-title__title tg-element-title">
-                                    Frequently Asked Have <span>Any Question?</span>
+                                    Часто задавані питання. <span>Маєте питання?</span>
                                 </h2>
                             </div>
 
@@ -44,19 +44,20 @@
                                 data-grp-name="faq-one-accrodion-1">
                                 @php
                                     $faqItems = [
-                                        ['question' => 'How do you handle returns or exchanges?', 'active' => false],
-                                        ['question' => 'What does business consulting do?', 'active' => false],
+                                        ['question' => 'Як ви обробляєте повернення або обміни?', 'active' => false],
+                                        ['question' => 'Що робить бізнес-консалтинг?', 'active' => false],
                                         [
-                                            'question' => 'Can I cancel a shipment after it\'s been booked?',
+                                            'question' =>
+                                                'Чи можу я скасувати відправлення після того, як воно заброньоване?',
                                             'active' => true,
                                         ],
                                         [
-                                            'question' => 'Can you assist with customs clearance procedures?',
+                                            'question' => 'Чи можете ви допомогти з процедурами митного оформлення?',
                                             'active' => false,
                                         ],
                                     ];
                                     $answer =
-                                        'We help businesses bring ideas to life in the digital world designing & implementing the technology tools that they need to win. We help business bring ideas to life in the digital wor';
+                                        'Ми допомагаємо бізнесу втілювати ідеї в життя у цифровому світі, розробляючи та впроваджуючи технологічні інструменти, необхідні для перемоги. Ми допомагаємо бізнесу втілювати ідеї в життя у цифровому світі';
                                 @endphp
 
                                 @foreach ($faqItems as $faq)

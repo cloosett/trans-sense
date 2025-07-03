@@ -3,17 +3,6 @@
 @section('content')
     <section class="slider-one" id="home">
         <div class="slider-one__carousel owl-carousel owl-theme owl-loaded owl-drag">
-            <!--Start Slider One Single-->
-
-            <!--End Slider One Single-->
-
-            <!--Start Slider One Single-->
-
-            <!--End Slider One Single-->
-
-            <!--Start Slider One Single-->
-
-            <!--End Slider One Single-->
             <div class="owl-stage-outer">
                 <div class="owl-stage" style="transform: translate3d(-3762px, 0px, 0px); transition: all; width: 8778px;">
                     <div class="owl-item cloned" style="width: 1254px;">
@@ -29,17 +18,17 @@
                                     <div class="slider-one__single-content">
                                         <div class="tagline">
                                             <div class="round"></div>
-                                            <div class="text"><span>Welcome to Logistiq</span></div>
+                                            <div class="text"><span>Ласкаво просимо до TransSense</span></div>
                                         </div>
 
                                         <div class="title-box">
-                                            <h2>We Provide Global <br> <span>Logistic</span></h2>
+                                            <h2>Ми надаємо глобальні <br> <span>логістичні послуги</span></h2>
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Take your business to the next level with Loraic new business management
-                                                tools.
-                                                Loraic will open a new horizon for us. </p>
+                                            <p>Виведіть свій бізнес на новий рівень з новими інструментами управління від
+                                                TransSense.
+                                                Ми відкриємо для вас нові горизонти можливостей.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -59,17 +48,17 @@
                                     <div class="slider-one__single-content">
                                         <div class="tagline">
                                             <div class="round"></div>
-                                            <div class="text"><span>Welcome to Logistiq</span></div>
+                                            <div class="text"><span>Ласкаво просимо до TransSense</span></div>
                                         </div>
 
                                         <div class="title-box">
-                                            <h2>We Provide Global <br> <span>Logistic</span></h2>
+                                            <h2>Ми надаємо глобальні <br> <span>логістичні послуги</span></h2>
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Take your business to the next level with Loraic new business management
-                                                tools.
-                                                Loraic will open a new horizon for us. </p>
+                                            <p>Виведіть свій бізнес на новий рівень з новими інструментами управління від
+                                                TransSense.
+                                                Ми відкриємо для вас нові горизонти можливостей.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -89,17 +78,17 @@
                                     <div class="slider-one__single-content">
                                         <div class="tagline">
                                             <div class="round"></div>
-                                            <div class="text"><span>Welcome to Logistiq</span></div>
+                                            <div class="text"><span>Ласкаво просимо до TransSense</span></div>
                                         </div>
 
                                         <div class="title-box">
-                                            <h2>We Provide Global <br> <span>Logistic</span></h2>
+                                            <h2>Ми надаємо глобальні <br> <span>логістичні послуги</span></h2>
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Take your business to the next level with Loraic new business management
-                                                tools.
-                                                Loraic will open a new horizon for us. </p>
+                                            <p>Виведіть свій бізнес на новий рівень з новими інструментами управління від
+                                                TransSense.
+                                                Ми відкриємо для вас нові горизонти можливостей.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -119,17 +108,17 @@
                                     <div class="slider-one__single-content">
                                         <div class="tagline">
                                             <div class="round"></div>
-                                            <div class="text"><span>Welcome to Logistiq</span></div>
+                                            <div class="text"><span>Ласкаво просимо до TransSense</span></div>
                                         </div>
 
                                         <div class="title-box">
-                                            <h2>We Provide Global <br> <span>Logistic</span></h2>
+                                            <h2>Ми надаємо глобальні <br> <span>логістичні послуги</span></h2>
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Take your business to the next level with Loraic new business management
-                                                tools.
-                                                Loraic will open a new horizon for us. </p>
+                                            <p>Виведіть свій бізнес на новий рівень з новими інструментами управління від
+                                                TransSense.
+                                                Ми відкриємо для вас нові горизонти можливостей.</p>
                                         </div>
 
 
@@ -151,21 +140,21 @@
                                     <div class="slider-one__single-content">
                                         <div class="tagline">
                                             <div class="round"></div>
-                                            <div class="text"><span>Welcome to Logistiq</span></div>
+                                            <div class="text"><span>Ласкаво просимо до TransSense</span></div>
                                         </div>
 
                                         <div class="title-box">
-                                            <h2>We Provide Global <br> <span>Logistic</span></h2>
+                                            <h2>Ми надаємо глобальні <br> <span>логістичні послуги</span></h2>
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Take your business to the next level with Loraic new business management
-                                                tools.
-                                                Loraic will open a new horizon for us. </p>
+                                            <p>Виведіть свій бізнес на новий рівень з новими інструментами управління від
+                                                TransSense.
+                                                Ми відкриємо для вас нові горизонти можливостей.</p>
                                         </div>
 
                                         <div class="btn-box">
-                                            <a class="thm-btn" href="{{ route('contact') }}">Explore More
+                                            <a class="thm-btn" href="{{ route('contact') }}">Дізнатися більше
                                                 <i class="fas fa-arrow-right"></i>
                                                 <span class="hover-btn hover-bx"></span>
                                                 <span class="hover-btn hover-bx2"></span>
@@ -191,21 +180,21 @@
                                     <div class="slider-one__single-content">
                                         <div class="tagline">
                                             <div class="round"></div>
-                                            <div class="text"><span>Welcome to Logistiq</span></div>
+                                            <div class="text"><span>Ласкаво просимо до TransSense</span></div>
                                         </div>
 
                                         <div class="title-box">
-                                            <h2>We Provide Global <br> <span>Logistic</span></h2>
+                                            <h2>Ми надаємо глобальні <br> <span>логістичні послуги</span></h2>
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Take your business to the next level with Loraic new business management
-                                                tools.
-                                                Loraic will open a new horizon for us. </p>
+                                            <p>Виведіть свій бізнес на новий рівень з новими інструментами управління від
+                                                TransSense.
+                                                Ми відкриємо для вас нові горизонти можливостей.</p>
                                         </div>
 
                                         <div class="btn-box">
-                                            <a class="thm-btn" href="{{ route("contact") }}">Explore More
+                                            <a class="thm-btn" href="{{ route('contact') }}">Дізнатися більше
                                                 <i class="fas fa-arrow-right"></i>
                                                 <span class="hover-btn hover-bx"></span>
                                                 <span class="hover-btn hover-bx2"></span>
@@ -231,21 +220,21 @@
                                     <div class="slider-one__single-content">
                                         <div class="tagline">
                                             <div class="round"></div>
-                                            <div class="text"><span>Welcome to Logistiq</span></div>
+                                            <div class="text"><span>Ласкаво просимо до TransSense</span></div>
                                         </div>
 
                                         <div class="title-box">
-                                            <h2>We Provide Global <br> <span>Logistic</span></h2>
+                                            <h2>Ми надаємо глобальні <br> <span>логістичні послуги</span></h2>
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Take your business to the next level with Loraic new business management
-                                                tools.
-                                                Loraic will open a new horizon for us. </p>
+                                            <p>Виведіть свій бізнес на новий рівень з новими інструментами управління від
+                                                TransSense.
+                                                Ми відкриємо для вас нові горизонти можливостей.</p>
                                         </div>
 
                                         <div class="btn-box">
-                                            <a class="thm-btn" href="{{ route("contact") }}">Explore More
+                                            <a class="thm-btn" href="{{ route('contact') }}">Дізнатися більше
                                                 <i class="fas fa-arrow-right"></i>
                                                 <span class="hover-btn hover-bx"></span>
                                                 <span class="hover-btn hover-bx2"></span>
@@ -269,7 +258,7 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="input-box">
-                            <input type="text" name="name" placeholder="Name" required=""
+                            <input type="text" name="name" placeholder="Ім'я" required=""
                                 aria-required="true">
                             <div class="icon"><span class="icon-user"></span></div>
                         </div>
@@ -277,7 +266,7 @@
 
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="input-box">
-                            <input type="text" name="Phone" placeholder="Phone" required=""
+                            <input type="text" name="Phone" placeholder="Телефон" required=""
                                 aria-required="true">
                             <div class="icon"><span class="icon-phone2"></span></div>
                         </div>
@@ -287,22 +276,23 @@
                         <div class="input-box">
                             <div class="select-box">
                                 <select class="selectmenu wide" style="display: none;">
-                                    <option selected="selected">Freight Type</option>
-                                    <option>Freight Type 01</option>
-                                    <option>Freight Type 02</option>
-                                    <option>Freight Type 03</option>
-                                    <option>Freight Type 04</option>
-                                    <option>Freight Type 05</option>
+                                    <option selected="selected">Тип вантажу</option>
+                                    <option>Автомобільні перевезення</option>
+                                    <option>Морські вантажі</option>
+                                    <option>Авіаперевезення</option>
+                                    <option>Залізничні перевезення</option>
+                                    <option>Кур'єрська доставка</option>
                                 </select>
-                                <div class="nice-select selectmenu wide" tabindex="0"><span class="current">Freight
-                                        Type</span>
+                                <div class="nice-select selectmenu wide" tabindex="0"><span class="current">Тип
+                                        вантажу</span>
                                     <ul class="list">
-                                        <li data-value="Freight Type" class="option selected">Freight Type</li>
-                                        <li data-value="Freight Type 01" class="option">Freight Type 01</li>
-                                        <li data-value="Freight Type 02" class="option">Freight Type 02</li>
-                                        <li data-value="Freight Type 03" class="option">Freight Type 03</li>
-                                        <li data-value="Freight Type 04" class="option">Freight Type 04</li>
-                                        <li data-value="Freight Type 05" class="option">Freight Type 05</li>
+                                        <li data-value="Тип вантажу" class="option selected">Тип вантажу</li>
+                                        <li data-value="Автомобільні перевезення" class="option">Автомобільні перевезення
+                                        </li>
+                                        <li data-value="Морські вантажі" class="option">Морські вантажі</li>
+                                        <li data-value="Авіаперевезення" class="option">Авіаперевезення</li>
+                                        <li data-value="Залізничні перевезення" class="option">Залізничні перевезення</li>
+                                        <li data-value="Кур'єрська доставка" class="option">Кур'єрська доставка</li>
                                     </ul>
                                 </div>
                             </div>
@@ -312,17 +302,20 @@
                         <div class="input-box">
                             <div class="select-box">
                                 <select class="selectmenu wide" style="display: none;">
-                                    <option selected="selected">Load</option>
-                                    <option>Rail</option>
-                                    <option>Ocean Freight</option>
-                                    <option>Ocean</option>
+                                    <option selected="selected">Навантаження</option>
+                                    <option>Часткове навантаження</option>
+                                    <option>Повне навантаження</option>
+                                    <option>Негабаритний вантаж</option>
+                                    <option>Експрес доставка</option>
                                 </select>
-                                <div class="nice-select selectmenu wide" tabindex="0"><span class="current">Load</span>
+                                <div class="nice-select selectmenu wide" tabindex="0"><span
+                                        class="current">Навантаження</span>
                                     <ul class="list">
-                                        <li data-value="Load" class="option selected">Load</li>
-                                        <li data-value="Rail" class="option">Rail</li>
-                                        <li data-value="Ocean Freight" class="option">Ocean Freight</li>
-                                        <li data-value="Ocean" class="option">Ocean</li>
+                                        <li data-value="Навантаження" class="option selected">Навантаження</li>
+                                        <li data-value="Часткове навантаження" class="option">Часткове навантаження</li>
+                                        <li data-value="Повне навантаження" class="option">Повне навантаження</li>
+                                        <li data-value="Негабаритний вантаж" class="option">Негабаритний вантаж</li>
+                                        <li data-value="Експрес доставка" class="option">Експрес доставка</li>
                                     </ul>
                                 </div>
                             </div>
@@ -331,7 +324,7 @@
 
                     <div class="col-xl-12">
                         <div class="input-box">
-                            <textarea name="message" placeholder="Message"></textarea>
+                            <textarea name="message" placeholder="Повідомлення"></textarea>
                             <div class="icon style2"><span class="icon-pen"></span></div>
                         </div>
                     </div>
@@ -339,7 +332,7 @@
                     <div class="col-xl-12">
                         <div class="slider-one__form-btn">
                             <button type="submit" class="thm-btn">
-                                Submit Request
+                                Надіслати запит
                                 <i class="fas fa-arrow-right"></i>
                                 <span class="hover-btn hover-bx"></span>
                                 <span class="hover-btn hover-bx2"></span>
@@ -372,45 +365,53 @@
                                             <div style="position:relative;display:inline-block;">
                                                 <div
                                                     style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    O
+                                                    Н
                                                 </div>
                                                 <div
                                                     style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    u
+                                                    а
                                                 </div>
                                                 <div
                                                     style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    r
+                                                    ш
+                                                </div>
+                                                <div
+                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                    а
                                                 </div>
                                             </div>
                                             <div style="position:relative;display:inline-block;">
                                                 <div
                                                     style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    C
+                                                    к
                                                 </div>
                                                 <div
                                                     style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    o
+                                                    о
                                                 </div>
                                                 <div
                                                     style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    m
+                                                    м
                                                 </div>
                                                 <div
                                                     style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    p
+                                                    п
                                                 </div>
                                                 <div
                                                     style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    a
+                                                    а
                                                 </div>
                                                 <div
                                                     style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    n
+                                                    н
                                                 </div>
                                                 <div
                                                     style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    y
+                                                    і
+                                                </div>
+                                                <div
+                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                    я
                                                 </div>
                                             </div>
                                         </h4>
@@ -425,89 +426,129 @@
                                     <div style="position:relative;display:inline-block;">
                                         <div
                                             style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            O
+                                            Н
                                         </div>
                                         <div
                                             style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            u
+                                            а
                                         </div>
                                         <div
                                             style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            r
-                                        </div>
-                                    </div>
-                                    <div style="position:relative;display:inline-block;">
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            E
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            x
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            p
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            e
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            r
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            t
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            i
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            s
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            e
+                                            ш
                                         </div>
                                     </div>
                                     <div style="position:relative;display:inline-block;">
                                         <div
                                             style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            S
+                                            е
                                         </div>
                                         <div
                                             style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            t
+                                            к
                                         </div>
                                         <div
                                             style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            a
+                                            с
                                         </div>
                                         <div
                                             style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            n
+                                            п
                                         </div>
                                         <div
                                             style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            d
+                                            е
                                         </div>
                                         <div
                                             style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            s
+                                            р
+                                        </div>
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            т
+                                        </div>
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            и
+                                        </div>
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            з
+                                        </div>
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            а
                                         </div>
                                     </div>
                                     <div style="position:relative;display:inline-block;">
                                         <div
                                             style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            i
+                                            в
                                         </div>
                                         <div
                                             style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            n
+                                            и
+                                        </div>
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            з
+                                        </div>
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            н
+                                        </div>
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            а
+                                        </div>
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            ч
+                                        </div>
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            а
+                                        </div>
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            є
+                                        </div>
+                                    </div>
+                                    <div style="position:relative;display:inline-block;">
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            с
+                                        </div>
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            т
+                                        </div>
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            а
+                                        </div>
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            н
+                                        </div>
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            д
+                                        </div>
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            а
+                                        </div>
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            р
+                                        </div>
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            т
+                                        </div>
+                                        <div
+                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                            и
                                         </div>
                                     </div>
                                 </div>
@@ -516,60 +557,63 @@
                                         <div style="position:relative;display:inline-block;">
                                             <div
                                                 style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                L</div>
+                                                л</div>
                                             <div
                                                 style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                o</div>
+                                                о</div>
                                             <div
                                                 style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                g</div>
+                                                г</div>
                                             <div
                                                 style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                i</div>
+                                                і</div>
                                             <div
                                                 style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                s</div>
+                                                с</div>
                                             <div
                                                 style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                t</div>
+                                                т</div>
                                             <div
                                                 style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                i</div>
+                                                и</div>
                                             <div
                                                 style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                c</div>
+                                                ч</div>
                                             <div
                                                 style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                s</div>
+                                                н</div>
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                и</div>
+                                            <div
+                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
+                                                х</div>
                                         </div>
                                         <div style="position:relative;display:inline-block;">
                                             <div
                                                 style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                S</div>
+                                                р</div>
                                             <div
                                                 style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                o</div>
+                                                і</div>
                                             <div
                                                 style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                l</div>
+                                                ш</div>
                                             <div
                                                 style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                u</div>
+                                                е</div>
                                             <div
                                                 style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                t</div>
+                                                н</div>
                                             <div
                                                 style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                i</div>
+                                                н</div>
                                             <div
                                                 style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                o</div>
+                                                я</div>
                                             <div
                                                 style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                n</div>
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                s</div>
+                                                х</div>
                                         </div>
                                     </span>
                                 </div>
@@ -577,9 +621,9 @@
                         </div>
 
                         <div class="about-one__content-text1">
-                            <p>Logistic service provider company plays a pivotal role in the global supply
-                                chain ecosystem by efficiently managing the movement of goods from origin to final
-                                destination. These companies offer a diverse.</p>
+                            <p>Логістична компанія відіграє ключову роль у глобальній екосистемі ланцюгів поставок,
+                                ефективно управляючи переміщенням товарів від місця походження до кінцевого пункту
+                                призначення. Ці компанії пропонують різноманітні послуги.</p>
                         </div>
 
                         <div class="about-one__content-text2">
@@ -592,11 +636,11 @@
                                             </div>
 
                                             <div class="title-box">
-                                                <h3>Worldwide Service</h3>
+                                                <h3>Світові послуги</h3>
                                             </div>
                                         </div>
 
-                                        <p>Logistic service provider company plays a pivotal role in the global</p>
+                                        <p>Логістична компанія відіграє ключову роль у глобальних ланцюгах поставок</p>
                                     </div>
                                 </div>
 
@@ -608,11 +652,11 @@
                                             </div>
 
                                             <div class="title-box">
-                                                <h3>24/7 Online Support</h3>
+                                                <h3>Підтримка 24/7</h3>
                                             </div>
                                         </div>
 
-                                        <p>Logistic service provider company plays a pivotal role in the global</p>
+                                        <p>Логістична компанія відіграє ключову роль у глобальних ланцюгах поставок</p>
                                     </div>
                                 </div>
                             </div>
@@ -620,7 +664,7 @@
 
                         <div class="about-one__content-bottom">
                             <div class="btn-box">
-                                <a class="thm-btn" href="{{ route("contact") }}">More About Us
+                                <a class="thm-btn" href="{{ route('contact') }}">Більше про нас
                                     <i class="fa-solid fa-arrow-right"></i>
                                     <span class="hover-btn hover-bx"></span>
                                     <span class="hover-btn hover-bx2"></span>
@@ -635,7 +679,7 @@
                                 </div>
 
                                 <div class="text-box">
-                                    <p>Make A Phone Call</p>
+                                    <p>Зателефонуйте нам</p>
                                     <h4><a href="tel:1234567890">+880 123 456 789 </a></h4>
                                 </div>
                             </div>
@@ -671,71 +715,71 @@
                                     <div class="inner">
                                         <div class="about-one__curved-circle rotate-me"
                                             style="position: absolute; height: 138.417px;"><span class="char1"
-                                                style="position: absolute; left: 50%; margin-left: -0.5em; transform: rotate(-147.506deg); transform-origin: center 6.25em 0px;">W</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.5em; transform: rotate(-147.506deg); transform-origin: center 6.25em 0px;">Л</span><span
                                                 class="char2"
-                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(-135.925deg); transform-origin: center 6.25em 0px;">E</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(-135.925deg); transform-origin: center 6.25em 0px;">А</span><span
                                                 class="char3"
-                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(-128.001deg); transform-origin: center 6.25em 0px;">L</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(-128.001deg); transform-origin: center 6.25em 0px;">С</span><span
                                                 class="char4"
-                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-118.858deg); transform-origin: center 6.25em 0px;">C</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-118.858deg); transform-origin: center 6.25em 0px;">К</span><span
                                                 class="char5"
-                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-107.887deg); transform-origin: center 6.25em 0px;">O</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-107.887deg); transform-origin: center 6.25em 0px;">А</span><span
                                                 class="char6"
-                                                style="position: absolute; left: 50%; margin-left: -0.458333em; transform: rotate(-95.6961deg); transform-origin: center 6.25em 0px;">M</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.458333em; transform: rotate(-95.6961deg); transform-origin: center 6.25em 0px;">В</span><span
                                                 class="char7"
-                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(-84.7246deg); transform-origin: center 6.25em 0px;">E</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(-84.7246deg); transform-origin: center 6.25em 0px;">О</span><span
                                                 class="char8"
                                                 style="position: absolute; left: 50%; margin-left: -0.208333em; transform: rotate(-77.4103deg); transform-origin: center 6.25em 0px;">&nbsp;</span><span
                                                 class="char9"
-                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(-70.0959deg); transform-origin: center 6.25em 0px;">T</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(-70.0959deg); transform-origin: center 6.25em 0px;">П</span><span
                                                 class="char10"
-                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-60.3434deg); transform-origin: center 6.25em 0px;">O</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-60.3434deg); transform-origin: center 6.25em 0px;">Р</span><span
                                                 class="char11"
-                                                style="position: absolute; left: 50%; margin-left: -0.208333em; transform: rotate(-51.81deg); transform-origin: center 6.25em 0px;">&nbsp;</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.208333em; transform: rotate(-51.81deg); transform-origin: center 6.25em 0px;">О</span><span
                                                 class="char12"
-                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-43.2766deg); transform-origin: center 6.25em 0px;">O</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-43.2766deg); transform-origin: center 6.25em 0px;">С</span><span
                                                 class="char13"
-                                                style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(-32.9146deg); transform-origin: center 6.25em 0px;">U</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(-32.9146deg); transform-origin: center 6.25em 0px;">И</span><span
                                                 class="char14"
-                                                style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(-23.1621deg); transform-origin: center 6.25em 0px;">R</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(-23.1621deg); transform-origin: center 6.25em 0px;">М</span><span
                                                 class="char15"
                                                 style="position: absolute; left: 50%; margin-left: -0.208333em; transform: rotate(-15.2382deg); transform-origin: center 6.25em 0px;">&nbsp;</span><span
                                                 class="char16"
-                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-6.70483deg); transform-origin: center 6.25em 0px;">C</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(-6.70483deg); transform-origin: center 6.25em 0px;">Д</span><span
                                                 class="char17"
-                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(4.26671deg); transform-origin: center 6.25em 0px;">O</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(4.26671deg); transform-origin: center 6.25em 0px;">О</span><span
                                                 class="char18"
-                                                style="position: absolute; left: 50%; margin-left: -0.458333em; transform: rotate(16.4573deg); transform-origin: center 6.25em 0px;">M</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.458333em; transform: rotate(16.4573deg); transform-origin: center 6.25em 0px;">&nbsp;</span><span
                                                 class="char19"
-                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(27.4288deg); transform-origin: center 6.25em 0px;">P</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(27.4288deg); transform-origin: center 6.25em 0px;">Н</span><span
                                                 class="char20"
-                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(37.1813deg); transform-origin: center 6.25em 0px;">A</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(37.1813deg); transform-origin: center 6.25em 0px;">А</span><span
                                                 class="char21"
-                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(48.1528deg); transform-origin: center 6.25em 0px;">N</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(48.1528deg); transform-origin: center 6.25em 0px;">Ш</span><span
                                                 class="char22"
-                                                style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(58.5148deg); transform-origin: center 6.25em 0px;">Y</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(58.5148deg); transform-origin: center 6.25em 0px;">О</span><span
                                                 class="char23"
-                                                style="position: absolute; left: 50%; margin-left: -0.208333em; transform: rotate(66.4387deg); transform-origin: center 6.25em 0px;">&nbsp;</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.208333em; transform: rotate(66.4387deg); transform-origin: center 6.25em 0px;">Ї</span><span
                                                 class="char24"
-                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(73.7531deg); transform-origin: center 6.25em 0px;">S</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(73.7531deg); transform-origin: center 6.25em 0px;">&nbsp;</span><span
                                                 class="char25"
-                                                style="position: absolute; left: 50%; margin-left: -0.125em; transform: rotate(79.8484deg); transform-origin: center 6.25em 0px;">I</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.125em; transform: rotate(79.8484deg); transform-origin: center 6.25em 0px;">К</span><span
                                                 class="char26"
-                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(87.1627deg); transform-origin: center 6.25em 0px;">N</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(87.1627deg); transform-origin: center 6.25em 0px;">О</span><span
                                                 class="char27"
-                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(98.1343deg); transform-origin: center 6.25em 0px;">C</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.375em; transform: rotate(98.1343deg); transform-origin: center 6.25em 0px;">М</span><span
                                                 class="char28"
-                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(107.887deg); transform-origin: center 6.25em 0px;">E</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(107.887deg); transform-origin: center 6.25em 0px;">П</span><span
                                                 class="char29"
-                                                style="position: absolute; left: 50%; margin-left: -0.208333em; transform: rotate(115.201deg); transform-origin: center 6.25em 0px;">&nbsp;</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.208333em; transform: rotate(115.201deg); transform-origin: center 6.25em 0px;">А</span><span
                                                 class="char30"
-                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(122.515deg); transform-origin: center 6.25em 0px;">2</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(122.515deg); transform-origin: center 6.25em 0px;">Н</span><span
                                                 class="char31"
-                                                style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(131.658deg); transform-origin: center 6.25em 0px;">0</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(131.658deg); transform-origin: center 6.25em 0px;">І</span><span
                                                 class="char32"
-                                                style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(141.411deg); transform-origin: center 6.25em 0px;">0</span><span
+                                                style="position: absolute; left: 50%; margin-left: -0.333333em; transform: rotate(141.411deg); transform-origin: center 6.25em 0px;">Ї</span><span
                                                 class="char33"
-                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(150.554deg); transform-origin: center 6.25em 0px;">2</span>
+                                                style="position: absolute; left: 50%; margin-left: -0.291667em; transform: rotate(150.554deg); transform-origin: center 6.25em 0px;">&nbsp;</span>
                                         </div>
                                     </div>
                                     <div class="overlay-icon-box">
@@ -773,27 +817,27 @@
                             <ul>
                                 <li>
                                     <p><i class="fa-solid fa-truck-fast"
-                                            style="color: #FD5523; padding-left: 5px;"></i></span> Make long term business
-                                        decisions</p>
+                                            style="color: #FD5523; padding-left: 5px;"></i></span> Прийняття довгострокових
+                                        бізнес-рішень</p>
                                 </li>
                                 <li>
                                     <p><i class="fa-solid fa-truck-fast" style="color: #FD5523; padding-left: 5px;"></i>
-                                        Transparent career journey and support.</p>
+                                        Прозорий кар'єрний шлях та підтримка</p>
                                 </li>
                                 <li>
                                     <p><i class="fa-solid fa-truck-fast" style="color: #FD5523; padding-left: 5px;"></i>
-                                        Be a responsible member of the community
+                                        Відповідальне членство у спільноті
                                     </p>
                                 </li>
                                 <li>
                                     <p><i class="fa-solid fa-truck-fast" style="color: #FD5523; padding-left: 5px;"></i>
-                                        Provide a service we are proud of</p>
+                                        Надання послуг, якими ми пишаємося</p>
                                 </li>
                             </ul>
                         </div>
 
                         <div class="btn-box">
-                            <a class="thm-btn" href="{{ route("contact") }}">Contact Us
+                            <a class="thm-btn" href="{{ route('contact') }}">Зв'яжіться з нами
                                 <i class="fa-solid fa-arrow-right"></i>
                                 <span class="hover-btn hover-bx"></span>
                                 <span class="hover-btn hover-bx2"></span>
@@ -810,7 +854,7 @@
                     <div class="why-choose-one__form-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"
                         style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
                         <div class="title-box">
-                            <h2>Request a Quote</h2>
+                            <h2>Запросити пропозицію</h2>
                         </div>
 
                         <form class="contact-form-validated why-choose-one__form" action="assets/inc/sendemail.php"
@@ -818,29 +862,29 @@
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="input-box">
-                                        <input type="text" name="name" placeholder="Name" required=""
+                                        <input type="text" name="name" placeholder="Ім'я" required=""
                                             aria-required="true">
                                         <div class="icon"><i class="fa-regular fa-user"></i></div>
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="input-box">
-                                        <input type="email" name="email" placeholder="Email" required=""
-                                            aria-required="true">
+                                        <input type="email" name="email" placeholder="Електронна пошта"
+                                            required="" aria-required="true">
                                         <div class="icon"><i class="fa-regular fa-envelope"></i></div>
                                     </div>
                                 </div>
 
                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="input-box">
-                                        <input type="text" name="Phone" placeholder="Phone" required=""
+                                        <input type="text" name="Phone" placeholder="Телефон" required=""
                                             aria-required="true">
                                         <div class="icon"><i class="fa-solid fa-phone"></i></div>
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="input-box">
-                                        <input type="text" name="date" placeholder="Date" id="datepicker"
+                                        <input type="text" name="date" placeholder="Дата" id="datepicker"
                                             class="hasDatepicker">
                                         <div class="icon"><i class="fa-regular fa-calendar"></i></div>
                                     </div>
@@ -850,7 +894,7 @@
                                 <div class="col-xl-12">
                                     <div class="why-choose-one__form-distance">
                                         <div class="title">
-                                            <p>distance(Kilo):</p>
+                                            <p>відстань(км):</p>
                                         </div>
                                         <div class="why-choose-one__form-distance-inner">
                                             <div class="price-ranger">
@@ -879,23 +923,25 @@
                                     <div class="input-box">
                                         <div class="select-box">
                                             <select class="selectmenu wide" style="display: none;">
-                                                <option selected="selected">Freight Type</option>
-                                                <option>Freight Type 01</option>
-                                                <option>Freight Type 02</option>
-                                                <option>Freight Type 03</option>
-                                                <option>Freight Type 04</option>
-                                                <option>Freight Type 05</option>
+                                                <option selected="selected">Тип вантажу</option>
+                                                <option>Автомобільні перевезення</option>
+                                                <option>Морські вантажі</option>
+                                                <option>Авіаперевезення</option>
+                                                <option>Залізничні перевезення</option>
+                                                <option>Кур'єрська доставка</option>
                                             </select>
                                             <div class="nice-select selectmenu wide" tabindex="0"><span
-                                                    class="current">Freight Type</span>
+                                                    class="current">Тип вантажу</span>
                                                 <ul class="list">
-                                                    <li data-value="Freight Type" class="option selected">Freight Type
-                                                    </li>
-                                                    <li data-value="Freight Type 01" class="option">Freight Type 01</li>
-                                                    <li data-value="Freight Type 02" class="option">Freight Type 02</li>
-                                                    <li data-value="Freight Type 03" class="option">Freight Type 03</li>
-                                                    <li data-value="Freight Type 04" class="option">Freight Type 04</li>
-                                                    <li data-value="Freight Type 05" class="option">Freight Type 05</li>
+                                                    <li data-value="Тип вантажу" class="option selected">Тип вантажу</li>
+                                                    <li data-value="Автомобільні перевезення" class="option">Автомобільні
+                                                        перевезення</li>
+                                                    <li data-value="Морські вантажі" class="option">Морські вантажі</li>
+                                                    <li data-value="Авіаперевезення" class="option">Авіаперевезення</li>
+                                                    <li data-value="Залізничні перевезення" class="option">Залізничні
+                                                        перевезення</li>
+                                                    <li data-value="Кур'єрська доставка" class="option">Кур'єрська
+                                                        доставка</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -905,22 +951,27 @@
                                     <div class="input-box">
                                         <div class="select-box">
                                             <select class="selectmenu wide" style="display: none;">
-                                                <option selected="selected">Load</option>
-                                                <option>Freight Type 01</option>
-                                                <option>Freight Type 02</option>
-                                                <option>Freight Type 03</option>
-                                                <option>Freight Type 04</option>
-                                                <option>Freight Type 05</option>
+                                                <option selected="selected">Навантаження</option>
+                                                <option>Часткове навантаження</option>
+                                                <option>Повне навантаження</option>
+                                                <option>Негабаритний вантаж</option>
+                                                <option>Експрес доставка</option>
+                                                <option>Температурний режим</option>
                                             </select>
                                             <div class="nice-select selectmenu wide" tabindex="0"><span
-                                                    class="current">Load</span>
+                                                    class="current">Навантаження</span>
                                                 <ul class="list">
-                                                    <li data-value="Load" class="option selected">Load</li>
-                                                    <li data-value="Freight Type 01" class="option">Freight Type 01</li>
-                                                    <li data-value="Freight Type 02" class="option">Freight Type 02</li>
-                                                    <li data-value="Freight Type 03" class="option">Freight Type 03</li>
-                                                    <li data-value="Freight Type 04" class="option">Freight Type 04</li>
-                                                    <li data-value="Freight Type 05" class="option">Freight Type 05</li>
+                                                    <li data-value="Навантаження" class="option selected">Навантаження
+                                                    </li>
+                                                    <li data-value="Часткове навантаження" class="option">Часткове
+                                                        навантаження</li>
+                                                    <li data-value="Повне навантаження" class="option">Повне навантаження
+                                                    </li>
+                                                    <li data-value="Негабаритний вантаж" class="option">Негабаритний
+                                                        вантаж</li>
+                                                    <li data-value="Експрес доставка" class="option">Експрес доставка</li>
+                                                    <li data-value="Температурний режим" class="option">Температурний
+                                                        режим</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -930,7 +981,7 @@
                                 <div class="col-xl-12">
                                     <div class="why-choose-one__form-btn">
                                         <button type="submit" class="thm-btn">
-                                            Contact Us
+                                            Зв'яжіться з нами
                                             <i class="fa-solid fa-arrow-right"></i>
                                             <span class="hover-btn hover-bx"></span>
                                             <span class="hover-btn hover-bx2"></span>
@@ -981,16 +1032,16 @@
                 <div class="col-xl-7">
                     <div class="skill-one__content">
                         <div class="skill-one__content-text">
-                            <p>A logistic service provider company plays a pivotal role in the global supply chain
-                                ecosystem by efficiently managing the movement of goods from point of origin to
-                                final destination. These companies offer a diverse range.</p>
+                            <p>Логістична компанія відіграє ключову роль у глобальній екосистемі ланцюгів поставок,
+                                ефективно управляючи переміщенням товарів від місця походження до кінцевого пункту
+                                призначення. Ці компанії пропонують широкий спектр послуг.</p>
                         </div>
 
                         <ul class="skill-one__progress">
                             <li>
                                 <div class="skill-one__progress-single">
                                     <div class="title-box">
-                                        <p>Shipping</p>
+                                        <p>Доставка</p>
                                     </div>
 
                                     <div class="bar">
@@ -1004,7 +1055,7 @@
                             <li>
                                 <div class="skill-one__progress-single">
                                     <div class="title-box">
-                                        <p>Management</p>
+                                        <p>Управління</p>
                                     </div>
 
                                     <div class="bar">
@@ -1018,7 +1069,7 @@
                             <li>
                                 <div class="skill-one__progress-single">
                                     <div class="title-box">
-                                        <p>Warehousing</p>
+                                        <p>Складування</p>
                                     </div>
 
                                     <div class="bar">
@@ -1031,7 +1082,7 @@
                         </ul>
 
                         <div class="skill-one__content-btn">
-                            <a class="thm-btn" href="{{ route("contact") }}">Book Your Parcel
+                            <a class="thm-btn" href="{{ route('contact') }}">Забронювати посилку
                                 <i class="fa-solid fa-arrow-right"></i>
                                 <span class="hover-btn hover-bx"></span>
                                 <span class="hover-btn hover-bx2"></span>
@@ -1061,63 +1112,63 @@
                                 data-grp-name="faq-one-accrodion-1">
                                 <div class="accrodion">
                                     <div class="accrodion-title">
-                                        <h4>How do you handle returns or exchanges? <i class="fa-solid fa-chevron-right"
+                                        <h4>Як ви обробляєте повернення або обміни? <i class="fa-solid fa-chevron-right"
                                                 style="padding-left: 5px"></i>
                                         </h4>
                                     </div>
 
                                     <div class="accrodion-content" style="display: none;">
                                         <div class="inner">
-                                            <p>We help businesses bring ideas to life in the digital world designing
-                                                &amp; implementing the technology tools that they need to win. We help
-                                                business bring ideas to life in the digital wor</p>
+                                            <p>Ми допомагаємо бізнесу втілювати ідеї в життя у цифровому світі, розробляючи
+                                                та впроваджуючи технологічні інструменти, необхідні для перемоги. Ми
+                                                допомагаємо бізнесу втілювати ідеї в життя у цифровому світі</p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="accrodion active">
                                     <div class="accrodion-title">
-                                        <h4>What does business consulting do? <i class="fa-solid fa-chevron-right"
+                                        <h4>Що робить бізнес-консалтинг? <i class="fa-solid fa-chevron-right"
                                                 style="padding-left: 5px"></i></h4>
                                     </div>
 
                                     <div class="accrodion-content" style="">
                                         <div class="inner">
-                                            <p>We help businesses bring ideas to life in the digital world designing
-                                                &amp; implementing the technology tools that they need to win. We help
-                                                business bring ideas to life in the digital wor</p>
+                                            <p>Ми допомагаємо бізнесу втілювати ідеї в життя у цифровому світі, розробляючи
+                                                та впроваджуючи технологічні інструменти, необхідні для перемоги. Ми
+                                                допомагаємо бізнесу втілювати ідеї в життя у цифровому світі</p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="accrodion">
                                     <div class="accrodion-title">
-                                        <h4>Can I cancel a shipment after it's been booked?<i
+                                        <h4>Чи можу я скасувати відправлення після бронювання?<i
                                                 class="fa-solid fa-chevron-right" style="padding-left: 5px"></i>
                                         </h4>
                                     </div>
 
                                     <div class="accrodion-content" style="display: none;">
                                         <div class="inner">
-                                            <p>We help businesses bring ideas to life in the digital world designing
-                                                &amp; implementing the technology tools that they need to win. We help
-                                                business bring ideas to life in the digital wor</p>
+                                            <p>Ми допомагаємо бізнесу втілювати ідеї в життя у цифровому світі, розробляючи
+                                                та впроваджуючи технологічні інструменти, необхідні для перемоги. Ми
+                                                допомагаємо бізнесу втілювати ідеї в життя у цифровому світі</p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="accrodion">
                                     <div class="accrodion-title">
-                                        <h4>Can you assist with customs clearance procedures?<i
+                                        <h4>Чи можете ви допомогти з митним оформленням?<i
                                                 class="fa-solid fa-chevron-right" style="padding-left: 5px"></i>
                                         </h4>
                                     </div>
 
                                     <div class="accrodion-content" style="display: none;">
                                         <div class="inner">
-                                            <p>We help businesses bring ideas to life in the digital world designing
-                                                &amp; implementing the technology tools that they need to win. We help
-                                                business bring ideas to life in the digital wor</p>
+                                            <p>Ми допомагаємо бізнесу втілювати ідеї в життя у цифровому світі, розробляючи
+                                                та впроваджуючи технологічні інструменти, необхідні для перемоги. Ми
+                                                допомагаємо бізнесу втілювати ідеї в життя у цифровому світі</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1147,64 +1198,64 @@
                         class="js-marquee-wrapper">
                         <div class="js-marquee" style="margin-right: 0px; float: left;">
                             <li>
-                                <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
-                                    TRANSPORT
+                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
+                                    ТРАНСПОРТ
                                     <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
                                 </h2>
                             </li>
                             <li>
-                                <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
-                                    TRANSPORT
+                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
+                                    ТРАНСПОРТ
                                     <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
                                 </h2>
                             </li>
                             <li>
-                                <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
-                                    TRANSPORT
+                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
+                                    ТРАНСПОРТ
                                     <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
                                 </h2>
                             </li>
                             <li>
-                                <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
-                                    TRANSPORT
+                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
+                                    ТРАНСПОРТ
                                     <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
                                 </h2>
                             </li>
                             <li>
-                                <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
-                                    TRANSPORT
+                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
+                                    ТРАНСПОРТ
                                     <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
                                 </h2>
                             </li>
                         </div>
                         <div class="js-marquee" style="margin-right: 0px; float: left;">
                             <li>
-                                <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
-                                    TRANSPORT
+                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
+                                    ТРАНСПОРТ
                                     <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
                                 </h2>
                             </li>
                             <li>
-                                <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
-                                    TRANSPORT
+                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
+                                    ТРАНСПОРТ
                                     <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
                                 </h2>
                             </li>
                             <li>
-                                <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
-                                    TRANSPORT
+                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
+                                    ТРАНСПОРТ
                                     <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
                                 </h2>
                             </li>
                             <li>
-                                <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
-                                    TRANSPORT
+                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
+                                    ТРАНСПОРТ
                                     <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
                                 </h2>
                             </li>
                             <li>
-                                <h2 data-hover="100% TRUSTED TRANSPORT" class="sliding-text__title">100% TRUSTED
-                                    TRANSPORT
+                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
+                                    ТРАНСПОРТ
                                     <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
                                 </h2>
                             </li>
@@ -1230,11 +1281,11 @@
                 <div class="shape2"><img src="{{ asset('images/cta-v1-shape2.png') }}" alt=""></div>
                 <div class="shape3"><img src="{{ asset('images/cta-v1-shape3.png') }}" alt=""></div>
                 <div class="cta-one__content">
-                    <h2>Recognized as One of The <br> Leading <span>Company!</span></h2>
-                    <p>Logistic service provider company plays a pivotal <br>
-                        role in the global supply chain ecosystem.</p>
+                    <h2>Визнана як одна з <br> провідних <span>компаній!</span></h2>
+                    <p>Логістична компанія відіграє ключову роль <br>
+                        у глобальній екосистемі ланцюгів поставок.</p>
                     <div class="btn-box">
-                        <a class="thm-btn" href="#">Book Your Parcel
+                        <a class="thm-btn" href="#">Забронювати посилку
                             <i class="fa-solid fa-arrow-right"></i>
                             <span class="hover-btn hover-bx"></span>
                             <span class="hover-btn hover-bx2"></span>
@@ -1263,7 +1314,7 @@
                                     <span class="plus">+</span>
                                 </div>
                                 <div class="text-box">
-                                    <p>Distribution Center</p>
+                                    <p>Розподільчих центрів</p>
                                 </div>
                             </div>
                         </div>
@@ -1283,7 +1334,7 @@
                                     <span class="plus">+</span>
                                 </div>
                                 <div class="text-box">
-                                    <p>Countries &amp; Regions</p>
+                                    <p>Країн та регіонів</p>
                                 </div>
                             </div>
                         </div>
@@ -1303,7 +1354,7 @@
                                     <span class="plus">+</span>
                                 </div>
                                 <div class="text-box">
-                                    <p>Years Of Expirence</p>
+                                    <p>Років досвіду</p>
                                 </div>
                             </div>
                         </div>
@@ -1332,7 +1383,7 @@
                         <div class="blog-one__single-content">
                             <div class="date-box">
                                 <h2>05</h2>
-                                <p>FEB</p>
+                                <p>ЛЮТ</p>
                             </div>
                             <div class="blog-one__single-content-inner">
                                 <ul class="meta-box">
@@ -1342,7 +1393,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p><a href="#">Robert Fox</a></p>
+                                            <p><a href="#">Роберт Фокс</a></p>
                                         </div>
                                     </li>
 
@@ -1352,19 +1403,19 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p><a href="#">2 Comment</a></p>
+                                            <p><a href="#">2 коментарі</a></p>
                                         </div>
                                     </li>
                                 </ul>
 
-                                <h2><a href="#">How Will You Know Success
-                                        <br> When it Show Up?</a>
+                                <h2><a href="#">Як ви дізнаєтеся про успіх,
+                                        <br> коли він з'явиться?</a>
                                 </h2>
-                                <p>Logistic service provider company plays a pivotal role in the global supply chain
-                                    ecosystem by efficiently... </p>
+                                <p>Логістична компанія відіграє ключову роль у глобальній екосистемі ланцюгів поставок,
+                                    ефективно... </p>
 
                                 <div class="btn-box">
-                                    <a class="thm-btn" href="#">Read More
+                                    <a class="thm-btn" href="#">Читати далі
                                         <i class="fa-solid fa-arrow-right"></i>
                                         <span class="hover-btn hover-bx"></span>
                                         <span class="hover-btn hover-bx2"></span>
@@ -1389,7 +1440,7 @@
                         <div class="blog-one__single-content">
                             <div class="date-box">
                                 <h2>05</h2>
-                                <p>FEB</p>
+                                <p>ЛЮТ</p>
                             </div>
                             <div class="blog-one__single-content-inner">
                                 <ul class="meta-box">
@@ -1399,7 +1450,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p><a href="#">Robert Fox</a></p>
+                                            <p><a href="#">Роберт Фокс</a></p>
                                         </div>
                                     </li>
 
@@ -1409,19 +1460,19 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p><a href="#">2 Comment</a></p>
+                                            <p><a href="#">2 коментарі</a></p>
                                         </div>
                                     </li>
                                 </ul>
 
-                                <h2><a href="#">Mastering Last Mile Delivery
-                                        <br> Strategies for
-                                        Success</a></h2>
-                                <p>Logistic service provider company plays a pivotal role in the global supply chain
-                                    ecosystem by efficiently... </p>
+                                <h2><a href="#">Оволодіння стратегіями доставки
+                                        <br> останньої милі для
+                                        успіху</a></h2>
+                                <p>Логістична компанія відіграє ключову роль у глобальній екосистемі ланцюгів поставок,
+                                    ефективно... </p>
 
                                 <div class="btn-box">
-                                    <a class="thm-btn" href="#">Read More
+                                    <a class="thm-btn" href="#">Читати далі
                                         <i class="fa-solid fa-arrow-right"></i>
                                         <span class="hover-btn hover-bx"></span>
                                         <span class="hover-btn hover-bx2"></span>
@@ -1444,7 +1495,7 @@
                         <div class="blog-one__single-content">
                             <div class="date-box">
                                 <h2>05</h2>
-                                <p>FEB</p>
+                                <p>ЛЮТ</p>
                             </div>
                             <div class="blog-one__single-content-inner">
                                 <ul class="meta-box">
@@ -1454,7 +1505,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p><a href="#">Robert Fox</a></p>
+                                            <p><a href="#">Роберт Фокс</a></p>
                                         </div>
                                     </li>
 
@@ -1464,19 +1515,19 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p><a href="#">2 Comment</a></p>
+                                            <p><a href="#">2 коментарі</a></p>
                                         </div>
                                     </li>
                                 </ul>
 
-                                <h2><a href="#">Logistics Announces Launch
-                                        <br> of Greenhouse
-                                        Gas</a></h2>
-                                <p>Logistic service provider company plays a pivotal role in the global supply chain
-                                    ecosystem by efficiently... </p>
+                                <h2><a href="#">Логістика оголошує запуск
+                                        <br> програми зі зменшення
+                                        парникових газів</a></h2>
+                                <p>Логістична компанія відіграє ключову роль у глобальній екосистемі ланцюгів поставок,
+                                    ефективно... </p>
 
                                 <div class="btn-box">
-                                    <a class="thm-btn" href="#">Read More
+                                    <a class="thm-btn" href="#">Читати далі
                                         <i class="fa-solid fa-arrow-right"></i>
                                         <span class="hover-btn hover-bx"></span>
                                         <span class="hover-btn hover-bx2"></span>

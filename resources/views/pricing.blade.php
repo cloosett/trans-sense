@@ -7,11 +7,11 @@
         <div class="page-header__pattern"><img src="{{ asset('images/page-header-bg.jpg') }}" alt=""></div>
         <div class="container">
             <div class="page-header__inner">
-                <h2>Pricing Plan</h2>
+                <h2>Тарифні плани</h2>
                 <div class="page-header__breadcrumb">
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="{{ route('welcome') }}">Home</a></li>
-                        <li>Pricing</li>
+                        <li><a href="{{ route('welcome') }}">Головна</a></li>
+                        <li>Тарифи</li>
                     </ul>
                 </div>
             </div>
@@ -32,8 +32,8 @@
                                     <img src="{{ asset('images/truck.jpg') }}" alt="">
                                 </div>
                                 <div class="title-box">
-                                    <h2>Road Cargo</h2>
-                                    <h3>$99 <span>/50kg</span></h3>
+                                    <h2>Автомобільні вантажі</h2>
+                                    <h3>$99 <span>/50кг</span></h3>
                                 </div>
                             </div>
 
@@ -45,7 +45,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Pickup and delivery</p>
+                                            <p>Забір та доставка</p>
                                         </div>
                                     </li>
 
@@ -55,7 +55,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Custom coverage</p>
+                                            <p>Митне оформлення</p>
                                         </div>
                                     </li>
 
@@ -65,7 +65,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Customer Management</p>
+                                            <p>Управління клієнтами</p>
                                         </div>
                                     </li>
 
@@ -75,7 +75,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Deliver in 2-3 days</p>
+                                            <p>Доставка за 2-3 дні</p>
                                         </div>
                                     </li>
 
@@ -85,7 +85,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p>24 Hours Support</p>
+                                            <p>Підтримка 24/7</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -93,7 +93,7 @@
 
                             <div class="table-footer">
                                 <div class="btn-box">
-                                    <a class="thm-btn" href="#">Choose Plan
+                                    <a class="thm-btn" href="#">Обрати план
                                         <i class="fas fa-arrow-right"></i>
                                         <span class="hover-btn hover-bx"></span>
                                         <span class="hover-btn hover-bx2"></span>
@@ -117,8 +117,8 @@
                                     <img src="{{ asset('images/truck.jpg') }}" alt="">
                                 </div>
                                 <div class="title-box">
-                                    <h2>Sea Freight</h2>
-                                    <h3>$199 <span>/50kg</span></h3>
+                                    <h2>Морські вантажі</h2>
+                                    <h3>$199 <span>/50кг</span></h3>
                                 </div>
                             </div>
 
@@ -130,7 +130,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Pickup and delivery</p>
+                                            <p>Забір та доставка</p>
                                         </div>
                                     </li>
 
@@ -140,7 +140,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Custom coverage</p>
+                                            <p>Митне оформлення</p>
                                         </div>
                                     </li>
 
@@ -150,7 +150,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Customer Management</p>
+                                            <p>Управління клієнтами</p>
                                         </div>
                                     </li>
 
@@ -160,7 +160,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Deliver in 2-3 days</p>
+                                            <p>Доставка за 2-3 дні</p>
                                         </div>
                                     </li>
 
@@ -170,7 +170,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p>24 Hours Support</p>
+                                            <p>Підтримка 24/7</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -178,7 +178,7 @@
 
                             <div class="table-footer">
                                 <div class="btn-box">
-                                    <a class="thm-btn" href="#">Choose Plan
+                                    <a class="thm-btn" href="#">Обрати план
                                         <i class="fas fa-arrow-right"></i>
                                         <span class="hover-btn hover-bx"></span>
                                         <span class="hover-btn hover-bx2"></span>
@@ -202,8 +202,8 @@
                                     <img src="{{ asset('images/truck.jpg') }}" alt="">
                                 </div>
                                 <div class="title-box">
-                                    <h2>Ship Cargo</h2>
-                                    <h3>$250 <span>/100kg</span></h3>
+                                    <h2>Корабельні вантажі</h2>
+                                    <h3>$250 <span>/100кг</span></h3>
                                 </div>
                             </div>
 
@@ -215,7 +215,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Pickup and delivery</p>
+                                            <p>Забір та доставка</p>
                                         </div>
                                     </li>
 
@@ -225,7 +225,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Custom coverage</p>
+                                            <p>Митне оформлення</p>
                                         </div>
                                     </li>
 
@@ -235,7 +235,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Customer Management</p>
+                                            <p>Управління клієнтами</p>
                                         </div>
                                     </li>
 
@@ -245,7 +245,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p>Deliver in 2-3 days</p>
+                                            <p>Доставка за 2-3 дні</p>
                                         </div>
                                     </li>
 
@@ -255,7 +255,7 @@
                                         </div>
 
                                         <div class="text-box">
-                                            <p>24 Hours Support</p>
+                                            <p>Підтримка 24/7</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -263,7 +263,7 @@
 
                             <div class="table-footer">
                                 <div class="btn-box">
-                                    <a class="thm-btn" href="#">Choose Plan
+                                    <a class="thm-btn" href="#">Обрати план
                                         <i class="fas fa-arrow-right"></i>
                                         <span class="hover-btn hover-bx"></span>
                                         <span class="hover-btn hover-bx2"></span>
@@ -319,7 +319,7 @@
                         </div>
                         <div class="owl-item cloned" style="width: 220px;">
                             <div class="brand-one__single">
-                            т    <div class="brand-one__single-inner">
+                                <div class="brand-one__single-inner">
                                     <a href="#"><img src="{{ asset('images/brand-v1-img5.png') }}"
                                             alt=""></a>
                                 </div>
