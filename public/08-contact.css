@@ -14,7 +14,7 @@ Contact Page
     position: relative;
     display: block;
     padding: 120px 0px 245px;
-    background: var(--logistiq-gray-bg);
+    background: var(--trans-sense-gray-bg);
     z-index: 1;
 }
 
@@ -64,8 +64,8 @@ Contact Page
     justify-content: center;
     width: 35px;
     height: 35px;
-    border: 1px solid rgba(var(--logistiq-gray-rgb), 0.1);
-    color: var(--logistiq-black);
+    border: 1px solid rgba(var(--trans-sense-gray-rgb), 0.1);
+    color: var(--trans-sense-black);
 }
 
 .contact-page__top-content .social-links a+a {
@@ -73,8 +73,8 @@ Contact Page
 }
 
 .contact-page__top-content .social-links a:hover {
-    color: var(--logistiq-white);
-    background: var(--logistiq-base);
+    color: var(--trans-sense-white);
+    background: var(--trans-sense-base);
 }
 
 .contact-page__top-content .social-links a span {
@@ -104,15 +104,15 @@ Contact Page
     height: 50px;
     width: 100%;
     background-color: transparent;
-    border: 1px solid rgba(var(--logistiq-black-rgb), .10);
+    border: 1px solid rgba(var(--trans-sense-black-rgb), .10);
     padding-left: 20px;
     padding-right: 40px;
     outline: none;
     font-size: 14px;
     font-weight: 400;
-    color: var(--logistiq-gray);
+    color: var(--trans-sense-gray);
     border-radius: 2px;
-    font-family: var(--logistiq-font);
+    font-family: var(--trans-sense-font);
     width: 100%;
     height: 120px;
     padding-top: 11px;
@@ -136,7 +136,7 @@ Contact Page
 .contact-page__bottom-inner {
     position: relative;
     display: block;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     padding: 50px 0px 42px;
     border-radius: 3px;
 }
@@ -190,7 +190,7 @@ Contact Page
 .contact-page__bottom-single .icon span {
     position: relative;
     display: block;
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
     font-size: 50px;
     line-height: 50px;
     transition-delay: 0.1s;
@@ -220,11 +220,11 @@ Contact Page
 }
 
 .contact-page__bottom-single .content p a {
-    color: var(--logistiq-gray);
+    color: var(--trans-sense-gray);
 }
 
 .contact-page__bottom-single .content p a:hover {
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
 }
 
 

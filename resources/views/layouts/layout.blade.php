@@ -5,13 +5,13 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Головна || Logistiq || Шаблон Laravel Logistiq</title>
+    <title>Головна || TransSense || Транспортна компанія</title>
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/favicons/apple-touch-icon.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/favicons/favicon-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/favicons/favicon-16x16.png') }}">
     <link rel="manifest" href="{{ asset('images/favicons/site.webmanifest') }}">
-    <meta name="description" content="Logistiq Laravel Template">
+    <meta name="description" content="TransSense - Транспортна компанія">
 
     <!-- Fonts -->
     <link href="{{ asset('css2.css') }}" rel="stylesheet">
@@ -57,7 +57,7 @@
                                         <div class="main-header-one__bottom-left">
                                             <div class="logo-box">
                                                 <a href="{{ route('welcome') }}"><img
-                                                        src="{{ asset('images/logo-1.png') }}" alt="Logistiq"></a>
+                                                        src="{{ asset('images/logo-1.png') }}" alt="TransSense"></a>
                                             </div>
 
                                             <div class="main-header-one__bottom-menu">
@@ -385,7 +385,7 @@
 
                     <div class="footer-one__bottom-inner">
                         <div class="footer-one__bottom-text">
-                            <p>© Copyright 2025 <a href="{{ route('welcome') }}">Logistiq.</a> Усі права захищені
+                            <p>© Copyright 2025 <a href="{{ route('welcome') }}">TransSense.</a> Усі права захищені
                             </p>
                         </div>
 
@@ -437,7 +437,7 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@logistiq.com">needhelp@logistiq.com</a>
+                    <a href="mailto:info@trans-sense.com">info@trans-sense.com</a>
                 </li>
                 <li>
                     <i class="icon-phone"></i>

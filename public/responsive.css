@@ -3242,7 +3242,7 @@
     }
 
     .main-header-two {
-        background: var(--logistiq-base);
+        background: var(--trans-sense-base);
         padding: 25px 0px 25px;
     }
 
@@ -3264,7 +3264,7 @@
     }
 
     .main-header-two .main-menu .mobile-nav__toggler:hover {
-        color: var(--logistiq-black);
+        color: var(--trans-sense-black);
     }
 
     .main-header-one__bottom-left .logo-box::before {
@@ -3286,11 +3286,11 @@
     }
 
     .main-header-three .main-menu .mobile-nav__toggler {
-        color: var(--logistiq-black);
+        color: var(--trans-sense-black);
     }
 
     .main-header-three .main-menu .mobile-nav__toggler:hover {
-        color: var(--logistiq-base);
+        color: var(--trans-sense-base);
     }
 
     .main-header-three__bottom-inner {
@@ -3355,7 +3355,7 @@
     }
 
     .main-header-two {
-        background: var(--logistiq-base);
+        background: var(--trans-sense-base);
         padding: 25px 0px 25px;
     }
 
@@ -3377,7 +3377,7 @@
     }
 
     .main-header-two .main-menu .mobile-nav__toggler:hover {
-        color: var(--logistiq-black);
+        color: var(--trans-sense-black);
     }
 
     .main-header-one__bottom-left .logo-box::before {
@@ -3399,11 +3399,11 @@
     }
 
     .main-header-three .main-menu .mobile-nav__toggler {
-        color: var(--logistiq-black);
+        color: var(--trans-sense-black);
     }
 
     .main-header-three .main-menu .mobile-nav__toggler:hover {
-        color: var(--logistiq-base);
+        color: var(--trans-sense-base);
     }
 
     .main-header-three__bottom-inner {
@@ -3415,7 +3415,6 @@
         padding-right: 30px;
         max-width: 100%;
     }
-
 
 
 
@@ -3475,7 +3474,7 @@
     }
 
     .main-header-two {
-        background: var(--logistiq-base);
+        background: var(--trans-sense-base);
         padding: 25px 0px 25px;
     }
 
@@ -3497,7 +3496,7 @@
     }
 
     .main-header-two .main-menu .mobile-nav__toggler:hover {
-        color: var(--logistiq-black);
+        color: var(--trans-sense-black);
     }
 
     .main-header-one__bottom-left .logo-box::before {
@@ -3523,11 +3522,11 @@
     }
 
     .main-header-three .main-menu .mobile-nav__toggler {
-        color: var(--logistiq-black);
+        color: var(--trans-sense-black);
     }
 
     .main-header-three .main-menu .mobile-nav__toggler:hover {
-        color: var(--logistiq-base);
+        color: var(--trans-sense-base);
     }
 
     .main-header-three__bottom-inner {

@@ -6,7 +6,7 @@ About One
 .about-one {
     position: relative;
     display: block;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     padding: 120px 0px 120px;
     z-index: 1;
 }
@@ -35,10 +35,10 @@ About One
 .about-one__content-text2-single {
     position: relative;
     display: block;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     -webkit-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.08);
     box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.08);
-    border-left: 2px solid var(--logistiq-base);
+    border-left: 2px solid var(--trans-sense-base);
     padding: 25px 25px 21px;
     margin-bottom: 30px;
 }
@@ -69,7 +69,7 @@ About One
 .about-one__content-text2-single-top .icon span::before {
     position: relative;
     display: inline-block;
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
     font-size: 30px;
     line-height: 30px;
     transition-delay: 0.1s;
@@ -127,7 +127,7 @@ About One
     justify-content: center;
     width: 40px;
     height: 40px;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     -webkit-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.08);
     box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.08);
     border-radius: 50%;
@@ -136,7 +136,7 @@ About One
 .about-one__content-bottom .contact-box .icon span::before {
     position: relative;
     display: inline-block;
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
     font-size: 15px;
     line-height: 15px;
 }
@@ -150,7 +150,7 @@ About One
 
 .about-one__content-bottom .contact-box .text-box p {
     font-size: 16px;
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
 }
 
 .about-one__content-bottom .contact-box .text-box h4 {
@@ -160,11 +160,11 @@ About One
 }
 
 .about-one__content-bottom .contact-box .text-box h4 a {
-    color: var(--logistiq-black);
+    color: var(--trans-sense-black);
 }
 
 .about-one__content-bottom .contact-box .text-box h4 a:hover {
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
 }
 
 .about-one__img {
@@ -219,7 +219,7 @@ About One
     left: -10px;
     bottom: 0px;
     right: 0px;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     content: "";
     z-index: -1;
 }
@@ -231,7 +231,7 @@ About One
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-color: var(--logistiq-base);
+    background-color: var(--trans-sense-base);
     z-index: 5;
 }
 
@@ -248,7 +248,7 @@ About One
     left: 0px;
     bottom: 0;
     right: 0;
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -265,7 +265,7 @@ About One
     left: 30px;
     bottom: 30px;
     right: 30px;
-    background-color: var(--logistiq-white);
+    background-color: var(--trans-sense-white);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -275,7 +275,7 @@ About One
 .about-one__round-text-box .overlay-icon-box a {
     position: relative;
     display: inline-block;
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
     font-size: 40px;
 }
 
@@ -302,7 +302,7 @@ About Two
 .about-two {
     position: relative;
     display: block;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     padding: 120px 0px 138px;
     z-index: 1;
 }
@@ -358,7 +358,7 @@ About Two
     bottom: -10px;
     right: -10px;
     z-index: -10px;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     content: "";
     z-index: -1;
 }
@@ -377,7 +377,7 @@ About Two
     position: absolute;
     top: 60px;
     right: -40px;
-    background: var(--logistiq-base);
+    background: var(--trans-sense-base);
     padding: 25px 20px 29px;
     z-index: 5;
 }
@@ -409,7 +409,7 @@ About Two
 }
 
 .about-two__counter .count-text-box h2 {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
     font-size: 36px;
     line-height: 45px;
     font-weight: 700;
@@ -418,14 +418,14 @@ About Two
 .about-two__counter .count-text-box .plus {
     position: relative;
     display: inline-block;
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
     font-size: 30px;
     font-weight: 700;
     margin-left: 2px;
 }
 
 .about-two__counter p {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
     font-size: 16px;
     line-height: 22px;
     font-weight: 700;
@@ -479,14 +479,14 @@ About Two
 }
 
 .about-two__content-text2-list li p {
-    color: var(--logistiq-black);
+    color: var(--trans-sense-black);
     margin: 0;
 }
 
 .about-two__content-text2-list li p span {
     position: relative;
     display: inline-block;
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
     font-size: 15px;
     line-height: 15px;
     margin-right: 4px;
@@ -540,7 +540,7 @@ About Two
 }
 
 .about-two__content-bottom .author-info .text-box p {
-    color: var(--logistiq-black);
+    color: var(--trans-sense-black);
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -555,7 +555,7 @@ About Three
 .about-three {
     position: relative;
     display: block;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     padding: 120px 0px 120px;
     z-index: 1;
 }
@@ -578,7 +578,7 @@ About Three
     left: -15px;
     bottom: 0;
     width: 10px;
-    background: var(--logistiq-base);
+    background: var(--trans-sense-base);
     content: "";
 }
 
@@ -618,7 +618,7 @@ About Three
     display: block;
     padding: 43px 35px 42px;
     margin-bottom: 16px;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.08);
     box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.08);
     margin-left: -60px;
@@ -633,7 +633,7 @@ About Three
     left: 0;
     bottom: 0;
     width: 5px;
-    background: var(--logistiq-base);
+    background: var(--trans-sense-base);
     content: "";
 }
 
@@ -657,7 +657,7 @@ About Three
 .about-three__experience-box .count-number span {
     position: relative;
     display: inline-block;
-    color: var(--logistiq-black);
+    color: var(--trans-sense-black);
     font-size: 50px;
     line-height: 1em;
     font-weight: 700;
@@ -705,7 +705,7 @@ About Three
     position: relative;
     display: flex;
     align-items: center;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.07);
     box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.07);
     border-radius: 5px;
@@ -719,7 +719,7 @@ About Three
     left: 0;
     bottom: 0;
     width: 2px;
-    background: var(--logistiq-base);
+    background: var(--trans-sense-base);
     content: "";
 }
 
@@ -734,14 +734,14 @@ About Three
     justify-content: center;
     width: 55px;
     height: 55px;
-    background: var(--logistiq-base);
+    background: var(--trans-sense-base);
     border-radius: 5px;
 }
 
 .about-three__content-list ul li .icon span {
     position: relative;
     display: inline-block;
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
     font-size: 30px;
     line-height: 30px;
     transition-delay: 0.1s;

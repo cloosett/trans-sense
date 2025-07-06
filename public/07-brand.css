@@ -6,7 +6,7 @@ Brand One
 .brand-one {
     position: relative;
     display: block;
-    background: var(--logistiq-gray-bg);
+    background: var(--trans-sense-gray-bg);
     padding: 60px 0px 60px;
     z-index: 2;
 }
@@ -31,7 +31,7 @@ Brand One
     left: 0;
     bottom: 0;
     right: 0;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     transform: scaleX(0);
     transition: all 600ms ease 100ms;
     content: "";

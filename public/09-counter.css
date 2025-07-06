@@ -6,7 +6,7 @@ Counter One
 .counter-one {
     position: relative;
     display: block;
-    background: var(--logistiq-gray-bg);
+    background: var(--trans-sense-gray-bg);
     padding: 110px 0px 112px;
     z-index: 1;
 }
@@ -56,7 +56,7 @@ Counter One
 .counter-one__single-inner .icon span::before {
     position: relative;
     display: inline-block;
-    color: var(--logistiq-black);
+    color: var(--trans-sense-black);
     font-size: 70px;
     line-height: 70px;
     transition: all 200ms linear;
@@ -64,7 +64,7 @@ Counter One
 }
 
 .counter-one__single:hover .counter-one__single-inner .icon span::before {
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
 }
 
 .counter-one__single-inner .content-box {
@@ -100,7 +100,7 @@ Counter One
 .counter-one__single-inner .content-box .count-text-box .plus {
     position: relative;
     display: inline-block;
-    color: var(--logistiq-black);
+    color: var(--trans-sense-black);
     font-size: 43px;
     margin-left: 9px;
     top: 3px;
@@ -114,7 +114,7 @@ Counter One
 }
 
 .counter-one__single-inner .content-box .text-box p {
-    color: var(--logistiq-black);
+    color: var(--trans-sense-black);
     font-size: 16px;
     line-height: 26px;
     font-weight: 700;
@@ -127,7 +127,7 @@ Counter One
     top: 10px;
     right: 20px;
     width: 20px;
-    border-top: 20px solid var(--logistiq-black);
+    border-top: 20px solid var(--trans-sense-black);
     border-left: 20px solid transparent;
     border-right: 0px solid transparent;
     transition: all 200ms linear;
@@ -135,7 +135,7 @@ Counter One
 }
 
 .counter-one__single:hover .shape1 {
-    border-top: 20px solid var(--logistiq-base);
+    border-top: 20px solid var(--trans-sense-base);
     border-left: 20px solid transparent;
     border-right: 0px solid transparent;
 }
@@ -148,7 +148,7 @@ Counter Two
 .counter-one--two {
     position: relative;
     display: block;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.05);
     box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.05);
     padding: 73px 0px 80px;
@@ -213,7 +213,7 @@ Counter Two
 }
 
 .counter-one--two .counter-one__single:hover::before {
-    background: var(--logistiq-base);
+    background: var(--trans-sense-base);
 }
 
 .counter-one--two .counter-one__single-inner .content-box {
@@ -237,7 +237,7 @@ Counter Two
 }
 
 .counter-one--two .counter-one__single:hover .counter-one__single-inner .content-box .count-text-box .plus {
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
 }
 
 .counter-one--two .counter-one__single-inner .content-box .count-text-box h3 {
@@ -247,7 +247,7 @@ Counter Two
 }
 
 .counter-one--two .counter-one__single:hover .counter-one__single-inner .content-box .count-text-box h3 {
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
 }
 
 .counter-one--two .counter-one__single-inner .content-box .text-box p {
@@ -290,34 +290,34 @@ Counter Three
     left: 0;
     bottom: 0;
     right: 50px;
-    background: var(--logistiq-black);
+    background: var(--trans-sense-black);
     clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
     content: "";
     z-index: -1;
 }
 
 .counter-one--three .counter-one__single-inner .icon span::before {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
 }
 
 .counter-one--three .counter-one__single:hover .counter-one__single-inner .icon span::before {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
 }
 
 .counter-one--three .counter-one__single-inner .icon::before {
-    border-bottom: 90px solid rgba(var(--logistiq-white-rgb), 0.10);
+    border-bottom: 90px solid rgba(var(--trans-sense-white-rgb), 0.10);
 }
 
 .counter-one--three .counter-one__single-inner .content-box::before {
-    background: rgba(var(--logistiq-white-rgb), 0.15);
+    background: rgba(var(--trans-sense-white-rgb), 0.15);
 }
 
 .counter-one--three .counter-one__single-inner .content-box .count-text-box h3 {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
 }
 
 .counter-one--three .counter-one__single-inner .content-box .text-box p {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
 }
 
 .counter-one--three .counter-one__single .shape1 {

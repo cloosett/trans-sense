@@ -6,7 +6,7 @@ Pricing One
 .pricing-one {
     position: relative;
     display: block;
-    background: var(--logistiq-gray-bg);
+    background: var(--trans-sense-gray-bg);
     padding: 120px 0px 210px;
     z-index: 1;
 }
@@ -27,7 +27,7 @@ Pricing One
 .pricing-one__single {
     position: relative;
     display: block;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     padding: 15px 15px 15px;
     margin-bottom: 30px;
 }
@@ -35,7 +35,7 @@ Pricing One
 .pricing-one__single-inner {
     position: relative;
     display: block;
-    background: var(--logistiq-gray-bg);
+    background: var(--trans-sense-gray-bg);
     padding: 45px 50px 45px;
 }
 
@@ -63,7 +63,7 @@ Pricing One
     transition-timing-function: ease-in-out;
     transition-duration: .7s;
     transition-property: all;
-    background: rgba(var(--logistiq-black-rgb), 0.5);
+    background: rgba(var(--trans-sense-black-rgb), 0.5);
     opacity: 0;
     z-index: 1;
     content: "";
@@ -97,7 +97,7 @@ Pricing One
 }
 
 .pricing-one__single-inner .table-header .title-box h3 {
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
     font-size: 24px;
     line-height: 24px;
     font-weight: 700;
@@ -106,7 +106,7 @@ Pricing One
 .pricing-one__single-inner .table-header .title-box h3 span {
     position: relative;
     display: inline-block;
-    color: var(--logistiq-black);
+    color: var(--trans-sense-black);
     font-size: 14px;
     font-weight: 700;
     margin-left: -3px;
@@ -141,7 +141,7 @@ Pricing One
 .pricing-one__single-inner .table-content ul li .icon span {
     position: relative;
     display: inline-block;
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
     font-size: 15px;
     line-height: 15px;
 }
@@ -188,9 +188,9 @@ Brand One Pricing
 .brand-one--pricing {
     position: relative;
     display: block;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
 }
 
 .brand-one--pricing .brand-one__single-inner::before {
-    background: var(--logistiq-gray-bg);
+    background: var(--trans-sense-gray-bg);
 }

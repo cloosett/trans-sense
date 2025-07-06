@@ -15,7 +15,7 @@ Cta One
     bottom: 0;
     right: 0;
     height: 200px;
-    background: var(--logistiq-gray-bg);
+    background: var(--trans-sense-gray-bg);
     content: "";
     z-index: -1;
 }
@@ -23,7 +23,7 @@ Cta One
 .cta-one__inner {
     position: relative;
     display: block;
-    background: var(--logistiq-black);
+    background: var(--trans-sense-black);
     padding: 65px 95px 75px;
     border-radius: 3px;
     z-index: 1;
@@ -70,7 +70,7 @@ Cta One
 }
 
 .cta-one__content h2 {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
     font-size: 42px;
     line-height: 1.2em;
     font-weight: 700;
@@ -78,11 +78,11 @@ Cta One
 }
 
 .cta-one__content h2 span {
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
 }
 
 .cta-one__content p {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
 }
 
 .cta-one__content .btn-box {
@@ -93,9 +93,9 @@ Cta One
 }
 
 .cta-one__content .btn-box .hover-btn {
-    background-color: var(--logistiq-white);
+    background-color: var(--trans-sense-white);
 }
 
 .cta-one__content .btn-box .thm-btn:hover {
-    color: var(--logistiq-black);
+    color: var(--trans-sense-black);
 }

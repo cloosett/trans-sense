@@ -6,7 +6,7 @@ Skill One
 .skill-one {
     position: relative;
     display: block;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     padding: 120px 0px 120px;
     z-index: 1;
 }
@@ -83,7 +83,7 @@ Skill One
     left: -10px;
     bottom: 0px;
     right: 0px;
-    background: var(--logistiq-base);
+    background: var(--trans-sense-base);
     content: "";
     z-index: -1;
 }
@@ -170,7 +170,7 @@ Skill One
 }
 
 .skill-one__progress-single .title-box p {
-    color: var(--logistiq-black);
+    color: var(--trans-sense-black);
     font-size: 16px;
     line-height: 26px;
     font-weight: 700;
@@ -190,7 +190,7 @@ Skill One
     width: 0px;
     height: 3px;
     border-radius: 0px;
-    background-color: var(--logistiq-base);
+    background-color: var(--trans-sense-base);
     -webkit-transition: all 1500ms ease;
     -ms-transition: all 1500ms ease;
     -o-transition: all 1500ms ease;
@@ -205,14 +205,14 @@ Skill One
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
     font-size: 16px;
     line-height: 26px;
     font-weight: 700;
     text-align: center;
     width: 60px;
     height: 30px;
-    background: var(--logistiq-base);
+    background: var(--trans-sense-base);
     opacity: 0;
     -webkit-transition: all 500ms ease;
     -ms-transition: all 500ms ease;
@@ -229,7 +229,7 @@ Skill One
     position: absolute;
     top: 1px;
     right: -24px;
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
     font-size: 30px;
     content: "";
     font-family: 'icomoon' !important;

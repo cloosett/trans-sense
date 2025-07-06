@@ -6,7 +6,7 @@ Banner One
 .banner-one {
     position: relative;
     display: block;
-    background: rgb(18, 33, 38);
+    background: var(--trans-sense-base);
     background: linear-gradient(90deg, rgba(18, 33, 38, 1) 0%, rgba(18, 33, 38, 1) 35%, rgba(10, 44, 54, 1) 60%, rgba(10, 44, 54, 1) 100%);
     padding: 512px 0px 94px;
     z-index: 2;
@@ -141,7 +141,7 @@ Banner One
     display: block;
     width: 20px;
     height: 20px;
-    background: var(--logistiq-base);
+    background: var(--trans-sense-base);
     border-radius: 50%;
     cursor: pointer;
 }
@@ -179,7 +179,7 @@ Banner One
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid var(--logistiq-base);
+    border: 2px solid var(--trans-sense-base);
     border-radius: 50%;
     content: "";
 }
@@ -190,9 +190,9 @@ Banner One
     position: absolute;
     top: 55px;
     left: -100%;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     padding: 0px 15px 18px;
-    border: 2px solid var(--logistiq-base);
+    border: 2px solid var(--trans-sense-base);
     text-align: center;
     transition: all 0.2s ease;
     -webkit-transform: translateY(10%);
@@ -223,7 +223,7 @@ Banner One
     right: 0;
     margin: 0 auto;
     width: 65px;
-    border-bottom: 25px solid var(--logistiq-white);
+    border-bottom: 25px solid var(--trans-sense-white);
     border-left: 35px solid transparent;
     border-right: 35px solid transparent;
     z-index: 1;
@@ -237,7 +237,7 @@ Banner One
     right: 0;
     margin: 0 auto;
     width: 65px;
-    border-bottom: 25px solid var(--logistiq-base);
+    border-bottom: 25px solid var(--trans-sense-base);
     border-left: 35px solid transparent;
     border-right: 35px solid transparent;
     z-index: -1;
@@ -272,7 +272,7 @@ Banner One
 }
 
 .banner-one__location-single .content-box .text-box p {
-    color: var(--logistiq-black);
+    color: var(--trans-sense-black);
     font-size: 15px;
     line-height: 24px;
 }
@@ -293,7 +293,7 @@ Banner One
 }
 
 .banner-one__content-left h2 {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
     font-size: 74px;
     line-height: 1.1em;
     font-weight: 700;
@@ -302,11 +302,11 @@ Banner One
 }
 
 .banner-one__content-left h2 span {
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
 }
 
 .banner-one__content-left p {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
     font-size: 16px;
     line-height: 22px;
     font-weight: 700;
@@ -326,7 +326,7 @@ Banner One
     left: 0;
     bottom: 0px;
     width: 2px;
-    background: var(--logistiq-base);
+    background: var(--trans-sense-base);
     content: "";
 }
 
@@ -370,7 +370,7 @@ Banner One
     height: 50px;
     border-radius: 50%;
     overflow: hidden;
-    border: 2px solid var(--logistiq-base);
+    border: 2px solid var(--trans-sense-base);
 }
 
 .banner-one__content-right-middle ul li .img-box img {
@@ -385,7 +385,7 @@ Banner One
 }
 
 .banner-one__content-right-middle .text-box h2 {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
     font-size: 24px;
     line-height: 32px;
     font-weight: 700;
@@ -393,7 +393,7 @@ Banner One
 }
 
 .banner-one__content-right-middle .text-box p {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
     font-size: 16px;
     line-height: 26px;
     font-weight: 700;
@@ -407,11 +407,11 @@ Banner One
 }
 
 .banner-one__content-right-btn .hover-btn {
-    background-color: var(--logistiq-white);
+    background-color: var(--trans-sense-white);
 }
 
 .banner-one__content-right-btn .thm-btn:hover {
-    color: var(--logistiq-black);
+    color: var(--trans-sense-black);
 }
 
 
@@ -423,7 +423,7 @@ Banner Two
 .banner-two {
     position: relative;
     display: block;
-    background: var(--logistiq-black);
+    background: var(--trans-sense-black);
     padding: 83px 0px 100px;
     z-index: 3;
 }
@@ -455,7 +455,7 @@ Banner Two
     left: -23px;
     bottom: -20px;
     right: 0;
-    border: 1px solid var(--logistiq-white);
+    border: 1px solid var(--trans-sense-white);
     border-top-left-radius: 122px;
     border-top-right-radius: 122px;
     content: "";
@@ -514,7 +514,7 @@ Banner Two
 }
 
 .banner-two__content-top .title-box h2 {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
     font-size: 74px;
     line-height: 1.2em;
     font-weight: 700;
@@ -525,7 +525,7 @@ Banner Two
 
 .banner-two__content-top .title-box h2 span {
     color: transparent;
-    -webkit-text-stroke: 1px rgba(var(--logistiq-white-rgb), 0.4);
+    -webkit-text-stroke: 1px rgba(var(--trans-sense-white-rgb), 0.4);
     font-size: 95px;
 }
 
@@ -561,7 +561,7 @@ Banner Two
 .banner-two__tab-box .tab-buttons .tab-btn {
     position: relative;
     display: inline-block;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     padding: 8px 20px 7px;
     cursor: pointer;
     z-index: 1;
@@ -575,7 +575,7 @@ Banner Two
     bottom: 0;
     height: 0%;
     content: "";
-    background: var(--logistiq-base);
+    background: var(--trans-sense-base);
     border-radius: 0px;
     transition: all 0.3s ease;
     z-index: -1;
@@ -586,7 +586,7 @@ Banner Two
 }
 
 .banner-two__tab-box .tab-buttons .tab-btn p {
-    color: var(--logistiq-black);
+    color: var(--trans-sense-black);
     font-size: 16px;
     line-height: 26px;
     font-weight: 700;
@@ -595,7 +595,7 @@ Banner Two
 }
 
 .banner-two__tab-box .tab-buttons .tab-btn.active-btn p {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
 }
 
 .banner-two__tab-box .tabs-content {
@@ -643,14 +643,14 @@ Banner Two
 }
 
 .banner-two__tab-form-input-box input[type="email"] {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
     font-size: 16px;
     font-weight: 600;
     height: 50px;
     width: 100%;
     background-color: transparent;
     outline: none;
-    border: 1px solid var(--logistiq-base);
+    border: 1px solid var(--trans-sense-base);
     border-radius: 0px;
     padding-right: 80px;
     padding-left: 20px;
@@ -668,8 +668,8 @@ Banner Two
     align-items: center;
     justify-content: center;
     font-size: 16px;
-    color: var(--logistiq-white);
-    background-color: var(--logistiq-base);
+    color: var(--trans-sense-white);
+    background-color: var(--trans-sense-base);
     border-radius: 0%;
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
     -webkit-transition: all 500ms ease;
@@ -683,8 +683,8 @@ Banner Two
 }
 
 .banner-two__tab-form-btn:hover {
-    color: var(--logistiq-base);
-    background-color: var(--logistiq-white);
+    color: var(--trans-sense-base);
+    background-color: var(--trans-sense-white);
 }
 
 
@@ -712,7 +712,7 @@ Slider One
     right: 0;
     width: 365px;
     height: 50%;
-    background-color: rgba(var(--logistiq-black-rgb), 0.8);
+    background-color: rgba(var(--trans-sense-black-rgb), 0.8);
     clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 0%);
     mix-blend-mode: color-dodge;
     -moz-transform: skew(0deg, 0deg) translateX(100%);
@@ -749,7 +749,7 @@ Slider One
     right: 0;
     width: 390px;
     height: 53%;
-    background-color: rgba(var(--logistiq-black-rgb), 0.8);
+    background-color: rgba(var(--trans-sense-black-rgb), 0.8);
     clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 0%);
     mix-blend-mode: color-dodge;
     -moz-transform: skew(0deg, 0deg) translateX(100%);
@@ -786,7 +786,7 @@ Slider One
     right: 0;
     width: 365px;
     height: 50%;
-    background-color: rgba(var(--logistiq-black-rgb), 0.8);
+    background-color: rgba(var(--trans-sense-black-rgb), 0.8);
     clip-path: polygon(100% 0, 0 100%, 100% 100%);
     mix-blend-mode: color-dodge;
     -moz-transform: skew(0deg, 0deg) translateX(100%);
@@ -823,7 +823,7 @@ Slider One
     right: 0;
     width: 390px;
     height: 53%;
-    background-color: rgba(var(--logistiq-black-rgb), 0.8);
+    background-color: rgba(var(--trans-sense-black-rgb), 0.8);
     clip-path: polygon(100% 0, 0 100%, 100% 100%);
     mix-blend-mode: color-dodge;
     -moz-transform: skew(0deg, 0deg) translateX(100%);
@@ -860,7 +860,7 @@ Slider One
     left: 0;
     bottom: 0;
     right: 0;
-    background: var(--logistiq-black);
+    background: var(--trans-sense-black);
     background-blend-mode: luminosity;
     background-attachment: scroll;
     background-size: cover;
@@ -889,7 +889,7 @@ Slider One
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(var(--logistiq-black-rgb), 0.7);
+    background: rgba(var(--trans-sense-black-rgb), 0.7);
     content: "";
     z-index: -2;
 }
@@ -960,7 +960,7 @@ Slider One
     display: block;
     width: 12px;
     height: 12px;
-    background: var(--logistiq-base);
+    background: var(--trans-sense-base);
     border-radius: 50%;
     margin-right: 7px;
 }
@@ -975,7 +975,7 @@ Slider One
     line-height: 26px;
     font-weight: 700;
     text-transform: uppercase;
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
     letter-spacing: 0.02em;
 }
 
@@ -1011,7 +1011,7 @@ Slider One
 }
 
 .slider-one__single-content .title-box h2 {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
     font-size: 82px;
     line-height: 1em;
     font-weight: 700;
@@ -1019,7 +1019,7 @@ Slider One
 }
 
 .slider-one__single-content .title-box h2 span {
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
 }
 
 .slider-one__single-content .text-box {
@@ -1054,7 +1054,7 @@ Slider One
 }
 
 .slider-one__single-content .text-box p {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
 }
 
 .slider-one__single-content .btn-box {
@@ -1187,7 +1187,7 @@ Slider One
 
 .slider-one__carousel.owl-theme .owl-nav .owl-prev:hover,
 .slider-one__carousel.owl-theme .owl-nav .owl-next:hover {
-    color: var(--logistiq-black);
+    color: var(--trans-sense-black);
 }
 
 .slider-one__carousel.owl-theme .owl-next span:before {
@@ -1202,7 +1202,7 @@ Slider One
     transform: translateY(-50%);
     max-width: 500px;
     width: 100%;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     padding: 56px 40px 55px;
     border-radius: 2px;
     z-index: 2;
@@ -1229,7 +1229,7 @@ Slider One
 .slider-one__form .input-box .icon span::before {
     position: relative;
     display: inline-block;
-    color: var(--logistiq-gray);
+    color: var(--trans-sense-gray);
     font-size: 15px;
 }
 
@@ -1239,16 +1239,16 @@ Slider One
     display: block;
     height: 50px;
     width: 100%;
-    background-color: var(--logistiq-white);
-    border: 1px solid rgba(var(--logistiq-black-rgb), .10);
+    background-color: var(--trans-sense-white);
+    border: 1px solid rgba(var(--trans-sense-black-rgb), .10);
     padding-left: 20px;
     padding-right: 40px;
     outline: none;
     font-size: 14px;
     font-weight: 400;
-    color: var(--logistiq-gray);
+    color: var(--trans-sense-gray);
     border-radius: 2px;
-    font-family: var(--logistiq-font);
+    font-family: var(--trans-sense-font);
 }
 
 .slider-one__form .input-box .select-box {
@@ -1260,17 +1260,17 @@ Slider One
     display: block;
     height: 50px;
     width: 100%;
-    background-color: var(--logistiq-white);
-    border: 1px solid rgba(var(--logistiq-black-rgb), .10);
+    background-color: var(--trans-sense-white);
+    border: 1px solid rgba(var(--trans-sense-black-rgb), .10);
     padding-left: 20px;
     padding-right: 40px;
     outline: none;
     font-size: 14px;
     line-height: 48px;
     font-weight: 400;
-    color: var(--logistiq-gray);
+    color: var(--trans-sense-gray);
     border-radius: 2px;
-    font-family: var(--logistiq-font);
+    font-family: var(--trans-sense-font);
     float: none;
 }
 
@@ -1280,14 +1280,14 @@ Slider One
     right: 23px;
     width: 8px;
     height: 8px;
-    border-bottom: 1px solid var(--logistiq-gray);
-    border-right: 1px solid var(--logistiq-gray);
+    border-bottom: 1px solid var(--trans-sense-gray);
+    border-right: 1px solid var(--trans-sense-gray);
     margin-top: 0px;
     z-index: 10;
 }
 
 .slider-one__form .input-box .nice-select .option {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
 }
 
 .slider-one__form .input-box textarea {
@@ -1296,15 +1296,15 @@ Slider One
     height: 50px;
     width: 100%;
     background-color: transparent;
-    border: 1px solid rgba(var(--logistiq-black-rgb), .10);
+    border: 1px solid rgba(var(--trans-sense-black-rgb), .10);
     padding-left: 20px;
     padding-right: 40px;
     outline: none;
     font-size: 14px;
     font-weight: 400;
-    color: var(--logistiq-gray);
+    color: var(--trans-sense-gray);
     border-radius: 2px;
-    font-family: var(--logistiq-font);
+    font-family: var(--trans-sense-font);
     width: 100%;
     height: 120px;
     padding-top: 11px;

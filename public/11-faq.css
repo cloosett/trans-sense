@@ -6,7 +6,7 @@ Faq One
 .faq-one {
     position: relative;
     display: block;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     padding: 120px 0px 169px;
     z-index: 1;
 }
@@ -29,7 +29,7 @@ Faq One
 .faq-one__content-faq {
     position: relative;
     display: block;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     padding: 120px 80px 120px;
     -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.05);
     box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.05);
@@ -66,7 +66,7 @@ Faq One
 
 .faq-one-accrodion .accrodion-title h4 {
     position: relative;
-    color: var(--logistiq-black);
+    color: var(--trans-sense-black);
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -77,7 +77,7 @@ Faq One
 }
 
 .faq-one-accrodion .accrodion.active .accrodion-title h4 {
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
 }
 
 .faq-one-accrodion .accrodion-content {
@@ -110,7 +110,7 @@ Faq One
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(var(--logistiq-black-rgb), 0.2);
+    background: rgba(var(--trans-sense-black-rgb), 0.2);
     content: "";
     z-index: 1;
 }
@@ -147,9 +147,9 @@ Faq One
     line-height: 80px;
     text-align: center;
     font-size: 30px;
-    color: var(--logistiq-white);
-    background-color: var(--logistiq-base);
-    border: 0px solid var(--logistiq-black);
+    color: var(--trans-sense-white);
+    background-color: var(--trans-sense-base);
+    border: 0px solid var(--trans-sense-black);
     border-radius: 50%;
     transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -160,8 +160,8 @@ Faq One
 }
 
 .faq-one__video-icon:hover {
-    background-color: var(--logistiq-white);
-    color: var(--logistiq-black);
+    background-color: var(--trans-sense-white);
+    color: var(--trans-sense-black);
 }
 
 .faq-one__video-link .ripple,
@@ -175,10 +175,10 @@ Faq One
     border-radius: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    -ms-box-shadow: 0 0 0 0 rgba(var(--logistiq-base-rgb), 0.6);
-    -o-box-shadow: 0 0 0 0 rgba(var(--logistiq-base-rgb), 0.6);
-    -webkit-box-shadow: 0 0 0 0 rgba(var(--logistiq-base-rgb), 0.6);
-    box-shadow: 0 0 0 0 rgba(var(--logistiq-base-rgb), 0.6);
+    -ms-box-shadow: 0 0 0 0 rgba(var(--trans-sense-base-rgb), 0.6);
+    -o-box-shadow: 0 0 0 0 rgba(var(--trans-sense-base-rgb), 0.6);
+    -webkit-box-shadow: 0 0 0 0 rgba(var(--trans-sense-base-rgb), 0.6);
+    box-shadow: 0 0 0 0 rgba(var(--trans-sense-base-rgb), 0.6);
     -webkit-animation: ripple 3s infinite;
     animation: ripple 3s infinite;
 }

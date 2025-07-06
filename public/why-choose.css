@@ -6,7 +6,7 @@ Why Choose One
 .why-choose-one {
     position: relative;
     display: block;
-    background: var(--logistiq-black);
+    background: var(--trans-sense-black);
     padding: 120px 0px 120px;
     z-index: 2;
 }
@@ -38,11 +38,11 @@ Why Choose One
 }
 
 .why-choose-one__content .sec-title__tagline .text h4 {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
 }
 
 .why-choose-one__content .sec-title__title {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
 }
 
 .why-choose-one__content-list {
@@ -66,7 +66,7 @@ Why Choose One
 }
 
 .why-choose-one__content-list ul li p {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
 }
 
 .why-choose-one__content-list ul li p span {
@@ -80,7 +80,7 @@ Why Choose One
 .why-choose-one__content-list ul li p span::before {
     position: relative;
     display: inline-block;
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
     font-size: 17px;
 }
 
@@ -92,11 +92,11 @@ Why Choose One
 }
 
 .why-choose-one__content .btn-box .thm-btn:hover {
-    color: var(--logistiq-black);
+    color: var(--trans-sense-black);
 }
 
 .why-choose-one__content .btn-box .hover-btn {
-    background-color: var(--logistiq-white);
+    background-color: var(--trans-sense-white);
 }
 
 .why-choose-one__form-box {
@@ -106,7 +106,7 @@ Why Choose One
     width: 100%;
     float: right;
     margin-top: -180px;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     padding: 54px 60px 60px;
     -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.08);
     box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.08);
@@ -147,7 +147,7 @@ Why Choose One
 .why-choose-one__form .input-box .icon span::before {
     position: relative;
     display: inline-block;
-    color: var(--logistiq-gray);
+    color: var(--trans-sense-gray);
     font-size: 15px;
 }
 
@@ -157,22 +157,22 @@ Why Choose One
     display: block;
     height: 50px;
     width: 100%;
-    background-color: var(--logistiq-white);
-    border: 1px solid rgba(var(--logistiq-black-rgb), .10);
+    background-color: var(--trans-sense-white);
+    border: 1px solid rgba(var(--trans-sense-black-rgb), .10);
     padding-left: 20px;
     padding-right: 40px;
     outline: none;
     font-size: 14px;
     font-weight: 400;
-    color: var(--logistiq-gray);
+    color: var(--trans-sense-gray);
     border-radius: 2px;
-    font-family: var(--logistiq-font);
+    font-family: var(--trans-sense-font);
 }
 
 #ui-datepicker-div.ui-widget-content {
     background: #fff none repeat scroll 0 0;
-    border: 1px solid var(--logistiq-black);
-    color: var(--logistiq-black);
+    border: 1px solid var(--trans-sense-black);
+    color: var(--trans-sense-black);
     font-size: 14px;
     border-radius: 0px;
     width: 270px;
@@ -180,10 +180,10 @@ Why Choose One
 }
 
 #ui-datepicker-div.ui-datepicker .ui-datepicker-header {
-    background: var(--logistiq-base) none repeat scroll 0 0;
-    border: 2px solid var(--logistiq-base);
+    background: var(--trans-sense-base) none repeat scroll 0 0;
+    border: 2px solid var(--trans-sense-base);
     border-radius: 0;
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
     font-weight: 700;
     padding: 5px 0;
     position: relative;
@@ -216,7 +216,7 @@ Why Choose One
     position: absolute;
     top: 7px;
     width: 20px;
-    background: var(--thm-logistiq);
+    background: var(--trans-sense-base);
     transition: all 500ms ease;
     cursor: pointer;
 }
@@ -228,7 +228,7 @@ Why Choose One
 .ui-datepicker .ui-datepicker-prev:hover,
 .ui-datepicker .ui-datepicker-next:hover {
     top: 7px;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     border: none;
 }
 
@@ -254,11 +254,11 @@ Why Choose One
 }
 
 #ui-datepicker-div.ui-widget {
-    font-family: var(--logistiq-font);
+    font-family: var(--trans-sense-font);
 }
 
 #ptTimeSelectCntr .ui-widget {
-    font-family: var(--logistiq-font);
+    font-family: var(--trans-sense-font);
 }
 
 .why-choose-one__form .input-box .select-box {
@@ -270,17 +270,17 @@ Why Choose One
     display: block;
     height: 50px;
     width: 100%;
-    background-color: var(--logistiq-white);
-    border: 1px solid rgba(var(--logistiq-black-rgb), .10);
+    background-color: var(--trans-sense-white);
+    border: 1px solid rgba(var(--trans-sense-black-rgb), .10);
     padding-left: 20px;
     padding-right: 40px;
     outline: none;
     font-size: 14px;
     line-height: 48px;
     font-weight: 400;
-    color: var(--logistiq-gray);
+    color: var(--trans-sense-gray);
     border-radius: 2px;
-    font-family: var(--logistiq-font);
+    font-family: var(--trans-sense-font);
     float: none;
 }
 
@@ -290,14 +290,14 @@ Why Choose One
     right: 23px;
     width: 8px;
     height: 8px;
-    border-bottom: 1px solid var(--logistiq-gray);
-    border-right: 1px solid var(--logistiq-gray);
+    border-bottom: 1px solid var(--trans-sense-gray);
+    border-right: 1px solid var(--trans-sense-gray);
     margin-top: 0px;
     z-index: 10;
 }
 
 .why-choose-one__form .input-box .nice-select .option {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
 }
 
 .why-choose-one__form-distance {
@@ -314,7 +314,7 @@ Why Choose One
 }
 
 .why-choose-one__form-distance .title p {
-    color: var(--logistiq-gray);
+    color: var(--trans-sense-gray);
     font-size: 16px;
     line-height: 26px;
     font-weight: 700;
@@ -342,7 +342,7 @@ Why Choose One
 .why-choose-one__form-distance-inner .ui-slider-handle {
     position: relative;
     display: inline-block;
-    background: var(--logistiq-base) none repeat scroll 0 0;
+    background: var(--trans-sense-base) none repeat scroll 0 0;
     border: 0px solid #ffffff;
     border-radius: 50%;
     width: 15px !important;
@@ -360,7 +360,7 @@ Why Choose One
     bottom: 0;
     width: 7px;
     height: 7px;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -376,7 +376,7 @@ Why Choose One
 .why-choose-one__form-distance-inner .ui-slider .ui-slider-range {
     position: relative;
     display: block;
-    background: var(--logistiq-base);
+    background: var(--trans-sense-base);
     width: 100%;
     height: 0px;
 }
@@ -395,7 +395,7 @@ Why Choose One
     right: 0;
     width: 172px;
     height: 50px;
-    border: 1px solid rgba(var(--logistiq-black-rgb), .10);
+    border: 1px solid rgba(var(--trans-sense-black-rgb), .10);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -410,22 +410,22 @@ Why Choose One
     position: relative;
     display: block;
     width: 100%;
-    color: var(--logisitq-white);
+    color: var(--trans-sense-white);
     text-align: center;
     padding: 8px 0 7px;
-    border: 1px solid var(--logisitq-white);
-    background: var(--logisitq-white);
+    border: 1px solid var(--trans-sense-white);
+    background: var(--trans-sense-white);
     cursor: pointer;
     margin-top: 7px;
     margin-bottom: 8px;
-    font-family: var(--logistiq-base);
+    font-family: var(--trans-sense-font);
 }
 
 .why-choose-one__form-distance-inner .ranger-min-max-block input[type="submit"]:hover {}
 
 .why-choose-one__form-distance-inner .ranger-min-max-block input[type="text"] {
     border: medium none;
-    color: var(--logistiq-gray);
+    color: var(--trans-sense-gray);
     font-size: 16px;
     font-weight: 300;
     outline: medium none;
@@ -438,7 +438,7 @@ Why Choose One
 .why-choose-one__form-distance-inner .ranger-min-max-block input[type='text'].max {}
 
 .why-choose-one__form-distance-inner .ranger-min-max-block span {
-    color: var(--logistiq-gray);
+    color: var(--trans-sense-gray);
     font-size: 15px;
     line-height: 26px;
     font-weight: 300;
@@ -459,7 +459,7 @@ Why Choose Two
 .why-choose-two {
     position: relative;
     display: block;
-    background: var(--logistiq-black);
+    background: var(--trans-sense-black);
     padding: 120px 0px 120px;
     z-index: 1;
 }
@@ -490,7 +490,7 @@ Why Choose Two
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(var(--logistiq-black-rgb), .20);
+    background: rgba(var(--trans-sense-black-rgb), .20);
     content: "";
 }
 
@@ -525,7 +525,7 @@ Why Choose Two
     font-size: 25px;
     font-weight: 700;
     color: #ffffff;
-    background-color: var(--logistiq-base);
+    background-color: var(--trans-sense-base);
     border: 0px solid #ffffff;
     border-radius: 50%;
     margin: 0 auto;
@@ -537,8 +537,8 @@ Why Choose Two
 }
 
 .why-choose-two__video-box-icon:hover {
-    color: var(--logistiq-base);
-    background-color: var(--logistiq-white);
+    color: var(--trans-sense-base);
+    background-color: var(--trans-sense-white);
 }
 
 .why-choose-two__video-box-icon span::before {
@@ -588,11 +588,11 @@ Why Choose Two
 }
 
 .why-choose-two__content .sec-title__tagline .text h4 {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
 }
 
 .why-choose-two__content .sec-title__title {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
 }
 
 .why-choose-two__content-text {
@@ -634,7 +634,7 @@ Why Choose Two
     left: 0;
     bottom: 0;
     width: 5px;
-    background: var(--logistiq-base);
+    background: var(--trans-sense-base);
     content: "";
 }
 
@@ -660,7 +660,7 @@ Why Choose Two
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 2px solid var(--logistiq-black);
+    border: 2px solid var(--trans-sense-black);
     overflow: hidden;
 }
 
@@ -689,7 +689,7 @@ Why Choose Two
 }
 
 .why-choose-two__content-bottom .count-text-box h2 {
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
     font-size: 74px;
     line-height: 1em;
     font-weight: 700;
@@ -706,7 +706,7 @@ Why Choose Two
 
 .why-choose-two__content-bottom .client-box h3 {
     position: relative;
-    color: var(--logistiq-white);
+    color: var(--trans-sense-white);
     font-size: 28px;
     line-height: 35px;
     font-weight: 700;
@@ -718,7 +718,7 @@ Why Choose Two
 .why-choose-two__content-bottom-content {
     position: relative;
     display: block;
-    background: var(--logistiq-white);
+    background: var(--trans-sense-white);
     padding: 38px 40px 40px;
     margin-left: 220px;
     max-width: 650px;
@@ -801,7 +801,7 @@ Why Choose Two
 .why-choose-two__single-top .icon span::before {
     position: relative;
     display: inline-block;
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
     font-size: 40px;
     transition-delay: 0.1s;
     transition: all 500ms ease;
@@ -838,7 +838,7 @@ Why Choose Two
     left: 0;
     bottom: 0;
     width: 1px;
-    background: var(--logistiq-base);
+    background: var(--trans-sense-base);
     content: "";
 }
 

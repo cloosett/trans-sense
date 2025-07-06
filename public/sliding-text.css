@@ -37,7 +37,7 @@ Sliding Text One
     align-items: center;
     gap: 40px;
     color: transparent;
-    -webkit-text-stroke: 1px #E4E4E4;
+    -webkit-text-stroke: 1px var(--trans-sense-base);
     font-size: 95px;
     line-height: 1em;
     font-weight: 700;
@@ -45,13 +45,13 @@ Sliding Text One
     text-transform: uppercase;
     transition: all 200ms linear;
     transition-delay: 0.1s;
-    font-family: var(--logistiq-font);
+    font-family: var(--trans-sense-font);
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
 .sliding-text__list li:hover .sliding-text__title {
-    -webkit-text-stroke: 1px var(--logistiq-base);
+    -webkit-text-stroke: 1px var(--trans-sense-base);
 }
 
 .sliding-text__title img {
@@ -65,7 +65,7 @@ Sliding Text One
     top: 0;
     left: 0;
     width: 0;
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
     white-space: nowrap;
     content: attr(data-hover);
     transition: all 0.5s cubic-bezier(0.17, 0.67, 0.32, 0.87);
@@ -73,7 +73,7 @@ Sliding Text One
 
 .sliding-text__list li:hover .sliding-text__title:before {
     width: 100%;
-    color: var(--logistiq-base);
+    color: var(--trans-sense-base);
 }
 
 @keyframes textRotate {
