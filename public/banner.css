@@ -948,11 +948,11 @@ Slider One
     -webkit-transform: perspective(400px) rotateY(0deg) translateY(0px);
     -ms-transform: perspective(400px) rotateY(0deg) translateY(0px);
     transform: perspective(400px) rotateY(0deg) translateY(0px);
-    -webkit-transition-delay: 1800ms;
-    -moz-transition-delay: 1800ms;
-    -ms-transition-delay: 1800ms;
-    -o-transition-delay: 1800ms;
-    transition-delay: 1800ms;
+    -webkit-transition-delay: 400ms;
+    -moz-transition-delay: 400ms;
+    -ms-transition-delay: 400ms;
+    -o-transition-delay: 400ms;
+    transition-delay: 400ms;
 }
 
 .slider-one__single-content .tagline .round {
@@ -1012,9 +1012,9 @@ Slider One
 
 .slider-one__single-content .title-box h2 {
     color: var(--trans-sense-white);
-    font-size: 82px;
+    font-size: 70px;
     line-height: 1em;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: capitalize;
 }
 

@@ -61,7 +61,8 @@
                     <!--Start Contact Page Top Form-->
                     <div class="col-xl-6">
                         <div class="contact-page__top-form">
-                            <form class="contact-form-validated why-choose-one__form" action="#" method="post">
+                            <form id="contactMessageForm" class="contact-form-validated why-choose-one__form"
+                                action="{{ route('submit.contact.message') }}" method="post">
                                 @csrf
                                 <div class="row">
                                     @php
@@ -104,19 +105,30 @@
                                     <div class="col-xl-6 col-lg-6 col-md-6">
                                         <div class="input-box">
                                             <div class="select-box">
-                                                <select class="selectmenu wide">
-                                                    <option selected>Тема</option>
+                                                <select name="subject" class="selectmenu wide" required
+                                                    style="display: none;">
+                                                    <option value="">Тема</option>
                                                     @foreach (['Загальний запит', 'Ціни', 'Підтримка', 'Партнерство', 'Інше'] as $option)
-                                                        <option>{{ $option }}</option>
+                                                        <option value="{{ $option }}">{{ $option }}</option>
                                                     @endforeach
                                                 </select>
+                                                <div class="nice-select selectmenu wide" tabindex="0">
+                                                    <span class="current">Тема</span>
+                                                    <ul class="list">
+                                                        <li data-value="" class="option selected">Тема</li>
+                                                        @foreach (['Загальний запит', 'Ціни', 'Підтримка', 'Партнерство', 'Інше'] as $option)
+                                                            <li data-value="{{ $option }}" class="option">
+                                                                {{ $option }}</li>
+                                                        @endforeach
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="col-xl-12">
                                         <div class="input-box">
-                                            <textarea name="message" placeholder="Повідомлення"></textarea>
+                                            <textarea name="message" placeholder="Повідомлення" required></textarea>
                                             <div class="icon style2"><span class="fas fa-pen"></span></div>
                                         </div>
                                     </div>

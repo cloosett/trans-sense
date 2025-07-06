@@ -3222,7 +3222,7 @@
     }
 
     .main-header-one__bottom {
-        padding: 30px 25px 30px;
+        padding: 0px 26px 0px;
     }
 
     .main-header-two__bottom .shape1 {
@@ -3270,7 +3270,7 @@
     .main-header-one__bottom-left .logo-box::before {
         top: -30px;
         left: -25px;
-        bottom: -30px;
+        bottom: 0px;
     }
 
     .main-header-three__top {
@@ -3335,7 +3335,7 @@
     }
 
     .main-header-one__bottom {
-        padding: 30px 25px 30px;
+        padding: 30px 25px -1px;
     }
 
     .main-header-two__bottom .shape1 {
@@ -3383,7 +3383,7 @@
     .main-header-one__bottom-left .logo-box::before {
         top: -30px;
         left: -25px;
-        bottom: -30px;
+        bottom: 0px;
     }
 
     .main-header-three__top {
@@ -3454,7 +3454,7 @@
     }
 
     .main-header-one__bottom {
-        padding: 30px 25px 30px;
+        padding: 0px 25px 0px
     }
 
     .main-header-two__bottom .shape1 {
@@ -3502,7 +3502,7 @@
     .main-header-one__bottom-left .logo-box::before {
         top: -30px;
         left: -25px;
-        bottom: -30px;
+        bottom: 0px;
     }
 
     .main-header-one__bottom-left .logo-box {

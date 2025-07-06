@@ -1,0 +1,215 @@
+.input-box input.error,
+.input-box textarea.error {
+    border: 2px solid #ef4444 !important;
+    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1) !important;
+    background-color: rgba(239, 68, 68, 0.05) !important;
+}
+
+.input-box input.error:focus,
+.input-box textarea.error:focus {
+    border-color: #ef4444 !important;
+    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.2) !important;
+    outline: none !important;
+}
+
+.select-box .nice-select.error {
+    border: 2px solid #ef4444 !important;
+    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1) !important;
+    background-color: rgba(239, 68, 68, 0.05) !important;
+}
+
+.error-message {
+    color: #ef4444;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 8px;
+    padding: 8px 12px;
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    animation: slideInError 0.3s ease-out;
+    position: relative;
+}
+
+.error-message::before {
+    content: "⚠";
+    margin-right: 8px;
+    font-size: 16px;
+    color: #ef4444;
+}
+
+@keyframes slideInError {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+        max-height: 0;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        max-height: 100px;
+    }
+}
+
+.input-box input.valid,
+.input-box textarea.valid {
+    border: 2px solid #10b981 !important;
+    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1) !important;
+    background-color: rgba(16, 185, 129, 0.05) !important;
+}
+
+.input-box input.valid:focus,
+.input-box textarea.valid:focus {
+    border-color: #10b981 !important;
+    box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.2) !important;
+}
+
+.success-message {
+    color: #10b981;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 8px;
+    padding: 8px 12px;
+    background: rgba(16, 185, 129, 0.1);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    animation: slideInSuccess 0.3s ease-out;
+}
+
+.success-message::before {
+    content: "✓";
+    margin-right: 8px;
+    font-size: 16px;
+    color: #10b981;
+}
+
+@keyframes slideInSuccess {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+        max-height: 0;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        max-height: 100px;
+    }
+}
+
+.thm-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.thm-btn .fa-spinner {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@media (max-width: 768px) {
+    .error-message,
+    .success-message {
+        font-size: 13px;
+        padding: 6px 10px;
+        margin-top: 6px;
+    }
+    
+    .error-message::before,
+    .success-message::before {
+        font-size: 14px;
+        margin-right: 6px;
+    }
+}
+
+.input-box input:focus,
+.input-box textarea:focus {
+    transition: all 0.3s ease;
+}
+
+.nice-select {
+    transition: all 0.3s ease;
+}
+
+.nice-select:focus,
+.nice-select.open {
+    border-color: #FD5523 !important;
+    box-shadow: 0 0 0 3px rgba(253, 85, 35, 0.1) !important;
+}
+
+.input-box input.error::placeholder,
+.input-box textarea.error::placeholder {
+    color: rgba(239, 68, 68, 0.7);
+}
+
+.input-box.has-error .icon {
+    color: #ef4444;
+}
+
+.input-box.has-success .icon {
+    color: #10b981;
+}
+
+.dark-theme .error-message {
+    background: rgba(239, 68, 68, 0.15);
+    border-color: rgba(239, 68, 68, 0.3);
+    color: #fca5a5;
+}
+
+.dark-theme .success-message {
+    background: rgba(16, 185, 129, 0.15);
+    border-color: rgba(16, 185, 129, 0.3);
+    color: #86efac;
+}
+
+.required-field::after {
+    content: " *";
+    color: #ef4444;
+    font-weight: bold;
+}
+
+.input-box input,
+.input-box textarea,
+.nice-select,
+.error-message,
+.success-message {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.validation-tooltip {
+    position: absolute;
+    top: -35px;
+    left: 0;
+    background: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 1000;
+    opacity: 0;
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+.validation-tooltip.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.validation-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    border: 5px solid transparent;
+    border-top-color: #333;
+} 

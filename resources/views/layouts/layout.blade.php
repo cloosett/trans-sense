@@ -41,7 +41,11 @@
     <link rel="stylesheet" href="{{ asset('swiper.min.css') }}">
     <link rel="stylesheet" href="{{ asset('style.css') }}">
     <link rel="stylesheet" href="{{ asset('responsive.css') }}">
+    <link rel="stylesheet" href="{{ asset('form-validation.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
 
 <body>
     <div class="page-wrapper">
@@ -56,14 +60,15 @@
                                     <div class="main-header-one__bottom-inner">
                                         <div class="main-header-one__bottom-left">
                                             <div class="logo-box">
-                                                <a href="{{ route('welcome') }}"><img
-                                                        src="{{ asset('images/logo-1.png') }}" alt="TransSense"></a>
+                                                <a href="{{ route('welcome') }}"><img width="115" height="115"
+                                                        src="{{ asset('images/transsense-logo.png') }}"
+                                                        alt="TransSense"></a>
                                             </div>
 
                                             <div class="main-header-one__bottom-menu">
                                                 <div class="main-menu__main-menu-box">
-                                                    <a href="#" class="mobile-nav__toggler"><i
-                                                            class="fa fa-bars"></i></a>
+                                                    <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"
+                                                            style="font-size: 24px;"></i></a>
 
                                                     <ul class="main-menu__list">
                                                         @php
@@ -270,8 +275,8 @@
                                 style="visibility: hidden; animation-delay: 100ms; animation-name: none;">
                                 <div class="footer-widget__single footer-one__about">
                                     <div class="footer-one__about-logo">
-                                        <a href="{{ route('welcome') }}"><img
-                                                src="{{ asset('images/footer-logo.png') }}" alt=""></a>
+                                        <a href="{{ route('welcome') }}"><img width="200" height="200"
+                                                src="{{ asset('images/transsense-logo.png') }}" alt=""></a>
                                     </div>
                                     <p class="footer-one__about-text">Логістична компанія-провайдер відіграє ключову
                                         роль у глобальному ланцюгу постачання.</p>
@@ -422,7 +427,8 @@
 
             <div class="logo-box">
                 <a href="{{ route('welcome') }}" aria-label="logo image"><img
-                        src="{{ asset('images/logo-1.png') }}" width="150" alt=""></a>
+                        src="{{ asset('images/transsense-logo.png') }}" width="150" height="150"
+                        alt=""></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container">
@@ -507,6 +513,9 @@
 
     <!-- Template Main JS -->
     <script src="{{ asset('script.js') }}"></script>
+
+    <!-- Form Validation JS -->
+    <script src="{{ asset('form-validation.js') }}"></script>
 
     <div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all">
     </div>

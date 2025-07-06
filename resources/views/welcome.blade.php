@@ -30,6 +30,16 @@
                                                 TransSense.
                                                 Ми відкриємо для вас нові горизонти можливостей.</p>
                                         </div>
+
+                                        <div class="btn-box">
+                                            <a class="thm-btn" href="{{ route('contact') }}">Дізнатися більше
+                                                <i class="fas fa-arrow-right"></i>
+                                                <span class="hover-btn hover-bx"></span>
+                                                <span class="hover-btn hover-bx2"></span>
+                                                <span class="hover-btn hover-bx3"></span>
+                                                <span class="hover-btn hover-bx4"></span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -60,6 +70,16 @@
                                                 TransSense.
                                                 Ми відкриємо для вас нові горизонти можливостей.</p>
                                         </div>
+
+                                        <div class="btn-box">
+                                            <a class="thm-btn" href="{{ route('contact') }}">Дізнатися більше
+                                                <i class="fas fa-arrow-right"></i>
+                                                <span class="hover-btn hover-bx"></span>
+                                                <span class="hover-btn hover-bx2"></span>
+                                                <span class="hover-btn hover-bx3"></span>
+                                                <span class="hover-btn hover-bx4"></span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -89,6 +109,16 @@
                                             <p>Виведіть свій бізнес на новий рівень з новими інструментами управління від
                                                 TransSense.
                                                 Ми відкриємо для вас нові горизонти можливостей.</p>
+                                        </div>
+
+                                        <div class="btn-box">
+                                            <a class="thm-btn" href="{{ route('contact') }}">Дізнатися більше
+                                                <i class="fas fa-arrow-right"></i>
+                                                <span class="hover-btn hover-bx"></span>
+                                                <span class="hover-btn hover-bx2"></span>
+                                                <span class="hover-btn hover-bx3"></span>
+                                                <span class="hover-btn hover-bx4"></span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -121,7 +151,15 @@
                                                 Ми відкриємо для вас нові горизонти можливостей.</p>
                                         </div>
 
-
+                                        <div class="btn-box">
+                                            <a class="thm-btn" href="{{ route('contact') }}">Дізнатися більше
+                                                <i class="fas fa-arrow-right"></i>
+                                                <span class="hover-btn hover-bx"></span>
+                                                <span class="hover-btn hover-bx2"></span>
+                                                <span class="hover-btn hover-bx3"></span>
+                                                <span class="hover-btn hover-bx4"></span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -253,8 +291,9 @@
         </div>
 
         <div class="slider-one__form-box">
-            <form class="contact-form-validated slider-one__form" action="assets/inc/sendemail.php" method="post"
-                novalidate="novalidate">
+            <form id="callRequestForm" class="contact-form-validated slider-one__form"
+                action="{{ route('submit.call.request') }}" method="post">
+                @csrf
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="input-box">
@@ -266,7 +305,7 @@
 
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="input-box">
-                            <input type="text" name="Phone" placeholder="Телефон" required=""
+                            <input type="text" name="phone" placeholder="Телефон" required=""
                                 aria-required="true">
                             <div class="icon"><span class="icon-phone2"></span></div>
                         </div>
@@ -275,18 +314,18 @@
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="input-box">
                             <div class="select-box">
-                                <select class="selectmenu wide" style="display: none;">
-                                    <option selected="selected">Тип вантажу</option>
-                                    <option>Автомобільні перевезення</option>
-                                    <option>Морські вантажі</option>
-                                    <option>Авіаперевезення</option>
-                                    <option>Залізничні перевезення</option>
-                                    <option>Кур'єрська доставка</option>
+                                <select name="cargo_type" class="selectmenu wide" required style="display: none;">
+                                    <option value="">Тип вантажу</option>
+                                    <option value="Автомобільні перевезення">Автомобільні перевезення</option>
+                                    <option value="Морські вантажі">Морські вантажі</option>
+                                    <option value="Авіаперевезення">Авіаперевезення</option>
+                                    <option value="Залізничні перевезення">Залізничні перевезення</option>
+                                    <option value="Кур'єрська доставка">Кур'єрська доставка</option>
                                 </select>
                                 <div class="nice-select selectmenu wide" tabindex="0"><span class="current">Тип
                                         вантажу</span>
                                     <ul class="list">
-                                        <li data-value="Тип вантажу" class="option selected">Тип вантажу</li>
+                                        <li data-value="" class="option selected">Тип вантажу</li>
                                         <li data-value="Автомобільні перевезення" class="option">Автомобільні перевезення
                                         </li>
                                         <li data-value="Морські вантажі" class="option">Морські вантажі</li>
@@ -301,17 +340,17 @@
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="input-box">
                             <div class="select-box">
-                                <select class="selectmenu wide" style="display: none;">
-                                    <option selected="selected">Навантаження</option>
-                                    <option>Часткове навантаження</option>
-                                    <option>Повне навантаження</option>
-                                    <option>Негабаритний вантаж</option>
-                                    <option>Експрес доставка</option>
+                                <select name="loading_type" class="selectmenu wide" required style="display: none;">
+                                    <option value="">Навантаження</option>
+                                    <option value="Часткове навантаження">Часткове навантаження</option>
+                                    <option value="Повне навантаження">Повне навантаження</option>
+                                    <option value="Негабаритний вантаж">Негабаритний вантаж</option>
+                                    <option value="Експрес доставка">Експрес доставка</option>
                                 </select>
                                 <div class="nice-select selectmenu wide" tabindex="0"><span
                                         class="current">Навантаження</span>
                                     <ul class="list">
-                                        <li data-value="Навантаження" class="option selected">Навантаження</li>
+                                        <li data-value="" class="option selected">Навантаження</li>
                                         <li data-value="Часткове навантаження" class="option">Часткове навантаження</li>
                                         <li data-value="Повне навантаження" class="option">Повне навантаження</li>
                                         <li data-value="Негабаритний вантаж" class="option">Негабаритний вантаж</li>
@@ -632,7 +671,7 @@
                                     <div class="about-one__content-text2-single">
                                         <div class="about-one__content-text2-single-top">
                                             <div class="icon">
-                                                <i class="fa-solid fa-globe" style="color: #fd5523;"></i>
+                                                <i class="fa-solid fa-truck-fast" style="color: #FD5523;"></i>
                                             </div>
 
                                             <div class="title-box">
@@ -648,7 +687,7 @@
                                     <div class="about-one__content-text2-single">
                                         <div class="about-one__content-text2-single-top">
                                             <div class="icon">
-                                                <i class="fa-solid fa-phone" style="color: #fd5523;"></i>
+                                                <i class="fa-solid fa-phone" style="color: #FD5523;"></i>
                                             </div>
 
                                             <div class="title-box">
@@ -675,7 +714,7 @@
 
                             <div class="contact-box">
                                 <div class="icon">
-                                    <i class="fa-solid fa-phone-volume" style="color: #fd5523;"></i>
+                                    <i class="fa-solid fa-phone-volume" style="color: #FD5523;"></i>
                                 </div>
 
                                 <div class="text-box">
@@ -784,7 +823,7 @@
                                     </div>
                                     <div class="overlay-icon-box">
                                         <a href="#"><i class="fa-solid fa-location-dot"
-                                                style="color: #fd5523;"></i></i>
+                                                style="color: #FD5523;"></i></i>
                                         </a>
                                     </div>
                                 </div>
@@ -857,8 +896,9 @@
                             <h2>Запросити пропозицію</h2>
                         </div>
 
-                        <form class="contact-form-validated why-choose-one__form" action="assets/inc/sendemail.php"
-                            method="post" novalidate="novalidate">
+                        <form id="quoteRequestForm" class="contact-form-validated why-choose-one__form"
+                            action="{{ route('submit.quote.request') }}" method="post">
+                            @csrf
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="input-box">
@@ -877,7 +917,7 @@
 
                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="input-box">
-                                        <input type="text" name="Phone" placeholder="Телефон" required=""
+                                        <input type="text" name="phone" placeholder="Телефон" required=""
                                             aria-required="true">
                                         <div class="icon"><i class="fa-solid fa-phone"></i></div>
                                     </div>
@@ -909,10 +949,10 @@
                                                 </div>
                                                 <div class="ranger-min-max-block">
                                                     <input type="text" readonly="readonly" class="min"
-                                                        value="0">
+                                                        name="distance_min" value="0">
                                                     <span>-</span>
                                                     <input type="text" readonly="readonly" class="max"
-                                                        value="3000">
+                                                        name="distance_max" value="3000">
                                                 </div>
                                             </div>
                                         </div>
@@ -922,18 +962,19 @@
                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="input-box">
                                         <div class="select-box">
-                                            <select class="selectmenu wide" style="display: none;">
-                                                <option selected="selected">Тип вантажу</option>
-                                                <option>Автомобільні перевезення</option>
-                                                <option>Морські вантажі</option>
-                                                <option>Авіаперевезення</option>
-                                                <option>Залізничні перевезення</option>
-                                                <option>Кур'єрська доставка</option>
+                                            <select name="cargo_type" class="selectmenu wide" required
+                                                style="display: none;">
+                                                <option value="">Тип вантажу</option>
+                                                <option value="Автомобільні перевезення">Автомобільні перевезення</option>
+                                                <option value="Морські вантажі">Морські вантажі</option>
+                                                <option value="Авіаперевезення">Авіаперевезення</option>
+                                                <option value="Залізничні перевезення">Залізничні перевезення</option>
+                                                <option value="Кур'єрська доставка">Кур'єрська доставка</option>
                                             </select>
                                             <div class="nice-select selectmenu wide" tabindex="0"><span
                                                     class="current">Тип вантажу</span>
                                                 <ul class="list">
-                                                    <li data-value="Тип вантажу" class="option selected">Тип вантажу</li>
+                                                    <li data-value="" class="option selected">Тип вантажу</li>
                                                     <li data-value="Автомобільні перевезення" class="option">Автомобільні
                                                         перевезення</li>
                                                     <li data-value="Морські вантажі" class="option">Морські вантажі</li>
@@ -950,18 +991,19 @@
                                 <div class="col-xl-6 col-lg-6 col-md-6">
                                     <div class="input-box">
                                         <div class="select-box">
-                                            <select class="selectmenu wide" style="display: none;">
-                                                <option selected="selected">Навантаження</option>
-                                                <option>Часткове навантаження</option>
-                                                <option>Повне навантаження</option>
-                                                <option>Негабаритний вантаж</option>
-                                                <option>Експрес доставка</option>
-                                                <option>Температурний режим</option>
+                                            <select name="loading_type" class="selectmenu wide" required
+                                                style="display: none;">
+                                                <option value="">Навантаження</option>
+                                                <option value="Часткове навантаження">Часткове навантаження</option>
+                                                <option value="Повне навантаження">Повне навантаження</option>
+                                                <option value="Негабаритний вантаж">Негабаритний вантаж</option>
+                                                <option value="Експрес доставка">Експрес доставка</option>
+                                                <option value="Температурний режим">Температурний режим</option>
                                             </select>
                                             <div class="nice-select selectmenu wide" tabindex="0"><span
                                                     class="current">Навантаження</span>
                                                 <ul class="list">
-                                                    <li data-value="Навантаження" class="option selected">Навантаження
+                                                    <li data-value="" class="option selected">Навантаження
                                                     </li>
                                                     <li data-value="Часткове навантаження" class="option">Часткове
                                                         навантаження</li>

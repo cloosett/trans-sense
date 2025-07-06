@@ -488,40 +488,6 @@
         });
     }
 
-    if ($(".contact-form-validated").length) {
-        $(".contact-form-validated").each(function () {
-            let self = $(this);
-            self.validate({
-                // initialize the plugin
-                rules: {
-                    name: {
-                        required: true,
-                    },
-                    email: {
-                        required: true,
-                        email: true,
-                    },
-                    message: {
-                        required: true,
-                    },
-                    subject: {
-                        required: true,
-                    },
-                },
-                submitHandler: function (form) {
-                    // sending value with ajax request
-                    $.post($(form).attr("action"), $(form).serialize(), function (response) {
-                        $(form).parent().find(".result").append(response);
-                        $(form).find('input[type="text"]').val("");
-                        $(form).find('input[type="email"]').val("");
-                        $(form).find("textarea").val("");
-                    });
-                    return false;
-                },
-            });
-        });
-    }
-
     if ($(".video-popup").length) {
         $(".video-popup").magnificPopup({
             type: "iframe",
