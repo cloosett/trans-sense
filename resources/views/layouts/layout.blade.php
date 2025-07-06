@@ -60,7 +60,7 @@
                                     <div class="main-header-one__bottom-inner">
                                         <div class="main-header-one__bottom-left">
                                             <div class="logo-box">
-                                                <a href="{{ route('welcome') }}"><img width="115" height="115"
+                                                <a href="{{ route('welcome') }}"><img width="100" height="115"
                                                         src="{{ asset('images/transsense-logo.png') }}"
                                                         alt="TransSense"></a>
                                             </div>
