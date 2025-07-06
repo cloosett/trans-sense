@@ -1350,9 +1350,9 @@ animation: spinner 1s infinite linear;
   display: inline-block;
 }
 
-.main-header-one__bottom-left .logo-box a img {
+/* .main-header-one__bottom-left .logo-box a img {
   width: 100%;
-}
+} */
 
 
 .main-header-one__bottom-menu {
