@@ -317,21 +317,14 @@
                                 <select name="cargo_type" class="selectmenu wide" required style="display: none;">
                                     <option value="">Тип вантажу</option>
                                     <option value="Автомобільні перевезення">Автомобільні перевезення</option>
-                                    <option value="Морські вантажі">Морські вантажі</option>
-                                    <option value="Авіаперевезення">Авіаперевезення</option>
-                                    <option value="Залізничні перевезення">Залізничні перевезення</option>
-                                    <option value="Кур'єрська доставка">Кур'єрська доставка</option>
                                 </select>
                                 <div class="nice-select selectmenu wide" tabindex="0"><span class="current">Тип
                                         вантажу</span>
                                     <ul class="list">
                                         <li data-value="" class="option selected">Тип вантажу</li>
-                                        <li data-value="Автомобільні перевезення" class="option">Автомобільні перевезення
+                                        <li data-value="Автомобільні перевезення" class="option">Автомобільні
+                                            перевезення
                                         </li>
-                                        <li data-value="Морські вантажі" class="option">Морські вантажі</li>
-                                        <li data-value="Авіаперевезення" class="option">Авіаперевезення</li>
-                                        <li data-value="Залізничні перевезення" class="option">Залізничні перевезення</li>
-                                        <li data-value="Кур'єрська доставка" class="option">Кур'єрська доставка</li>
                                     </ul>
                                 </div>
                             </div>
@@ -461,241 +454,50 @@
                                 </div>
                             </div>
                             <h2 class="sec-title__title tg-element-title" style="perspective: 400px;">
-                                <div style="display: block; text-align: start; position: relative;" class="split-line">
-                                    <div style="position:relative;display:inline-block;">
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            Н
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            а
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            ш
-                                        </div>
-                                    </div>
-                                    <div style="position:relative;display:inline-block;">
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            е
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            к
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            с
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            п
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            е
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            р
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            т
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            и
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            з
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            а
-                                        </div>
-                                    </div>
-                                    <div style="position:relative;display:inline-block;">
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            в
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            и
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            з
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            н
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            а
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            ч
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            а
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            є
-                                        </div>
-                                    </div>
-                                    <div style="position:relative;display:inline-block;">
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            с
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            т
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            а
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            н
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            д
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            а
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            р
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            т
-                                        </div>
-                                        <div
-                                            style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                            и
-                                        </div>
-                                    </div>
-                                </div>
-                                <div style="display: block; text-align: start; position: relative;" class="split-line">
-                                    <span>
-                                        <div style="position:relative;display:inline-block;">
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                л</div>
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                о</div>
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                г</div>
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                і</div>
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                с</div>
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                т</div>
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                и</div>
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                ч</div>
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                н</div>
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                и</div>
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                х</div>
-                                        </div>
-                                        <div style="position:relative;display:inline-block;">
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                р</div>
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                і</div>
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                ш</div>
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                е</div>
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                н</div>
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                н</div>
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                я</div>
-                                            <div
-                                                style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                х</div>
-                                        </div>
-                                    </span>
-                                </div>
+                                Ми не просто перевозимо — ми <span style="color: #FD5523;">вирішуємо</span> логістику
+                                будівництва.
                             </h2>
                         </div>
 
                         <div class="about-one__content-text1">
-                            <p>Логістична компанія відіграє ключову роль у глобальній екосистемі ланцюгів поставок,
-                                ефективно управляючи переміщенням товарів від місця походження до кінцевого пункту
-                                призначення. Ці компанії пропонують різноманітні послуги.</p>
+                            <p>Ми самі закуповуємо щебінь, пісок, відсів, глину та ґрунт у перевірених кар'єрах, а потім
+                                доставляємо матеріали на ваш обʼєкт — точно в строк і без зайвих витрат.</p>
                         </div>
 
                         <div class="about-one__content-text2">
-                            <div class="row">
+                            <div class="row d-flex">
                                 <div class="col-xl-6 col-lg-6 col-md-6">
-                                    <div class="about-one__content-text2-single">
+                                    <div class="about-one__content-text2-single d-flex flex-column" style="height: 86%;">
                                         <div class="about-one__content-text2-single-top">
                                             <div class="icon">
                                                 <i class="fa-solid fa-truck-fast" style="color: #FD5523;"></i>
                                             </div>
 
                                             <div class="title-box">
-                                                <h3>Світові послуги</h3>
+                                                <h3>Доставка під ключ</h3>
                                             </div>
                                         </div>
 
-                                        <p>Логістична компанія відіграє ключову роль у глобальних ланцюгах поставок</p>
+                                        <p>Ми самі закуповуємо матеріали з карʼєру і доставляємо їх на ваш обʼєкт — без
+                                            посередників і затримок.</p>
                                     </div>
                                 </div>
 
                                 <div class="col-xl-6 col-lg-6 col-md-6">
-                                    <div class="about-one__content-text2-single">
+                                    <div class="about-one__content-text2-single d-flex flex-column" style="height: 86%;">
                                         <div class="about-one__content-text2-single-top">
                                             <div class="icon">
                                                 <i class="fa-solid fa-phone" style="color: #FD5523;"></i>
                                             </div>
 
                                             <div class="title-box">
-                                                <h3>Підтримка 24/7</h3>
+                                                <h3>Оперативна підтримка</h3>
                                             </div>
                                         </div>
 
-                                        <p>Логістична компанія відіграє ключову роль у глобальних ланцюгах поставок</p>
+                                        <p>Консультуємо та прораховуємо доставку у день звернення. Працюємо швидко та
+                                            точно.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -719,7 +521,7 @@
 
                                 <div class="text-box">
                                     <p>Зателефонуйте нам</p>
-                                    <h4><a href="tel:1234567890">+880 123 456 789 </a></h4>
+                                    <h4><a href="tel:+380982630139">+38 (098) 263-01-39</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -966,10 +768,6 @@
                                                 style="display: none;">
                                                 <option value="">Тип вантажу</option>
                                                 <option value="Автомобільні перевезення">Автомобільні перевезення</option>
-                                                <option value="Морські вантажі">Морські вантажі</option>
-                                                <option value="Авіаперевезення">Авіаперевезення</option>
-                                                <option value="Залізничні перевезення">Залізничні перевезення</option>
-                                                <option value="Кур'єрська доставка">Кур'єрська доставка</option>
                                             </select>
                                             <div class="nice-select selectmenu wide" tabindex="0"><span
                                                     class="current">Тип вантажу</span>
@@ -977,12 +775,6 @@
                                                     <li data-value="" class="option selected">Тип вантажу</li>
                                                     <li data-value="Автомобільні перевезення" class="option">Автомобільні
                                                         перевезення</li>
-                                                    <li data-value="Морські вантажі" class="option">Морські вантажі</li>
-                                                    <li data-value="Авіаперевезення" class="option">Авіаперевезення</li>
-                                                    <li data-value="Залізничні перевезення" class="option">Залізничні
-                                                        перевезення</li>
-                                                    <li data-value="Кур'єрська доставка" class="option">Кур'єрська
-                                                        доставка</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1154,63 +946,104 @@
                                 data-grp-name="faq-one-accrodion-1">
                                 <div class="accrodion">
                                     <div class="accrodion-title">
-                                        <h4>Як ви обробляєте повернення або обміни? <i class="fa-solid fa-chevron-right"
+                                        <h4>Ми — не просто перевізник. Що це означає? <i class="fa-solid fa-chevron-right"
                                                 style="padding-left: 5px"></i>
                                         </h4>
                                     </div>
 
                                     <div class="accrodion-content" style="display: none;">
                                         <div class="inner">
-                                            <p>Ми допомагаємо бізнесу втілювати ідеї в життя у цифровому світі, розробляючи
-                                                та впроваджуючи технологічні інструменти, необхідні для перемоги. Ми
-                                                допомагаємо бізнесу втілювати ідеї в життя у цифровому світі</p>
+                                            <p>Ми доставляємо сипучі матеріали під ключ<br>
+                                                Закупівля + доставка = гарантія якості і відповідальності.<br><br>
+                                                Ми самі закуповуємо пісок, щебінь, відсів та інші матеріали без посередників
+                                                — без затримок і націнок.<br>
+                                                Після цього — оперативно доставляємо власним транспортом до вашого
+                                                об'єкта.<br><br>
+                                                Ви не шукаєте кар'єри — ми вже працюємо з найкращими<br>
+                                                Не платите за посередництво — усе напряму<br>
+                                                Один відповідальний за все — від кар'єру до будмайданчика</p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="accrodion active">
                                     <div class="accrodion-title">
-                                        <h4>Що робить бізнес-консалтинг? <i class="fa-solid fa-chevron-right"
+                                        <h4>Які матеріали ви перевозите? <i class="fa-solid fa-chevron-right"
                                                 style="padding-left: 5px"></i></h4>
                                     </div>
 
                                     <div class="accrodion-content" style="">
                                         <div class="inner">
-                                            <p>Ми допомагаємо бізнесу втілювати ідеї в життя у цифровому світі, розробляючи
-                                                та впроваджуючи технологічні інструменти, необхідні для перемоги. Ми
-                                                допомагаємо бізнесу втілювати ідеї в життя у цифровому світі</p>
+                                            <p>Ми доставляємо пісок, щебінь, відсів, глину, ґрунт та інші сипучі будівельні
+                                                матеріали від кар'єрів до вашого об'єкта.</p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="accrodion">
                                     <div class="accrodion-title">
-                                        <h4>Чи можу я скасувати відправлення після бронювання?<i
-                                                class="fa-solid fa-chevron-right" style="padding-left: 5px"></i>
+                                        <h4>Які типи транспорту використовуєте?<i class="fa-solid fa-chevron-right"
+                                                style="padding-left: 5px"></i>
                                         </h4>
                                     </div>
 
                                     <div class="accrodion-content" style="display: none;">
                                         <div class="inner">
-                                            <p>Ми допомагаємо бізнесу втілювати ідеї в життя у цифровому світі, розробляючи
-                                                та впроваджуючи технологічні інструменти, необхідні для перемоги. Ми
-                                                допомагаємо бізнесу втілювати ідеї в життя у цифровому світі</p>
+                                            <p>Для автомобільної доставки — самоскиди вантажопідйомністю до 30 тонн.<br>
+                                                Для великих партій — залізничні вагони на 70 тонн із подальшим
+                                                перевантаженням у авто.<br><br>
+                                                Ціна розраховується індивідуально і залежить від:<br>
+                                                • об'єму вантажу (в тоннах)<br>
+                                                • відстані доставки<br>
+                                                • типу транспорту (вагон або самоскид)<br>
+                                                • складності під'їзду до об'єкта<br>
+                                                • потреби в перевантаженні</p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="accrodion">
                                     <div class="accrodion-title">
-                                        <h4>Чи можете ви допомогти з митним оформленням?<i
-                                                class="fa-solid fa-chevron-right" style="padding-left: 5px"></i>
+                                        <h4>Які є способи оплати?<i class="fa-solid fa-chevron-right"
+                                                style="padding-left: 5px"></i>
                                         </h4>
                                     </div>
 
                                     <div class="accrodion-content" style="display: none;">
                                         <div class="inner">
-                                            <p>Ми допомагаємо бізнесу втілювати ідеї в життя у цифровому світі, розробляючи
-                                                та впроваджуючи технологічні інструменти, необхідні для перемоги. Ми
-                                                допомагаємо бізнесу втілювати ідеї в життя у цифровому світі</p>
+                                            <p>Мінімальне замовлення:<br>
+                                                • авто — 20 тонн<br>
+                                                • вагон — 70 тонн (повне завантаження)</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accrodion">
+                                    <div class="accrodion-title">
+                                        <h4>Ви працюєте тільки у Львові?<i class="fa-solid fa-chevron-right"
+                                                style="padding-left: 5px"></i>
+                                        </h4>
+                                    </div>
+
+                                    <div class="accrodion-content" style="display: none;">
+                                        <div class="inner">
+                                            <p>Ми базуємось у Львові, але здійснюємо доставку по всій Львівській області та
+                                                при потребі — в інші регіони Західної України.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accrodion">
+                                    <div class="accrodion-title">
+                                        <h4>Чи можна замовити прорахунок?<i class="fa-solid fa-chevron-right"
+                                                style="padding-left: 5px"></i>
+                                        </h4>
+                                    </div>
+
+                                    <div class="accrodion-content" style="display: none;">
+                                        <div class="inner">
+                                            <p>Так! Заповніть коротку форму або зателефонуйте — ми швидко прорахуємо
+                                                вартість доставки з урахуванням ваших потреб.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1323,11 +1156,10 @@
                 <div class="shape2"><img src="{{ asset('images/cta-v1-shape2.png') }}" alt=""></div>
                 <div class="shape3"><img src="{{ asset('images/cta-v1-shape3.png') }}" alt=""></div>
                 <div class="cta-one__content">
-                    <h2>Визнана як одна з <br> провідних <span>компаній!</span></h2>
-                    <p>Логістична компанія відіграє ключову роль <br>
-                        у глобальній екосистемі ланцюгів поставок.</p>
+                    <h2>Не шукайте кар'єри <br> ми вже все <span>домовилися</span></h2>
+                    <p>Логістика сипучих матеріалів для будівництва</p>
                     <div class="btn-box">
-                        <a class="thm-btn" href="#">Забронювати посилку
+                        <a class="thm-btn" href="#">Замовити доставку
                             <i class="fa-solid fa-arrow-right"></i>
                             <span class="hover-btn hover-bx"></span>
                             <span class="hover-btn hover-bx2"></span>
@@ -1341,7 +1173,7 @@
     </section>
     <!--End Cta One-->
 
-    <!--Start Counter One-->
+    {{-- <!--Start Counter One-->
     <section class="counter-one">
         <div class="container">
             <div class="row">
@@ -1407,7 +1239,7 @@
             </div>
         </div>
     </section>
-    <!--End Counter One-->
+    <!--End Counter One--> --}}
 
 
     <!--Start Blog One-->
@@ -1586,162 +1418,4 @@
         </div>
     </section>
     <!--End Blog One-->
-
-    <!--Start Brand One-->
-    <section class="brand-one">
-        <div class="container">
-            <div class="brand-one__carousel owl-carousel owl-theme owl-loaded owl-drag">
-                <div class="owl-stage-outer">
-                    <div class="owl-stage"
-                        style="transform: translate3d(-1540px, 0px, 0px); transition: 0.5s; width: 3960px;">
-                        <div class="owl-item cloned" style="width: 220px;">
-                            <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img1.png') }}"
-                                            alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 220px;">
-                            <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img2.png') }}"
-                                            alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 220px;">
-                            <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img3.png') }}"
-                                            alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 220px;">
-                            <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img4.png') }}"
-                                            alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 220px;">
-                            <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img5.png') }}"
-                                            alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 220px;">
-                            <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img6.png') }}"
-                                            alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item" style="width: 220px;">
-                            <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img1.png') }}"
-                                            alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 220px;">
-                            <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img2.png') }}"
-                                            alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 220px;">
-                            <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img3.png') }}"
-                                            alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 220px;">
-                            <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img4.png') }}"
-                                            alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 220px;">
-                            <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img5.png') }}"
-                                            alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item active" style="width: 220px;">
-                            <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img6.png') }}"
-                                            alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned active" style="width: 220px;">
-                            <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img1.png') }}"
-                                            alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 220px;">
-                            <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img2.png') }}"
-                                            alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 220px;">
-                            <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img3.png') }}"
-                                            alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 220px;">
-                            <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img4.png') }}"
-                                            alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 220px;">
-                            <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img5.png') }}"
-                                            alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item cloned" style="width: 220px;">
-                            <div class="brand-one__single">
-                                <div class="brand-one__single-inner">
-                                    <a href="#"><img src="{{ asset('images/brand-v1-img6.png') }}"
-                                            alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="owl-dots disabled"></div>
-            </div>
-        </div>
-    </section>
 @endsection

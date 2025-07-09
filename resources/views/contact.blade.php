@@ -48,7 +48,7 @@
 
                             <div class="social-links">
                                 @php
-                                    $socialLinks = ['facebook-f', 'instagram', 'twitter', 'linkedin-in'];
+                                    $socialLinks = ['facebook-f', 'linkedin-in'];
                                 @endphp
                                 @foreach ($socialLinks as $social)
                                     <a href="#"><span class="fab fa-{{ $social }}"></span></a>
@@ -170,7 +170,7 @@
                                 [
                                     'icon' => 'clock',
                                     'title' => 'Робочі години',
-                                    'text' => 'Середа - Неділя<br>7:00 - 17:00',
+                                    'text' => 'Понеділок - П\'ятниця<br>9:00 - 21:00',
                                 ],
                                 [
                                     'icon' => 'envelope',
@@ -180,9 +180,8 @@
                                 ],
                                 [
                                     'icon' => 'phone',
-                                    'title' => 'Телефони',
-                                    'text' =>
-                                        '<a href="tel:880123456789">+880 123 456 789</a><br><a href="tel:880123456789">+880 123 456 789</a>',
+                                    'title' => 'Телефон',
+                                    'text' => '<a href="tel:+380982630139">+38 (098) 263-01-39</a>',
                                 ],
                             ];
                         @endphp

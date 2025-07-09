@@ -15,8 +15,6 @@ class FormController extends Controller
      */
     public function submitCallRequest(Request $request)
     {
-        Log::info('Call request form submitted', $request->all());
-
         $validated = $request->validate([
             'name' => 'required|string|max:100',
             'phone' => 'required|string|max:20',
@@ -52,7 +50,6 @@ class FormController extends Controller
      */
     public function submitQuoteRequest(Request $request)
     {
-        Log::info('Quote request form submitted', $request->all());
 
         $validated = $request->validate([
             'name' => 'required|string|max:100',
@@ -99,7 +96,6 @@ class FormController extends Controller
      */
     public function submitContactMessage(Request $request)
     {
-        Log::info('Contact form submitted', $request->all());
 
         $validated = $request->validate([
             'name' => 'required|string|max:100',

@@ -150,8 +150,7 @@
 
                                                     <div class="text-box">
                                                         <p><span>Зателефонуйте нам</span> <a
-                                                                href="tel:1234567890">[+123 456
-                                                                789]</a></p>
+                                                                href="tel:+380982630139">[+38 (098) 263-01-39]</a></p>
                                                     </div>
                                                 </li>
 
@@ -173,8 +172,6 @@
                                     <div class="main-header-one__top-right">
                                         <div class="header-social-links">
                                             <a href="#"><span class="icon-facebook-f"></span></a>
-                                            <a href="#"><span class="icon-twitter1"></span></a>
-                                            <a href="#"><span class="icon-instagram"></span></a>
                                             <a href="#"><span class="icon-linkedin"></span></a>
                                         </div>
 
@@ -288,7 +285,7 @@
 
                                         <div class="text-box">
                                             <p>Зателефонуйте</p>
-                                            <h4><a href="tel:+1234567890">+880 123 456 789</a></h4>
+                                            <h4><a href="tel:+380982630139">+38 (098) 263-01-39</a></h4>
                                         </div>
                                     </div>
                                 </div>
@@ -346,7 +343,7 @@
                                                     <i class="fas fa-phone"></i>
                                                 </div>
                                                 <div class="text-box">
-                                                    <p><a href="tel:1234567890">+880 123 456 789 </a></p>
+                                                    <p><a href="tel:+380982630139">+38 (098) 263-01-39</a></p>
                                                 </div>
                                             </li>
                                         </ul>
@@ -399,14 +396,6 @@
                                 <li>
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                                 </li>
-
-                                <li>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </li>
-
-                                <li>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                </li>
                                 <li>
                                     <a href="#"><i class="fab fa-linkedin"></i></a>
                                 </li>
@@ -447,15 +436,13 @@
                 </li>
                 <li>
                     <i class="icon-phone"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel:+380982630139">+38 (098) 263-01-39</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__top">
                 <div class="mobile-nav__social">
-                    <a href="#" class="fab fa-twitter"></a>
                     <a href="#" class="fab fa-facebook-square"></a>
-                    <a href="#" class="fab fa-pinterest-p"></a>
-                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
                 </div><!-- /.mobile-nav__social -->
             </div><!-- /.mobile-nav__top -->
 
@@ -524,4 +511,3 @@
 </body>
 
 </html>
-a
