@@ -226,7 +226,7 @@
                 </div>
 
                 <!-- Mobile Card View -->
-                <div class="mobile-card-view">
+                <div class="mobile-card-view d-block d-md-none">
                     <div class="p-3">
                         @foreach ($contactMessages as $index => $message)
                             <div class="mobile-item-card">

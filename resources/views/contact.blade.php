@@ -2,8 +2,8 @@
 
 @section('content')
     <section class="page-header">
-        <div class="page-header__bg" style="background-image: url({{ asset('images/page-header-bg.jpg') }})"></div>
-        <div class="page-header__pattern"><img src="{{ asset('images/page-header-bg.jpg') }}" alt=""></div>
+        <div class="page-header__bg" style="background-image: url({{ asset('images/traktor.jpg') }})"></div>
+        <div class="page-header__pattern"><img src="{{ asset('images/traktor.jpg') }}" alt=""></div>
         <div class="container">
             <div class="page-header__inner">
                 <h2>Зв'яжіться з нами</h2>

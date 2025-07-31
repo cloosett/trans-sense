@@ -272,7 +272,7 @@
                                 style="visibility: hidden; animation-delay: 100ms; animation-name: none;">
                                 <div class="footer-widget__single footer-one__about">
                                     <div class="footer-one__about-logo">
-                                        <a href="{{ route('welcome') }}"><img width="200" height="200"
+                                        <a href="{{ route('welcome') }}"><img width="100" height="100"
                                                 src="{{ asset('images/transsense-logo.png') }}" alt=""></a>
                                     </div>
                                     <p class="footer-one__about-text">Логістична компанія-провайдер відіграє ключову
@@ -319,14 +319,14 @@
 
                                     <div class="footer-one__contact-box">
                                         <ul>
-                                            <li>
+                                            {{-- <li>
                                                 <div class="icon">
                                                     <i class="fas fa-map-marker-alt"></i>
                                                 </div>
                                                 <div class="text-box">
                                                     <p>3060 Commercial Street Road <br> Fratton, Australia</p>
                                                 </div>
-                                            </li>
+                                            </li> --}}
 
                                             <li>
                                                 <div class="icon">

@@ -390,71 +390,15 @@
                         <div class="sec-title tg-heading-subheading animation-style2">
                             <div class="sec-title__tagline">
                                 <div class="line"></div>
-                                <div class="text tg-element-title" style="perspective: 400px;">
-                                    <div style="display: block; text-align: start; position: relative;"
-                                        class="split-line">
-                                        <h4>
-                                            <div style="position:relative;display:inline-block;">
-                                                <div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    Н
-                                                </div>
-                                                <div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    а
-                                                </div>
-                                                <div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    ш
-                                                </div>
-                                                <div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    а
-                                                </div>
-                                            </div>
-                                            <div style="position:relative;display:inline-block;">
-                                                <div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    к
-                                                </div>
-                                                <div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    о
-                                                </div>
-                                                <div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    м
-                                                </div>
-                                                <div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    п
-                                                </div>
-                                                <div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    а
-                                                </div>
-                                                <div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    н
-                                                </div>
-                                                <div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    і
-                                                </div>
-                                                <div
-                                                    style="position: relative; display: inline-block; transform: translate(0px); opacity: 1;">
-                                                    я
-                                                </div>
-                                            </div>
-                                        </h4>
-                                    </div>
+                                <div class="text tg-element-title">
+                                    <h4>Наша компанія</h4>
                                 </div>
                                 <div class="icon">
                                     <i class="fa-solid fa-truck-fast" style="color: #FD5523; padding-left: 5px;"></i>
                                 </div>
                             </div>
                             <h2 class="sec-title__title tg-element-title" style="perspective: 400px;">
-                                Ми не просто перевозимо — ми <span style="color: #FD5523;">вирішуємо</span> логістику
+                                Ми не просто перевозимо — ми вирішуємо логістику
                                 будівництва.
                             </h2>
                         </div>
@@ -530,7 +474,7 @@
                 <!--End About One Content-->
 
                 <!--Start About One Img-->
-                <div class="col-xl-5">
+                {{-- <div class="col-xl-5">
                     <div class="about-one__img">
                         <div class="shape1 float-bob-y"><img src="{{ asset('images/about-v1-shape1.png') }}"
                                 alt="">
@@ -635,7 +579,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <!--End About One Img-->
             </div>
         </div>
@@ -839,29 +783,6 @@
     <section class="skill-one">
         <div class="container">
             <div class="row">
-                <!--Start Skill One Img-->
-                <div class="col-xl-5">
-                    <div class="skill-one__img">
-                        <div class="shape1 float-bob-y"><img src="{{ asset('images/skill-v1-shape1.png') }}"
-                                alt="">
-                        </div>
-                        <div class="shape2 float-bob-y"><img src="{{ asset('images/skill-v1-shape2.png') }}"
-                                alt="">
-                        </div>
-                        <div class="skill-one__img1 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"
-                            style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
-                            <img src="{{ asset('images/skill-v1-img1.jpg') }}" alt="">
-                        </div>
-                        <div class="skill-one__img2 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"
-                            style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
-                            <div class="inner">
-                                <img src="{{ asset('images/skill-v1-img2.jpg') }}" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End Skill One Img-->
-
                 <!--Start Skill One Content-->
                 <div class="col-xl-7">
                     <div class="skill-one__content">
@@ -927,224 +848,36 @@
                     </div>
                 </div>
                 <!--End Skill One Content-->
+
+                <!--Start Skill One Img-->
+                {{-- <div class="col-xl-5">
+                    <div class="skill-one__img">
+                        <div class="shape1 float-bob-y"><img src="{{ asset('images/skill-v1-shape1.png') }}"
+                                alt="">
+                        </div>
+                        <div class="shape2 float-bob-y"><img src="{{ asset('images/skill-v1-shape2.png') }}"
+                                alt="">
+                        </div>
+                        <div class="skill-one__img1 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"
+                            style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
+                            <img src="{{ asset('images/skill-v1-img1.jpg') }}" alt="">
+                        </div>
+                        <div class="skill-one__img2 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"
+                            style="visibility: hidden; animation-duration: 1500ms; animation-delay: 0ms; animation-name: none;">
+                            <div class="inner">
+                                <img src="{{ asset('images/skill-v1-img2.jpg') }}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div> --}}
+                <!--End Skill One Img-->
             </div>
         </div>
     </section>
     <!--End Skill One-->
 
-
-    <!--Start Faq One-->
-    <section class="faq-one">
-        <div class="shape1 float-bob-x"><img src="{{ asset('images/faq-v1-shape1.png') }}" alt=""></div>
-        <div class="container">
-            <div class="row">
-                <!--Start Faq One Content-->
-                <div class="col-xl-6">
-                    <div class="faq-one__content">
-                        <div class="faq-one__content-faq">
-                            <div class="accrodion-grp faq-one-accrodion faq-one-accrodion-1"
-                                data-grp-name="faq-one-accrodion-1">
-                                <div class="accrodion">
-                                    <div class="accrodion-title">
-                                        <h4>Ми — не просто перевізник. Що це означає? <i class="fa-solid fa-chevron-right"
-                                                style="padding-left: 5px"></i>
-                                        </h4>
-                                    </div>
-
-                                    <div class="accrodion-content" style="display: none;">
-                                        <div class="inner">
-                                            <p>Ми доставляємо сипучі матеріали під ключ<br>
-                                                Закупівля + доставка = гарантія якості і відповідальності.<br><br>
-                                                Ми самі закуповуємо пісок, щебінь, відсів та інші матеріали без посередників
-                                                — без затримок і націнок.<br>
-                                                Після цього — оперативно доставляємо власним транспортом до вашого
-                                                об'єкта.<br><br>
-                                                Ви не шукаєте кар'єри — ми вже працюємо з найкращими<br>
-                                                Не платите за посередництво — усе напряму<br>
-                                                Один відповідальний за все — від кар'єру до будмайданчика</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accrodion active">
-                                    <div class="accrodion-title">
-                                        <h4>Які матеріали ви перевозите? <i class="fa-solid fa-chevron-right"
-                                                style="padding-left: 5px"></i></h4>
-                                    </div>
-
-                                    <div class="accrodion-content" style="">
-                                        <div class="inner">
-                                            <p>Ми доставляємо пісок, щебінь, відсів, глину, ґрунт та інші сипучі будівельні
-                                                матеріали від кар'єрів до вашого об'єкта.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accrodion">
-                                    <div class="accrodion-title">
-                                        <h4>Які типи транспорту використовуєте?<i class="fa-solid fa-chevron-right"
-                                                style="padding-left: 5px"></i>
-                                        </h4>
-                                    </div>
-
-                                    <div class="accrodion-content" style="display: none;">
-                                        <div class="inner">
-                                            <p>Для автомобільної доставки — самоскиди вантажопідйомністю до 30 тонн.<br>
-                                                Для великих партій — залізничні вагони на 70 тонн із подальшим
-                                                перевантаженням у авто.<br><br>
-                                                Ціна розраховується індивідуально і залежить від:<br>
-                                                • об'єму вантажу (в тоннах)<br>
-                                                • відстані доставки<br>
-                                                • типу транспорту (вагон або самоскид)<br>
-                                                • складності під'їзду до об'єкта<br>
-                                                • потреби в перевантаженні</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accrodion">
-                                    <div class="accrodion-title">
-                                        <h4>Які є способи оплати?<i class="fa-solid fa-chevron-right"
-                                                style="padding-left: 5px"></i>
-                                        </h4>
-                                    </div>
-
-                                    <div class="accrodion-content" style="display: none;">
-                                        <div class="inner">
-                                            <p>Мінімальне замовлення:<br>
-                                                • авто — 20 тонн<br>
-                                                • вагон — 70 тонн (повне завантаження)</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accrodion">
-                                    <div class="accrodion-title">
-                                        <h4>Ви працюєте тільки у Львові?<i class="fa-solid fa-chevron-right"
-                                                style="padding-left: 5px"></i>
-                                        </h4>
-                                    </div>
-
-                                    <div class="accrodion-content" style="display: none;">
-                                        <div class="inner">
-                                            <p>Ми базуємось у Львові, але здійснюємо доставку по всій Львівській області та
-                                                при потребі — в інші регіони Західної України.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="accrodion">
-                                    <div class="accrodion-title">
-                                        <h4>Чи можна замовити прорахунок?<i class="fa-solid fa-chevron-right"
-                                                style="padding-left: 5px"></i>
-                                        </h4>
-                                    </div>
-
-                                    <div class="accrodion-content" style="display: none;">
-                                        <div class="inner">
-                                            <p>Так! Заповніть коротку форму або зателефонуйте — ми швидко прорахуємо
-                                                вартість доставки з урахуванням ваших потреб.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End Faq One Content-->
-
-                <!--Start Faq One Img-->
-                <div class="col-xl-6">
-                    <div class="faq-one__img">
-                        <div class="faq-one__img-box">
-                            <img src="{{ asset('images/faq-v1-img1.jpg') }}" alt="">
-                        </div>
-                    </div>
-                </div>
-                <!--End Faq One Img-->
-            </div>
-        </div>
-
-        <!--Start Sliding Text One-->
-        <div class="sliding-text-one">
-            <div class="sliding-text-one__wrap">
-                <ul class="sliding-text__list list-unstyled marquee_mode">
-                    <div style="width: 100000px; transform: translateX(0px); animation: 60.4829s linear infinite marqueeAnimation-3589363;"
-                        class="js-marquee-wrapper">
-                        <div class="js-marquee" style="margin-right: 0px; float: left;">
-                            <li>
-                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
-                                    ТРАНСПОРТ
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
-                                </h2>
-                            </li>
-                            <li>
-                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
-                                    ТРАНСПОРТ
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
-                                </h2>
-                            </li>
-                            <li>
-                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
-                                    ТРАНСПОРТ
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
-                                </h2>
-                            </li>
-                            <li>
-                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
-                                    ТРАНСПОРТ
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
-                                </h2>
-                            </li>
-                            <li>
-                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
-                                    ТРАНСПОРТ
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
-                                </h2>
-                            </li>
-                        </div>
-                        <div class="js-marquee" style="margin-right: 0px; float: left;">
-                            <li>
-                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
-                                    ТРАНСПОРТ
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
-                                </h2>
-                            </li>
-                            <li>
-                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
-                                    ТРАНСПОРТ
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
-                                </h2>
-                            </li>
-                            <li>
-                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
-                                    ТРАНСПОРТ
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
-                                </h2>
-                            </li>
-                            <li>
-                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
-                                    ТРАНСПОРТ
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
-                                </h2>
-                            </li>
-                            <li>
-                                <h2 data-hover="100% НАДІЙНИЙ ТРАНСПОРТ" class="sliding-text__title">100% НАДІЙНИЙ
-                                    ТРАНСПОРТ
-                                    <img src="{{ asset('images/sliding-text-icon-1.png') }}" alt="">
-                                </h2>
-                            </li>
-                        </div>
-                    </div>
-                </ul>
-            </div>
-        </div>
-        <!--End Sliding Text One-->
-    </section>
-    <!--End Faq One-->
-
     <!--Start Cta One-->
-    <section class="cta-one">
+    <section class="cta-one" style="margin-bottom: 100px;">
         <div class="container">
             <div class="cta-one__inner">
                 <div class="cta-one__img wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"
@@ -1156,7 +889,7 @@
                 <div class="shape2"><img src="{{ asset('images/cta-v1-shape2.png') }}" alt=""></div>
                 <div class="shape3"><img src="{{ asset('images/cta-v1-shape3.png') }}" alt=""></div>
                 <div class="cta-one__content">
-                    <h2>Не шукайте кар'єри <br> ми вже все <span>домовилися</span></h2>
+                    <h2>Не шукайте кар'єри - <br> ми вже все <span>домовилися</span></h2>
                     <p>Логістика сипучих матеріалів для будівництва</p>
                     <div class="btn-box">
                         <a class="thm-btn" href="#">Замовити доставку
@@ -1243,7 +976,7 @@
 
 
     <!--Start Blog One-->
-    <section class="blog-one">
+    {{-- <section class="blog-one">
         <div class="container">
             <div class="row">
                 <!--Start Blog One Single-->
@@ -1416,6 +1149,6 @@
                 <!--End Blog One Single-->
             </div>
         </div>
-    </section>
+    </section> --}}
     <!--End Blog One-->
 @endsection

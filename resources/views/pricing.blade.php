@@ -22,260 +22,82 @@
         </div>
         <div class="container">
             <div class="row">
-                <!--Start Pricing One Single-->
-                <div class="col-xl-4 col-lg-4 wow fadeInUp animated" data-wow-delay=".3s"
-                    style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                    <div class="pricing-one__single">
-                        <div class="pricing-one__single-inner">
-                            <div class="table-header">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/truck.jpg') }}" alt="">
-                                </div>
-                                <div class="title-box">
-                                    <h2>Автомобільні вантажі</h2>
-                                    <h3>$99 <span>/50кг</span></h3>
+                <section class="pricing-one">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="pricing-one__top">
+                                    <div class="sec-title text-center">
+                                        <div class="sec-title__tagline" style="margin-bottom: 50px;">
+                                            <div class="line"></div>
+                                            <div class="text">
+                                                <h4>АССОРТИМЕНТ ТА ЦІНИ</h4>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="fa-solid fa-truck-fast"
+                                                    style="color: #FD5523; padding-left: 5px;"></i>
+                                            </div>
+                                        </div>
+                                        <h2 class="sec-title__title">(З ДОСТАВКОЮ В МЕЖАХ 30 КМ)</h2>
+                                    </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="table-content">
-                                <ul>
-                                    <li>
-                                        <div class="icon">
-                                            <span class="fas fa-check-circle"></span>
-                                        </div>
-
-                                        <div class="text-box">
-                                            <p>Забір та доставка</p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="icon">
-                                            <span class="fas fa-check-circle"></span>
-                                        </div>
-
-                                        <div class="text-box">
-                                            <p>Митне оформлення</p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="icon">
-                                            <span class="fas fa-check-circle"></span>
-                                        </div>
-
-                                        <div class="text-box">
-                                            <p>Управління клієнтами</p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="icon">
-                                            <span class="fas fa-check-circle"></span>
-                                        </div>
-
-                                        <div class="text-box">
-                                            <p>Доставка за 2-3 дні</p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="icon">
-                                            <span class="fas fa-check-circle"></span>
-                                        </div>
-
-                                        <div class="text-box">
-                                            <p>Підтримка 24/7</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="table-footer">
-                                <div class="btn-box">
-                                    <a class="thm-btn" href="#">Обрати план
-                                        <i class="fas fa-arrow-right"></i>
-                                        <span class="hover-btn hover-bx"></span>
-                                        <span class="hover-btn hover-bx2"></span>
-                                        <span class="hover-btn hover-bx3"></span>
-                                        <span class="hover-btn hover-bx4"></span>
-                                    </a>
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="pricing-one__table">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">МАТЕРІАЛ</th>
+                                                    <th scope="col">ФРАКЦІЯ</th>
+                                                    <th scope="col">ЦІНА ЗА 1 ТОННУ</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Пісок кар'єрний</td>
+                                                    <td>Без фракції</td>
+                                                    <td><strong>505 грн</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td rowspan="2">Щебінь</td>
+                                                    <td>5-20 мм</td>
+                                                    <td><strong>715 грн</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>20-40 мм</td>
+                                                    <td><strong>670 грн</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td rowspan="2">Відсів</td>
+                                                    <td>40+ мм</td>
+                                                    <td><strong>940 грн</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>0-5 мм</td>
+                                                    <td><strong>520 грн</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Гравій</td>
+                                                    <td>20-40 мм</td>
+                                                    <td><strong>710 грн</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Грунт</td>
+                                                    <td>Чорнозем</td>
+                                                    <td><strong>625 грн</strong></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!--End Pricing One Single-->
-
-                <!--Start Pricing One Single-->
-                <div class="col-xl-4 col-lg-4 wow fadeInDown animated" data-wow-delay=".3s"
-                    style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">
-                    <div class="pricing-one__single">
-                        <div class="pricing-one__single-inner">
-                            <div class="table-header">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/truck.jpg') }}" alt="">
-                                </div>
-                                <div class="title-box">
-                                    <h2>Морські вантажі</h2>
-                                    <h3>$199 <span>/50кг</span></h3>
-                                </div>
-                            </div>
-
-                            <div class="table-content">
-                                <ul>
-                                    <li>
-                                        <div class="icon">
-                                            <span class="fas fa-check-circle"></span>
-                                        </div>
-
-                                        <div class="text-box">
-                                            <p>Забір та доставка</p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="icon">
-                                            <span class="fas fa-check-circle"></span>
-                                        </div>
-
-                                        <div class="text-box">
-                                            <p>Митне оформлення</p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="icon">
-                                            <span class="fas fa-check-circle"></span>
-                                        </div>
-
-                                        <div class="text-box">
-                                            <p>Управління клієнтами</p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="icon">
-                                            <span class="fas fa-check-circle"></span>
-                                        </div>
-
-                                        <div class="text-box">
-                                            <p>Доставка за 2-3 дні</p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="icon">
-                                            <span class="fas fa-check-circle"></span>
-                                        </div>
-
-                                        <div class="text-box">
-                                            <p>Підтримка 24/7</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="table-footer">
-                                <div class="btn-box">
-                                    <a class="thm-btn" href="#">Обрати план
-                                        <i class="fas fa-arrow-right"></i>
-                                        <span class="hover-btn hover-bx"></span>
-                                        <span class="hover-btn hover-bx2"></span>
-                                        <span class="hover-btn hover-bx3"></span>
-                                        <span class="hover-btn hover-bx4"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End Pricing One Single-->
-
-                <!--Start Pricing One Single-->
-                <div class="col-xl-4 col-lg-4 wow fadeInUp animated" data-wow-delay=".3s"
-                    style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                    <div class="pricing-one__single">
-                        <div class="pricing-one__single-inner">
-                            <div class="table-header">
-                                <div class="img-box">
-                                    <img src="{{ asset('images/truck.jpg') }}" alt="">
-                                </div>
-                                <div class="title-box">
-                                    <h2>Корабельні вантажі</h2>
-                                    <h3>$250 <span>/100кг</span></h3>
-                                </div>
-                            </div>
-
-                            <div class="table-content">
-                                <ul>
-                                    <li>
-                                        <div class="icon">
-                                            <span class="fas fa-check-circle"></span>
-                                        </div>
-
-                                        <div class="text-box">
-                                            <p>Забір та доставка</p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="icon">
-                                            <span class="fas fa-check-circle"></span>
-                                        </div>
-
-                                        <div class="text-box">
-                                            <p>Митне оформлення</p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="icon">
-                                            <span class="fas fa-check-circle"></span>
-                                        </div>
-
-                                        <div class="text-box">
-                                            <p>Управління клієнтами</p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="icon">
-                                            <span class="fas fa-check-circle"></span>
-                                        </div>
-
-                                        <div class="text-box">
-                                            <p>Доставка за 2-3 дні</p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="icon">
-                                            <span class="fas fa-check-circle"></span>
-                                        </div>
-
-                                        <div class="text-box">
-                                            <p>Підтримка 24/7</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="table-footer">
-                                <div class="btn-box">
-                                    <a class="thm-btn" href="#">Обрати план
-                                        <i class="fas fa-arrow-right"></i>
-                                        <span class="hover-btn hover-bx"></span>
-                                        <span class="hover-btn hover-bx2"></span>
-                                        <span class="hover-btn hover-bx3"></span>
-                                        <span class="hover-btn hover-bx4"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End Pricing One Single-->
+                </section>
             </div>
         </div>
     </section>
