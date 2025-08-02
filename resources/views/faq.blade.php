@@ -2,9 +2,8 @@
 
 @section('content')
     <section class="page-header">
-        <div class="page-header__bg" style="background-image: url({{ asset('images/page-header-bg.jpg') }})">
-        </div>
-        <div class="page-header__pattern"><img src="{{ asset('images/page-header-pattern.png') }}" alt=""></div>
+        <div class="page-header__bg" style="background-image: url({{ asset('images/traktor.jpg') }})"></div>
+        <div class="page-header__pattern"><img src="{{ asset('images/traktor.jpg') }}" alt=""></div>
         <div class="container">
             <div class="page-header__inner">
                 <h2>Часто задавані питання</h2>
@@ -112,25 +111,6 @@
                     </div>
                 </div>
                 <!--End Faq One Content-->
-
-                <!--Start Faq One Img-->
-                <div class="col-xl-6">
-                    <div class="faq-one__img">
-                        <div class="faq-one__img-box">
-                            <img src="{{ asset('images/resources/faq-v1-img1.jpg') }}" alt="">
-
-                            <div class="faq-one__video-link">
-                                <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
-                                    <div class="faq-one__video-icon">
-                                        <span class="fas fa-play"></span>
-                                        <i class="ripple"></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End Faq One Img-->
             </div>
         </div>
     </section>
